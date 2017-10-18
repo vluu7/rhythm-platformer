@@ -4,17 +4,22 @@ using UnityEngine;
 
 public class ScrollingParallaxBackground : MonoBehaviour
 {
+    public bool scrolling, parallax;
 
-  private Transform cameraTransform;
-  private Transform[] layers;
-  private float viewZone = 10;
-  private int leftIndex;
-  private int rightIndex;
-  public float backgroundSize;
+    public float backgroundSize;
+    public float parallaxSpeed;
+
+    private Transform cameraTransform;
+    private Transform[] layers;
+    private float viewZone = 10;
+    private int leftIndex;
+    private int rightIndex;
+    private float lastCameraX;
 
     private void Start()
     {
         cameraTransform = Camera.main.transform;
+        lastCameraX = cameraTransform.position.x;
         layers = new Transform[transform.childCount];
 
         for (int i = 0; i < transform.childCount; i++)
@@ -29,11 +34,28 @@ public class ScrollingParallaxBackground : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.A))
+        /*if (Input.GetKeyDown(KeyCode.A))
             ScrollLeft();
 
         if (Input.GetKeyDown(KeyCode.D))
-            ScrollRight();
+            ScrollRight();*/
+
+        if (parallax)
+        {
+            float deltaX = cameraTransform.position.x - lastCameraX;
+            transform.position += Vector3.right * (deltaX * parallaxSpeed);
+        }
+        
+        lastCameraX = cameraTransform.position.x;
+
+        if (scrolling)
+        {
+            if (cameraTransform.position.x < (layers[leftIndex].transform.position.x + viewZone))
+                ScrollLeft();
+
+            if (cameraTransform.position.x > (layers[rightIndex].transform.position.x - viewZone))
+                ScrollRight();
+        }
 
     }
 
