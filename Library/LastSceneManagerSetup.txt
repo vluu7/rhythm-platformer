@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/_scenes/Level test.unity
+- path: Assets/_scenes/UI_scale_test.unity
   isLoaded: 1
   isActive: 1
