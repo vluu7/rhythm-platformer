@@ -15,9 +15,13 @@ public class ScrollingParallaxBackground : MonoBehaviour
     private int leftIndex;
     private int rightIndex;
     private float lastCameraX;
+    private float bpm;
+    private float songBpm;
 
     private void Start()
     {
+        songBpm = 100; // test value (Stayin' Alive/Another One Bites the Dust)
+        SetBPM(songBpm);
         cameraTransform = Camera.main.transform;
         lastCameraX = cameraTransform.position.x;
         layers = new Transform[transform.childCount];
@@ -84,6 +88,23 @@ public class ScrollingParallaxBackground : MonoBehaviour
       {
         leftIndex = 0;
       }
+    }
+
+    // gets the BPM of the song to load into parallax algorithm
+    public float GetBPM()
+    {
+        return bpm;
+    }
+
+    public void SetBPM(float value)
+    {
+        bpm = value;
+    }
+
+    private void BPMToParallax(float tempo) {
+        /* 
+         * tempo = GetBPM();
+         * parallaxSpeed = tempo / 4; */
     }
 
 }
