@@ -1,0 +1,828 @@
+fileFormatVersion: 2
+guid: 47f2aa5903d613040bcd733c22614ff6
+timeCreated: 1509052562
+licenseType: Free
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: fox_trying:group17
+    100004: fox_trying:group18
+    100006: fox_trying:pasted__group10
+    100008: fox_trying:pasted__group11
+    100010: fox_trying:pasted__group12
+    100012: fox_trying:pasted__group13
+    100014: fox_trying:pasted__group14
+    100016: fox_trying:pasted__group3
+    100018: fox_trying:pasted__group4
+    100020: fox_trying:pasted__group6
+    100022: fox_trying:pasted__group7
+    100024: fox_trying:pasted__group8
+    100026: fox_trying:pasted__group9
+    100028: fox_trying:pasted__pasted__group10
+    100030: fox_trying:pasted__pasted__group11
+    100032: fox_trying:pasted__pasted__group13
+    100034: fox_trying:pasted__pasted__group3
+    100036: fox_trying:pasted__pasted__group3 1
+    100038: fox_trying:pasted__pasted__group4
+    100040: fox_trying:pasted__pasted__group6
+    100042: fox_trying:pasted__pasted__group7
+    100044: fox_trying:pasted__pasted__group9
+    100046: fox_trying:pasted__pasted__pasted__group10
+    100048: fox_trying:pasted__pasted__pasted__group3
+    100050: fox_trying:pasted__pasted__pasted__group3 1
+    100052: fox_trying:pasted__pasted__pasted__group4
+    100054: fox_trying:pasted__pasted__pasted__group6
+    100056: fox_trying:pasted__pasted__pasted__group9
+    100058: fox_trying:pasted__pasted__pasted__pasted__group3
+    100060: fox_trying:pasted__pasted__pasted__pasted__group6
+    100062: fox_trying:pasted__pasted__pasted__pasted__group9
+    100064: fox_trying:pasted__pasted__pasted__pasted__pasted__group6
+    100066: fox_trying:pasted__pasted__pasted__pasted__pasted__pasted__pCylinder20
+    100068: fox_trying:pasted__pasted__pasted__pasted__pasted__pCylinder10
+    100070: fox_trying:pasted__pasted__pasted__pasted__pasted__pCylinder12
+    100072: fox_trying:pasted__pasted__pasted__pasted__pasted__pCylinder20
+    100074: fox_trying:pasted__pasted__pasted__pasted__pasted__pCylinder3
+    100076: fox_trying:pasted__pasted__pasted__pasted__pasted__pCylinder5
+    100078: fox_trying:pasted__pasted__pasted__pasted__pasted__pCylinder6
+    100080: fox_trying:pasted__pasted__pasted__pasted__pasted__pSphere2
+    100082: fox_trying:pasted__pasted__pasted__pasted__pCylinder10
+    100084: fox_trying:pasted__pasted__pasted__pasted__pCylinder10 1
+    100086: fox_trying:pasted__pasted__pasted__pasted__pCylinder10 2
+    100088: fox_trying:pasted__pasted__pasted__pasted__pCylinder12
+    100090: fox_trying:pasted__pasted__pasted__pasted__pCylinder12 1
+    100092: fox_trying:pasted__pasted__pasted__pasted__pCylinder12 2
+    100094: fox_trying:pasted__pasted__pasted__pasted__pCylinder20
+    100096: fox_trying:pasted__pasted__pasted__pasted__pCylinder3
+    100098: fox_trying:pasted__pasted__pasted__pasted__pCylinder3 1
+    100100: fox_trying:pasted__pasted__pasted__pasted__pCylinder3 2
+    100102: fox_trying:pasted__pasted__pasted__pasted__pCylinder5
+    100104: fox_trying:pasted__pasted__pasted__pasted__pCylinder5 1
+    100106: fox_trying:pasted__pasted__pasted__pasted__pCylinder5 2
+    100108: fox_trying:pasted__pasted__pasted__pasted__pCylinder6
+    100110: fox_trying:pasted__pasted__pasted__pasted__pCylinder6 1
+    100112: fox_trying:pasted__pasted__pasted__pasted__pCylinder6 2
+    100114: fox_trying:pasted__pasted__pasted__pasted__pSphere2
+    100116: fox_trying:pasted__pasted__pasted__pasted__pSphere2 1
+    100118: fox_trying:pasted__pasted__pasted__pasted__pSphere2 2
+    100120: fox_trying:pasted__pasted__pasted__pCube5
+    100122: fox_trying:pasted__pasted__pasted__pCube6
+    100124: fox_trying:pasted__pasted__pasted__pCube7
+    100126: fox_trying:pasted__pasted__pasted__pCylinder10
+    100128: fox_trying:pasted__pasted__pasted__pCylinder10 1
+    100130: fox_trying:pasted__pasted__pasted__pCylinder10 2
+    100132: fox_trying:pasted__pasted__pasted__pCylinder10 3
+    100134: fox_trying:pasted__pasted__pasted__pCylinder12
+    100136: fox_trying:pasted__pasted__pasted__pCylinder12 1
+    100138: fox_trying:pasted__pasted__pasted__pCylinder12 2
+    100140: fox_trying:pasted__pasted__pasted__pCylinder12 3
+    100142: fox_trying:pasted__pasted__pasted__pCylinder17
+    100144: fox_trying:pasted__pasted__pasted__pCylinder20
+    100146: fox_trying:pasted__pasted__pasted__pCylinder3
+    100148: fox_trying:pasted__pasted__pasted__pCylinder3 1
+    100150: fox_trying:pasted__pasted__pasted__pCylinder3 2
+    100152: fox_trying:pasted__pasted__pasted__pCylinder3 3
+    100154: fox_trying:pasted__pasted__pasted__pCylinder5
+    100156: fox_trying:pasted__pasted__pasted__pCylinder5 1
+    100158: fox_trying:pasted__pasted__pasted__pCylinder5 2
+    100160: fox_trying:pasted__pasted__pasted__pCylinder5 3
+    100162: fox_trying:pasted__pasted__pasted__pCylinder6
+    100164: fox_trying:pasted__pasted__pasted__pCylinder6 1
+    100166: fox_trying:pasted__pasted__pasted__pCylinder6 2
+    100168: fox_trying:pasted__pasted__pasted__pCylinder6 3
+    100170: fox_trying:pasted__pasted__pasted__polySurface26
+    100172: fox_trying:pasted__pasted__pasted__pSphere2
+    100174: fox_trying:pasted__pasted__pasted__pSphere2 1
+    100176: fox_trying:pasted__pasted__pasted__pSphere2 2
+    100178: fox_trying:pasted__pasted__pasted__pSphere2 3
+    100180: fox_trying:pasted__pasted__pasted__transform13
+    100182: fox_trying:pasted__pasted__pasted__transform14
+    100184: fox_trying:pasted__pasted__pasted__transform15
+    100186: fox_trying:pasted__pasted__pasted__transform16
+    100188: fox_trying:pasted__pasted__pasted__transform17
+    100190: fox_trying:pasted__pasted__pasted__transform18
+    100192: fox_trying:pasted__pasted__pasted__transform19
+    100194: fox_trying:pasted__pasted__pasted__transform20
+    100196: fox_trying:pasted__pasted__pasted__transform21
+    100198: fox_trying:pasted__pasted__pasted__transform22
+    100200: fox_trying:pasted__pasted__pasted__transform23
+    100202: fox_trying:pasted__pasted__pasted__transform24
+    100204: fox_trying:pasted__pasted__pasted__transform25
+    100206: fox_trying:pasted__pasted__pasted__transform26
+    100208: fox_trying:pasted__pasted__pasted__transform27
+    100210: fox_trying:pasted__pasted__pasted__transform28
+    100212: fox_trying:pasted__pasted__pasted__transform29
+    100214: fox_trying:pasted__pasted__pasted__transform30
+    100216: fox_trying:pasted__pasted__pasted__transform31
+    100218: fox_trying:pasted__pasted__pasted__transform32
+    100220: fox_trying:pasted__pasted__pasted__transform33
+    100222: fox_trying:pasted__pasted__pasted__transform34
+    100224: fox_trying:pasted__pasted__pasted__transform35
+    100226: fox_trying:pasted__pasted__pasted__transform36
+    100228: fox_trying:pasted__pasted__pasted__transform37
+    100230: fox_trying:pasted__pasted__pasted__transform38
+    100232: fox_trying:pasted__pasted__pasted__transform39
+    100234: fox_trying:pasted__pasted__pCube3
+    100236: fox_trying:pasted__pasted__pCube5
+    100238: fox_trying:pasted__pasted__pCube6
+    100240: fox_trying:pasted__pasted__pCube7
+    100242: fox_trying:pasted__pasted__pCylinder10
+    100244: fox_trying:pasted__pasted__pCylinder10 1
+    100246: fox_trying:pasted__pasted__pCylinder10 2
+    100248: fox_trying:pasted__pasted__pCylinder12
+    100250: fox_trying:pasted__pasted__pCylinder12 1
+    100252: fox_trying:pasted__pasted__pCylinder12 2
+    100254: fox_trying:pasted__pasted__pCylinder17
+    100256: fox_trying:pasted__pasted__pCylinder20
+    100258: fox_trying:pasted__pasted__pCylinder3
+    100260: fox_trying:pasted__pasted__pCylinder3 1
+    100262: fox_trying:pasted__pasted__pCylinder3 2
+    100264: fox_trying:pasted__pasted__pCylinder5
+    100266: fox_trying:pasted__pasted__pCylinder5 1
+    100268: fox_trying:pasted__pasted__pCylinder5 2
+    100270: fox_trying:pasted__pasted__pCylinder6
+    100272: fox_trying:pasted__pasted__pCylinder6 1
+    100274: fox_trying:pasted__pasted__pCylinder6 2
+    100276: fox_trying:pasted__pasted__polySurface26
+    100278: fox_trying:pasted__pasted__pSphere2
+    100280: fox_trying:pasted__pasted__pSphere2 1
+    100282: fox_trying:pasted__pasted__pSphere2 2
+    100284: fox_trying:pasted__pasted__transform13
+    100286: fox_trying:pasted__pasted__transform14
+    100288: fox_trying:pasted__pasted__transform15
+    100290: fox_trying:pasted__pasted__transform16
+    100292: fox_trying:pasted__pasted__transform17
+    100294: fox_trying:pasted__pasted__transform18
+    100296: fox_trying:pasted__pasted__transform19
+    100298: fox_trying:pasted__pasted__transform20
+    100300: fox_trying:pasted__pasted__transform21
+    100302: fox_trying:pasted__pasted__transform22
+    100304: fox_trying:pasted__pasted__transform23
+    100306: fox_trying:pasted__pasted__transform24
+    100308: fox_trying:pasted__pasted__transform25
+    100310: fox_trying:pasted__pasted__transform26
+    100312: fox_trying:pasted__pasted__transform27
+    100314: fox_trying:pasted__pasted__transform28
+    100316: fox_trying:pasted__pasted__transform29
+    100318: fox_trying:pasted__pasted__transform30
+    100320: fox_trying:pasted__pasted__transform31
+    100322: fox_trying:pasted__pasted__transform32
+    100324: fox_trying:pasted__pasted__transform33
+    100326: fox_trying:pasted__pasted__transform34
+    100328: fox_trying:pasted__pasted__transform35
+    100330: fox_trying:pasted__pasted__transform36
+    100332: fox_trying:pasted__pasted__transform37
+    100334: fox_trying:pasted__pasted__transform38
+    100336: fox_trying:pasted__pasted__transform39
+    100338: fox_trying:pasted__pCube3
+    100340: fox_trying:pasted__pCube4
+    100342: fox_trying:pasted__pCube5
+    100344: fox_trying:pasted__pCube6
+    100346: fox_trying:pasted__pCube7
+    100348: fox_trying:pasted__pCube8
+    100350: fox_trying:pasted__pCylinder10
+    100352: fox_trying:pasted__pCylinder12
+    100354: fox_trying:pasted__pCylinder13
+    100356: fox_trying:pasted__pCylinder14
+    100358: fox_trying:pasted__pCylinder15
+    100360: fox_trying:pasted__pCylinder16
+    100362: fox_trying:pasted__pCylinder17
+    100364: fox_trying:pasted__pCylinder18
+    100366: fox_trying:pasted__pCylinder19
+    100368: fox_trying:pasted__pCylinder20
+    100370: fox_trying:pasted__pCylinder21
+    100372: fox_trying:pasted__pCylinder22
+    100374: fox_trying:pasted__pCylinder23
+    100376: fox_trying:pasted__pCylinder24
+    100378: fox_trying:pasted__pCylinder25
+    100380: fox_trying:pasted__pCylinder3
+    100382: fox_trying:pasted__pCylinder5
+    100384: fox_trying:pasted__pCylinder6
+    100386: fox_trying:pasted__pCylinder7
+    100388: fox_trying:pasted__pCylinder8
+    100390: fox_trying:pasted__polySurface1
+    100392: fox_trying:pasted__polySurface11
+    100394: fox_trying:pasted__polySurface13
+    100396: fox_trying:pasted__polySurface14
+    100398: fox_trying:pasted__polySurface16
+    100400: fox_trying:pasted__polySurface17
+    100402: fox_trying:pasted__polySurface18
+    100404: fox_trying:pasted__polySurface19
+    100406: fox_trying:pasted__polySurface2
+    100408: fox_trying:pasted__polySurface20
+    100410: fox_trying:pasted__polySurface21
+    100412: fox_trying:pasted__polySurface23
+    100414: fox_trying:pasted__polySurface25
+    100416: fox_trying:pasted__polySurface26
+    100418: fox_trying:pasted__polySurface27
+    100420: fox_trying:pasted__polySurface28
+    100422: fox_trying:pasted__polySurface29
+    100424: fox_trying:pasted__polySurface31
+    100426: fox_trying:pasted__polySurface33
+    100428: fox_trying:pasted__polySurface34
+    100430: fox_trying:pasted__polySurface36
+    100432: fox_trying:pasted__polySurface37
+    100434: fox_trying:pasted__polySurface39
+    100436: fox_trying:pasted__polySurface40
+    100438: fox_trying:pasted__polySurface43
+    100440: fox_trying:pasted__polySurface45
+    100442: fox_trying:pasted__polySurface46
+    100444: fox_trying:pasted__polySurface49
+    100446: fox_trying:pasted__polySurface5
+    100448: fox_trying:pasted__polySurface50
+    100450: fox_trying:pasted__polySurface51
+    100452: fox_trying:pasted__polySurface52
+    100454: fox_trying:pasted__polySurface7
+    100456: fox_trying:pasted__polySurface8
+    100458: fox_trying:pasted__pSphere1
+    100460: fox_trying:pasted__pSphere2
+    100462: fox_trying:pasted__pSphere3
+    100464: fox_trying:pasted__transform13
+    100466: fox_trying:pasted__transform14
+    100468: fox_trying:pasted__transform15
+    100470: fox_trying:pasted__transform16
+    100472: fox_trying:pasted__transform17
+    100474: fox_trying:pasted__transform18
+    100476: fox_trying:pasted__transform19
+    100478: fox_trying:pasted__transform20
+    100480: fox_trying:pasted__transform21
+    100482: fox_trying:pasted__transform22
+    100484: fox_trying:pasted__transform23
+    100486: fox_trying:pasted__transform24
+    100488: fox_trying:pasted__transform25
+    100490: fox_trying:pasted__transform26
+    100492: fox_trying:pasted__transform27
+    100494: fox_trying:pasted__transform28
+    100496: fox_trying:pasted__transform29
+    100498: fox_trying:pasted__transform30
+    100500: fox_trying:pasted__transform31
+    100502: fox_trying:pasted__transform32
+    100504: fox_trying:pasted__transform33
+    100506: fox_trying:pasted__transform34
+    100508: fox_trying:pasted__transform35
+    100510: fox_trying:pasted__transform36
+    100512: fox_trying:pasted__transform37
+    100514: fox_trying:pasted__transform38
+    100516: fox_trying:pasted__transform39
+    100518: fox_trying:pasted__transform40
+    100520: fox_trying:pCylinder16
+    100522: fox_trying:pCylinder18
+    100524: fox_trying:pCylinder19
+    100526: fox_trying:polySurface53
+    100528: fox_trying:transform100
+    100530: fox_trying:transform101
+    100532: fox_trying:transform102
+    100534: fox_trying:transform103
+    100536: fox_trying:transform104
+    100538: fox_trying:transform41
+    100540: fox_trying:transform42
+    100542: fox_trying:transform43
+    100544: fox_trying:transform44
+    100546: fox_trying:transform45
+    100548: fox_trying:transform46
+    100550: fox_trying:transform47
+    100552: fox_trying:transform48
+    100554: fox_trying:transform49
+    100556: fox_trying:transform50
+    100558: fox_trying:transform51
+    100560: fox_trying:transform52
+    100562: fox_trying:transform53
+    100564: fox_trying:transform54
+    100566: fox_trying:transform55
+    100568: fox_trying:transform56
+    100570: fox_trying:transform57
+    100572: fox_trying:transform58
+    100574: fox_trying:transform59
+    100576: fox_trying:transform60
+    100578: fox_trying:transform61
+    100580: fox_trying:transform62
+    100582: fox_trying:transform63
+    100584: fox_trying:transform64
+    100586: fox_trying:transform65
+    100588: fox_trying:transform66
+    100590: fox_trying:transform67
+    100592: fox_trying:transform68
+    100594: fox_trying:transform69
+    100596: fox_trying:transform70
+    100598: fox_trying:transform71
+    100600: fox_trying:transform72
+    100602: fox_trying:transform73
+    100604: fox_trying:transform74
+    100606: fox_trying:transform75
+    100608: fox_trying:transform76
+    100610: fox_trying:transform77
+    100612: fox_trying:transform78
+    100614: fox_trying:transform79
+    100616: fox_trying:transform80
+    100618: fox_trying:transform81
+    100620: fox_trying:transform82
+    100622: fox_trying:transform83
+    100624: fox_trying:transform84
+    100626: fox_trying:transform85
+    100628: fox_trying:transform86
+    100630: fox_trying:transform87
+    100632: fox_trying:transform88
+    100634: fox_trying:transform89
+    100636: fox_trying:transform90
+    100638: fox_trying:transform91
+    100640: fox_trying:transform92
+    100642: fox_trying:transform93
+    100644: fox_trying:transform94
+    100646: fox_trying:transform95
+    100648: fox_trying:transform96
+    100650: fox_trying:transform97
+    100652: fox_trying:transform98
+    100654: fox_trying:transform99
+    100656: group3
+    100658: pasted__group2
+    100660: pasted__pasted__pCylinder5
+    100662: pCylinder1
+    100664: pCylinder10
+    100666: pCylinder2
+    100668: pCylinder3
+    100670: pCylinder4
+    100672: pCylinder5
+    100674: pCylinder6
+    100676: pCylinder7
+    100678: pCylinder8
+    100680: pCylinder9
+    100682: polySurface1
+    100684: polySurface2
+    100686: polySurface3
+    100688: polySurface4
+    100690: pSphere1
+    100692: transform1
+    100694: transform2
+    100696: transform3
+    100698: transform4
+    100700: transform5
+    100702: transform6
+    100704: transform7
+    100706: transform8
+    400000: //RootNode
+    400002: fox_trying:group17
+    400004: fox_trying:group18
+    400006: fox_trying:pasted__group10
+    400008: fox_trying:pasted__group11
+    400010: fox_trying:pasted__group12
+    400012: fox_trying:pasted__group13
+    400014: fox_trying:pasted__group14
+    400016: fox_trying:pasted__group3
+    400018: fox_trying:pasted__group4
+    400020: fox_trying:pasted__group6
+    400022: fox_trying:pasted__group7
+    400024: fox_trying:pasted__group8
+    400026: fox_trying:pasted__group9
+    400028: fox_trying:pasted__pasted__group10
+    400030: fox_trying:pasted__pasted__group11
+    400032: fox_trying:pasted__pasted__group13
+    400034: fox_trying:pasted__pasted__group3
+    400036: fox_trying:pasted__pasted__group3 1
+    400038: fox_trying:pasted__pasted__group4
+    400040: fox_trying:pasted__pasted__group6
+    400042: fox_trying:pasted__pasted__group7
+    400044: fox_trying:pasted__pasted__group9
+    400046: fox_trying:pasted__pasted__pasted__group10
+    400048: fox_trying:pasted__pasted__pasted__group3
+    400050: fox_trying:pasted__pasted__pasted__group3 1
+    400052: fox_trying:pasted__pasted__pasted__group4
+    400054: fox_trying:pasted__pasted__pasted__group6
+    400056: fox_trying:pasted__pasted__pasted__group9
+    400058: fox_trying:pasted__pasted__pasted__pasted__group3
+    400060: fox_trying:pasted__pasted__pasted__pasted__group6
+    400062: fox_trying:pasted__pasted__pasted__pasted__group9
+    400064: fox_trying:pasted__pasted__pasted__pasted__pasted__group6
+    400066: fox_trying:pasted__pasted__pasted__pasted__pasted__pasted__pCylinder20
+    400068: fox_trying:pasted__pasted__pasted__pasted__pasted__pCylinder10
+    400070: fox_trying:pasted__pasted__pasted__pasted__pasted__pCylinder12
+    400072: fox_trying:pasted__pasted__pasted__pasted__pasted__pCylinder20
+    400074: fox_trying:pasted__pasted__pasted__pasted__pasted__pCylinder3
+    400076: fox_trying:pasted__pasted__pasted__pasted__pasted__pCylinder5
+    400078: fox_trying:pasted__pasted__pasted__pasted__pasted__pCylinder6
+    400080: fox_trying:pasted__pasted__pasted__pasted__pasted__pSphere2
+    400082: fox_trying:pasted__pasted__pasted__pasted__pCylinder10
+    400084: fox_trying:pasted__pasted__pasted__pasted__pCylinder10 1
+    400086: fox_trying:pasted__pasted__pasted__pasted__pCylinder10 2
+    400088: fox_trying:pasted__pasted__pasted__pasted__pCylinder12
+    400090: fox_trying:pasted__pasted__pasted__pasted__pCylinder12 1
+    400092: fox_trying:pasted__pasted__pasted__pasted__pCylinder12 2
+    400094: fox_trying:pasted__pasted__pasted__pasted__pCylinder20
+    400096: fox_trying:pasted__pasted__pasted__pasted__pCylinder3
+    400098: fox_trying:pasted__pasted__pasted__pasted__pCylinder3 1
+    400100: fox_trying:pasted__pasted__pasted__pasted__pCylinder3 2
+    400102: fox_trying:pasted__pasted__pasted__pasted__pCylinder5
+    400104: fox_trying:pasted__pasted__pasted__pasted__pCylinder5 1
+    400106: fox_trying:pasted__pasted__pasted__pasted__pCylinder5 2
+    400108: fox_trying:pasted__pasted__pasted__pasted__pCylinder6
+    400110: fox_trying:pasted__pasted__pasted__pasted__pCylinder6 1
+    400112: fox_trying:pasted__pasted__pasted__pasted__pCylinder6 2
+    400114: fox_trying:pasted__pasted__pasted__pasted__pSphere2
+    400116: fox_trying:pasted__pasted__pasted__pasted__pSphere2 1
+    400118: fox_trying:pasted__pasted__pasted__pasted__pSphere2 2
+    400120: fox_trying:pasted__pasted__pasted__pCube5
+    400122: fox_trying:pasted__pasted__pasted__pCube6
+    400124: fox_trying:pasted__pasted__pasted__pCube7
+    400126: fox_trying:pasted__pasted__pasted__pCylinder10
+    400128: fox_trying:pasted__pasted__pasted__pCylinder10 1
+    400130: fox_trying:pasted__pasted__pasted__pCylinder10 2
+    400132: fox_trying:pasted__pasted__pasted__pCylinder10 3
+    400134: fox_trying:pasted__pasted__pasted__pCylinder12
+    400136: fox_trying:pasted__pasted__pasted__pCylinder12 1
+    400138: fox_trying:pasted__pasted__pasted__pCylinder12 2
+    400140: fox_trying:pasted__pasted__pasted__pCylinder12 3
+    400142: fox_trying:pasted__pasted__pasted__pCylinder17
+    400144: fox_trying:pasted__pasted__pasted__pCylinder20
+    400146: fox_trying:pasted__pasted__pasted__pCylinder3
+    400148: fox_trying:pasted__pasted__pasted__pCylinder3 1
+    400150: fox_trying:pasted__pasted__pasted__pCylinder3 2
+    400152: fox_trying:pasted__pasted__pasted__pCylinder3 3
+    400154: fox_trying:pasted__pasted__pasted__pCylinder5
+    400156: fox_trying:pasted__pasted__pasted__pCylinder5 1
+    400158: fox_trying:pasted__pasted__pasted__pCylinder5 2
+    400160: fox_trying:pasted__pasted__pasted__pCylinder5 3
+    400162: fox_trying:pasted__pasted__pasted__pCylinder6
+    400164: fox_trying:pasted__pasted__pasted__pCylinder6 1
+    400166: fox_trying:pasted__pasted__pasted__pCylinder6 2
+    400168: fox_trying:pasted__pasted__pasted__pCylinder6 3
+    400170: fox_trying:pasted__pasted__pasted__polySurface26
+    400172: fox_trying:pasted__pasted__pasted__pSphere2
+    400174: fox_trying:pasted__pasted__pasted__pSphere2 1
+    400176: fox_trying:pasted__pasted__pasted__pSphere2 2
+    400178: fox_trying:pasted__pasted__pasted__pSphere2 3
+    400180: fox_trying:pasted__pasted__pasted__transform13
+    400182: fox_trying:pasted__pasted__pasted__transform14
+    400184: fox_trying:pasted__pasted__pasted__transform15
+    400186: fox_trying:pasted__pasted__pasted__transform16
+    400188: fox_trying:pasted__pasted__pasted__transform17
+    400190: fox_trying:pasted__pasted__pasted__transform18
+    400192: fox_trying:pasted__pasted__pasted__transform19
+    400194: fox_trying:pasted__pasted__pasted__transform20
+    400196: fox_trying:pasted__pasted__pasted__transform21
+    400198: fox_trying:pasted__pasted__pasted__transform22
+    400200: fox_trying:pasted__pasted__pasted__transform23
+    400202: fox_trying:pasted__pasted__pasted__transform24
+    400204: fox_trying:pasted__pasted__pasted__transform25
+    400206: fox_trying:pasted__pasted__pasted__transform26
+    400208: fox_trying:pasted__pasted__pasted__transform27
+    400210: fox_trying:pasted__pasted__pasted__transform28
+    400212: fox_trying:pasted__pasted__pasted__transform29
+    400214: fox_trying:pasted__pasted__pasted__transform30
+    400216: fox_trying:pasted__pasted__pasted__transform31
+    400218: fox_trying:pasted__pasted__pasted__transform32
+    400220: fox_trying:pasted__pasted__pasted__transform33
+    400222: fox_trying:pasted__pasted__pasted__transform34
+    400224: fox_trying:pasted__pasted__pasted__transform35
+    400226: fox_trying:pasted__pasted__pasted__transform36
+    400228: fox_trying:pasted__pasted__pasted__transform37
+    400230: fox_trying:pasted__pasted__pasted__transform38
+    400232: fox_trying:pasted__pasted__pasted__transform39
+    400234: fox_trying:pasted__pasted__pCube3
+    400236: fox_trying:pasted__pasted__pCube5
+    400238: fox_trying:pasted__pasted__pCube6
+    400240: fox_trying:pasted__pasted__pCube7
+    400242: fox_trying:pasted__pasted__pCylinder10
+    400244: fox_trying:pasted__pasted__pCylinder10 1
+    400246: fox_trying:pasted__pasted__pCylinder10 2
+    400248: fox_trying:pasted__pasted__pCylinder12
+    400250: fox_trying:pasted__pasted__pCylinder12 1
+    400252: fox_trying:pasted__pasted__pCylinder12 2
+    400254: fox_trying:pasted__pasted__pCylinder17
+    400256: fox_trying:pasted__pasted__pCylinder20
+    400258: fox_trying:pasted__pasted__pCylinder3
+    400260: fox_trying:pasted__pasted__pCylinder3 1
+    400262: fox_trying:pasted__pasted__pCylinder3 2
+    400264: fox_trying:pasted__pasted__pCylinder5
+    400266: fox_trying:pasted__pasted__pCylinder5 1
+    400268: fox_trying:pasted__pasted__pCylinder5 2
+    400270: fox_trying:pasted__pasted__pCylinder6
+    400272: fox_trying:pasted__pasted__pCylinder6 1
+    400274: fox_trying:pasted__pasted__pCylinder6 2
+    400276: fox_trying:pasted__pasted__polySurface26
+    400278: fox_trying:pasted__pasted__pSphere2
+    400280: fox_trying:pasted__pasted__pSphere2 1
+    400282: fox_trying:pasted__pasted__pSphere2 2
+    400284: fox_trying:pasted__pasted__transform13
+    400286: fox_trying:pasted__pasted__transform14
+    400288: fox_trying:pasted__pasted__transform15
+    400290: fox_trying:pasted__pasted__transform16
+    400292: fox_trying:pasted__pasted__transform17
+    400294: fox_trying:pasted__pasted__transform18
+    400296: fox_trying:pasted__pasted__transform19
+    400298: fox_trying:pasted__pasted__transform20
+    400300: fox_trying:pasted__pasted__transform21
+    400302: fox_trying:pasted__pasted__transform22
+    400304: fox_trying:pasted__pasted__transform23
+    400306: fox_trying:pasted__pasted__transform24
+    400308: fox_trying:pasted__pasted__transform25
+    400310: fox_trying:pasted__pasted__transform26
+    400312: fox_trying:pasted__pasted__transform27
+    400314: fox_trying:pasted__pasted__transform28
+    400316: fox_trying:pasted__pasted__transform29
+    400318: fox_trying:pasted__pasted__transform30
+    400320: fox_trying:pasted__pasted__transform31
+    400322: fox_trying:pasted__pasted__transform32
+    400324: fox_trying:pasted__pasted__transform33
+    400326: fox_trying:pasted__pasted__transform34
+    400328: fox_trying:pasted__pasted__transform35
+    400330: fox_trying:pasted__pasted__transform36
+    400332: fox_trying:pasted__pasted__transform37
+    400334: fox_trying:pasted__pasted__transform38
+    400336: fox_trying:pasted__pasted__transform39
+    400338: fox_trying:pasted__pCube3
+    400340: fox_trying:pasted__pCube4
+    400342: fox_trying:pasted__pCube5
+    400344: fox_trying:pasted__pCube6
+    400346: fox_trying:pasted__pCube7
+    400348: fox_trying:pasted__pCube8
+    400350: fox_trying:pasted__pCylinder10
+    400352: fox_trying:pasted__pCylinder12
+    400354: fox_trying:pasted__pCylinder13
+    400356: fox_trying:pasted__pCylinder14
+    400358: fox_trying:pasted__pCylinder15
+    400360: fox_trying:pasted__pCylinder16
+    400362: fox_trying:pasted__pCylinder17
+    400364: fox_trying:pasted__pCylinder18
+    400366: fox_trying:pasted__pCylinder19
+    400368: fox_trying:pasted__pCylinder20
+    400370: fox_trying:pasted__pCylinder21
+    400372: fox_trying:pasted__pCylinder22
+    400374: fox_trying:pasted__pCylinder23
+    400376: fox_trying:pasted__pCylinder24
+    400378: fox_trying:pasted__pCylinder25
+    400380: fox_trying:pasted__pCylinder3
+    400382: fox_trying:pasted__pCylinder5
+    400384: fox_trying:pasted__pCylinder6
+    400386: fox_trying:pasted__pCylinder7
+    400388: fox_trying:pasted__pCylinder8
+    400390: fox_trying:pasted__polySurface1
+    400392: fox_trying:pasted__polySurface11
+    400394: fox_trying:pasted__polySurface13
+    400396: fox_trying:pasted__polySurface14
+    400398: fox_trying:pasted__polySurface16
+    400400: fox_trying:pasted__polySurface17
+    400402: fox_trying:pasted__polySurface18
+    400404: fox_trying:pasted__polySurface19
+    400406: fox_trying:pasted__polySurface2
+    400408: fox_trying:pasted__polySurface20
+    400410: fox_trying:pasted__polySurface21
+    400412: fox_trying:pasted__polySurface23
+    400414: fox_trying:pasted__polySurface25
+    400416: fox_trying:pasted__polySurface26
+    400418: fox_trying:pasted__polySurface27
+    400420: fox_trying:pasted__polySurface28
+    400422: fox_trying:pasted__polySurface29
+    400424: fox_trying:pasted__polySurface31
+    400426: fox_trying:pasted__polySurface33
+    400428: fox_trying:pasted__polySurface34
+    400430: fox_trying:pasted__polySurface36
+    400432: fox_trying:pasted__polySurface37
+    400434: fox_trying:pasted__polySurface39
+    400436: fox_trying:pasted__polySurface40
+    400438: fox_trying:pasted__polySurface43
+    400440: fox_trying:pasted__polySurface45
+    400442: fox_trying:pasted__polySurface46
+    400444: fox_trying:pasted__polySurface49
+    400446: fox_trying:pasted__polySurface5
+    400448: fox_trying:pasted__polySurface50
+    400450: fox_trying:pasted__polySurface51
+    400452: fox_trying:pasted__polySurface52
+    400454: fox_trying:pasted__polySurface7
+    400456: fox_trying:pasted__polySurface8
+    400458: fox_trying:pasted__pSphere1
+    400460: fox_trying:pasted__pSphere2
+    400462: fox_trying:pasted__pSphere3
+    400464: fox_trying:pasted__transform13
+    400466: fox_trying:pasted__transform14
+    400468: fox_trying:pasted__transform15
+    400470: fox_trying:pasted__transform16
+    400472: fox_trying:pasted__transform17
+    400474: fox_trying:pasted__transform18
+    400476: fox_trying:pasted__transform19
+    400478: fox_trying:pasted__transform20
+    400480: fox_trying:pasted__transform21
+    400482: fox_trying:pasted__transform22
+    400484: fox_trying:pasted__transform23
+    400486: fox_trying:pasted__transform24
+    400488: fox_trying:pasted__transform25
+    400490: fox_trying:pasted__transform26
+    400492: fox_trying:pasted__transform27
+    400494: fox_trying:pasted__transform28
+    400496: fox_trying:pasted__transform29
+    400498: fox_trying:pasted__transform30
+    400500: fox_trying:pasted__transform31
+    400502: fox_trying:pasted__transform32
+    400504: fox_trying:pasted__transform33
+    400506: fox_trying:pasted__transform34
+    400508: fox_trying:pasted__transform35
+    400510: fox_trying:pasted__transform36
+    400512: fox_trying:pasted__transform37
+    400514: fox_trying:pasted__transform38
+    400516: fox_trying:pasted__transform39
+    400518: fox_trying:pasted__transform40
+    400520: fox_trying:pCylinder16
+    400522: fox_trying:pCylinder18
+    400524: fox_trying:pCylinder19
+    400526: fox_trying:polySurface53
+    400528: fox_trying:transform100
+    400530: fox_trying:transform101
+    400532: fox_trying:transform102
+    400534: fox_trying:transform103
+    400536: fox_trying:transform104
+    400538: fox_trying:transform41
+    400540: fox_trying:transform42
+    400542: fox_trying:transform43
+    400544: fox_trying:transform44
+    400546: fox_trying:transform45
+    400548: fox_trying:transform46
+    400550: fox_trying:transform47
+    400552: fox_trying:transform48
+    400554: fox_trying:transform49
+    400556: fox_trying:transform50
+    400558: fox_trying:transform51
+    400560: fox_trying:transform52
+    400562: fox_trying:transform53
+    400564: fox_trying:transform54
+    400566: fox_trying:transform55
+    400568: fox_trying:transform56
+    400570: fox_trying:transform57
+    400572: fox_trying:transform58
+    400574: fox_trying:transform59
+    400576: fox_trying:transform60
+    400578: fox_trying:transform61
+    400580: fox_trying:transform62
+    400582: fox_trying:transform63
+    400584: fox_trying:transform64
+    400586: fox_trying:transform65
+    400588: fox_trying:transform66
+    400590: fox_trying:transform67
+    400592: fox_trying:transform68
+    400594: fox_trying:transform69
+    400596: fox_trying:transform70
+    400598: fox_trying:transform71
+    400600: fox_trying:transform72
+    400602: fox_trying:transform73
+    400604: fox_trying:transform74
+    400606: fox_trying:transform75
+    400608: fox_trying:transform76
+    400610: fox_trying:transform77
+    400612: fox_trying:transform78
+    400614: fox_trying:transform79
+    400616: fox_trying:transform80
+    400618: fox_trying:transform81
+    400620: fox_trying:transform82
+    400622: fox_trying:transform83
+    400624: fox_trying:transform84
+    400626: fox_trying:transform85
+    400628: fox_trying:transform86
+    400630: fox_trying:transform87
+    400632: fox_trying:transform88
+    400634: fox_trying:transform89
+    400636: fox_trying:transform90
+    400638: fox_trying:transform91
+    400640: fox_trying:transform92
+    400642: fox_trying:transform93
+    400644: fox_trying:transform94
+    400646: fox_trying:transform95
+    400648: fox_trying:transform96
+    400650: fox_trying:transform97
+    400652: fox_trying:transform98
+    400654: fox_trying:transform99
+    400656: group3
+    400658: pasted__group2
+    400660: pasted__pasted__pCylinder5
+    400662: pCylinder1
+    400664: pCylinder10
+    400666: pCylinder2
+    400668: pCylinder3
+    400670: pCylinder4
+    400672: pCylinder5
+    400674: pCylinder6
+    400676: pCylinder7
+    400678: pCylinder8
+    400680: pCylinder9
+    400682: polySurface1
+    400684: polySurface2
+    400686: polySurface3
+    400688: polySurface4
+    400690: pSphere1
+    400692: transform1
+    400694: transform2
+    400696: transform3
+    400698: transform4
+    400700: transform5
+    400702: transform6
+    400704: transform7
+    400706: transform8
+    2300000: fox_trying:pCylinder16
+    2300002: fox_trying:pCylinder19
+    2300004: fox_trying:polySurface53
+    2300006: pCylinder10
+    2300008: pCylinder3
+    2300010: pCylinder8
+    2300012: pCylinder9
+    2300014: polySurface1
+    2300016: polySurface2
+    2300018: polySurface3
+    2300020: polySurface4
+    2300022: pSphere1
+    3300000: fox_trying:pCylinder16
+    3300002: fox_trying:pCylinder19
+    3300004: fox_trying:polySurface53
+    3300006: pCylinder10
+    3300008: pCylinder3
+    3300010: pCylinder8
+    3300012: pCylinder9
+    3300014: polySurface1
+    3300016: polySurface2
+    3300018: polySurface3
+    3300020: polySurface4
+    3300022: pSphere1
+    4300000: fox_trying:polySurface53
+    4300002: fox_trying:pCylinder16
+    4300004: fox_trying:pCylinder19
+    4300006: pSphere1
+    4300008: polySurface1
+    4300010: polySurface2
+    4300012: pCylinder3
+    4300014: polySurface3
+    4300016: polySurface4
+    4300018: pCylinder8
+    4300020: pCylinder9
+    4300022: pCylinder10
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
