@@ -10433,7 +10433,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3191debef28cc4e0eb276bb299873702, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0
+  speed: 2
   jump: 10
 --- !u!33 &1985657544
 MeshFilter:
