@@ -17,7 +17,8 @@ public class PlayerControl : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		if (Input.GetMouseButtonDown (0)) {
-			GetComponent<Rigidbody> ().velocity = new Vector2 (GetComponent<Rigidbody> ().velocity.x, jump);
-		}
+            //GetComponent<Rigidbody2D> ().velocity = new Vector2 (GetComponent<Rigidbody2D> ().velocity.x, jump);
+            transform.position = new Vector3(0, 4.12f, 0);
+        }
 	} 
 }
