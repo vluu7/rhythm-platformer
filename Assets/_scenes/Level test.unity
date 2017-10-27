@@ -1531,7 +1531,7 @@ ParticleSystem:
   moveWithTransform: 1
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: -1205827604
+  randomSeed: -16990605
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -2184,27 +2184,27 @@ ParticleSystem:
         m_Curve:
         - serializedVersion: 2
           time: 0
-          value: 0.60377395
+          value: 0.4968583
           inSlope: 0
           outSlope: 0
           tangentMode: 0
         - serializedVersion: 2
-          time: 0.28291464
+          time: 0.27315664
           value: 0.46540862
-          inSlope: -0.6572613
-          outSlope: -0.6572613
+          inSlope: -0.29928756
+          outSlope: -0.29928756
           tangentMode: 0
         - serializedVersion: 2
-          time: 0.7024551
-          value: 0.15942758
-          inSlope: -0.72285837
-          outSlope: -0.72285837
+          time: 0.60002285
+          value: 0.26004404
+          inSlope: -1.1315752
+          outSlope: -1.1315752
           tangentMode: 0
         - serializedVersion: 2
-          time: 0.99024963
+          time: 0.80000305
           value: 0
-          inSlope: 0
-          outSlope: 0
+          inSlope: -1.3173187
+          outSlope: -1.3173187
           tangentMode: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
@@ -5205,7 +5205,7 @@ ParticleSystem:
   moveWithTransform: 1
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: -1415221086
+  randomSeed: -1555691373
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -5652,7 +5652,7 @@ ParticleSystem:
     angle: 25
     length: 5
     boxThickness: {x: 0, y: 0, z: 0}
-    radiusThickness: 0.97
+    radiusThickness: 1
     donutRadius: 0.2
     m_Position: {x: 0, y: 0, z: 0}
     m_Rotation: {x: 0, y: 0, z: 0}
@@ -5858,27 +5858,27 @@ ParticleSystem:
         m_Curve:
         - serializedVersion: 2
           time: 0
-          value: 0.60377395
+          value: 0.4968583
           inSlope: 0
           outSlope: 0
           tangentMode: 0
         - serializedVersion: 2
-          time: 0.28291464
+          time: 0.27315664
           value: 0.46540862
-          inSlope: -0.6572613
-          outSlope: -0.6572613
+          inSlope: -0.29928756
+          outSlope: -0.29928756
           tangentMode: 0
         - serializedVersion: 2
-          time: 0.7024551
-          value: 0.15942758
-          inSlope: -0.72285837
-          outSlope: -0.72285837
+          time: 0.60002285
+          value: 0.26004404
+          inSlope: -1.1315752
+          outSlope: -1.1315752
           tangentMode: 0
         - serializedVersion: 2
-          time: 0.99024963
+          time: 0.80000305
           value: 0
-          inSlope: 0
-          outSlope: 0
+          inSlope: -1.3173187
+          outSlope: -1.3173187
           tangentMode: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
