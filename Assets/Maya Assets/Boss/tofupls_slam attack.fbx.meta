@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: 03956c2d757af174aba26fc8b918fd9d
-timeCreated: 1509574984
+guid: 3d32483b9fbbf0f47b9da6e24c655cf7
+timeCreated: 1509591583
 licenseType: Free
 ModelImporter:
   serializedVersion: 21
@@ -19,8 +19,9 @@ ModelImporter:
     400008: joint5
     400010: pCube1
     400012: //RootNode
-    7400000: Take 001
+    4300000: pCube1
     9500000: //RootNode
+    13700000: pCube1
   materials:
     importMaterials: 1
     materialName: 0
@@ -53,7 +54,7 @@ ModelImporter:
     addColliders: 0
     importVisibility: 1
     importBlendShapes: 1
-    importCameras: 0
+    importCameras: 1
     importLights: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
