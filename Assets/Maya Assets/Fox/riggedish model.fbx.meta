@@ -1,0 +1,145 @@
+fileFormatVersion: 2
+guid: 0931334cfaeb94e258b083a99f48620d
+timeCreated: 1509662980
+licenseType: Free
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: riggedish_model:group24
+    100004: riggedish_model:head
+    100006: riggedish_model:joint1
+    100008: riggedish_model:joint4
+    100010: riggedish_model:L_2
+    100012: riggedish_model:L_3
+    100014: riggedish_model:L_4
+    100016: riggedish_model:L_shin_roll
+    100018: riggedish_model:L_thigh_roll
+    100020: riggedish_model:R_2
+    100022: riggedish_model:R_3
+    100024: riggedish_model:R_4
+    100026: riggedish_model:R_shin_roll
+    100028: riggedish_model:R_thigh_roll
+    100030: riggedish_model:spine1
+    100032: riggedish_model:spine2
+    100034: riggedish_model:spine3
+    100036: riggedish_model:spine4
+    100038: riggedish_model:spine6
+    100040: riggedish_model:spine_5
+    100042: riggedish_model:tail1
+    100044: riggedish_model:tail2
+    100046: riggedish_model:tail3
+    100048: riggedish_model:tail4
+    100050: riggedish_model:tail5
+    100052: riggedish_model:tail6
+    100054: riggedish_model:tail7
+    100056: riggedish_model:tail8
+    100058: riggedish_model:tail9
+    400000: //RootNode
+    400002: riggedish_model:group24
+    400004: riggedish_model:head
+    400006: riggedish_model:joint1
+    400008: riggedish_model:joint4
+    400010: riggedish_model:L_2
+    400012: riggedish_model:L_3
+    400014: riggedish_model:L_4
+    400016: riggedish_model:L_shin_roll
+    400018: riggedish_model:L_thigh_roll
+    400020: riggedish_model:R_2
+    400022: riggedish_model:R_3
+    400024: riggedish_model:R_4
+    400026: riggedish_model:R_shin_roll
+    400028: riggedish_model:R_thigh_roll
+    400030: riggedish_model:spine1
+    400032: riggedish_model:spine2
+    400034: riggedish_model:spine3
+    400036: riggedish_model:spine4
+    400038: riggedish_model:spine6
+    400040: riggedish_model:spine_5
+    400042: riggedish_model:tail1
+    400044: riggedish_model:tail2
+    400046: riggedish_model:tail3
+    400048: riggedish_model:tail4
+    400050: riggedish_model:tail5
+    400052: riggedish_model:tail6
+    400054: riggedish_model:tail7
+    400056: riggedish_model:tail8
+    400058: riggedish_model:tail9
+    4300000: riggedish_model:group24
+    9500000: //RootNode
+    13700000: riggedish_model:group24
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
