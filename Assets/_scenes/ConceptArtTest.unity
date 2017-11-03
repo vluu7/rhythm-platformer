@@ -16113,15 +16113,15 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400012, guid: 1686bfd40e8eb8243bc75c32da54b9d2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.4500008
+      value: 6.4
       objectReference: {fileID: 0}
     - target: {fileID: 400012, guid: 1686bfd40e8eb8243bc75c32da54b9d2, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -6.1827
+      value: -5.9
       objectReference: {fileID: 0}
     - target: {fileID: 400012, guid: 1686bfd40e8eb8243bc75c32da54b9d2, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -11.12
+      value: -11.4
       objectReference: {fileID: 0}
     - target: {fileID: 400012, guid: 1686bfd40e8eb8243bc75c32da54b9d2, type: 3}
       propertyPath: m_LocalRotation.x
@@ -16158,6 +16158,14 @@ Prefab:
     - target: {fileID: 400012, guid: 1686bfd40e8eb8243bc75c32da54b9d2, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: -85.394005
+      objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: 1686bfd40e8eb8243bc75c32da54b9d2, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 7d95383182ff0cf47a290ffc1836e1cd, type: 2}
+    - target: {fileID: 100012, guid: 1686bfd40e8eb8243bc75c32da54b9d2, type: 3}
+      propertyPath: m_Name
+      value: tofu
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1686bfd40e8eb8243bc75c32da54b9d2, type: 3}
@@ -20768,6 +20776,27 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!1 &1812828011 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100012, guid: 1686bfd40e8eb8243bc75c32da54b9d2, type: 3}
+  m_PrefabInternal: {fileID: 662229522}
+--- !u!95 &1812828012 stripped
+Animator:
+  m_PrefabParentObject: {fileID: 9500000, guid: 1686bfd40e8eb8243bc75c32da54b9d2,
+    type: 3}
+  m_PrefabInternal: {fileID: 662229522}
+--- !u!114 &1812828013
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1812828011}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7082075702e8b9b4da92de5dba8f07d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  anim: {fileID: 1812828012}
 --- !u!1 &1816649343
 GameObject:
   m_ObjectHideFlags: 0

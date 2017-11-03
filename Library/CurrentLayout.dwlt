@@ -108,10 +108,10 @@ MonoBehaviour:
     y: 30
     width: 1536
     height: 731
-  m_MinSize: {x: 917, y: 442}
-  m_MaxSize: {x: 22012, y: 10021}
+  m_MinSize: {x: 911, y: 442}
+  m_MaxSize: {x: 22006, y: 10021}
   vertical: 0
-  controlID: 39640
+  controlID: 3306
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -135,7 +135,7 @@ MonoBehaviour:
   m_MinSize: {x: 202, y: 442}
   m_MaxSize: {x: 4002, y: 8042}
   vertical: 1
-  controlID: 39595
+  controlID: 3307
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -370,9 +370,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 15.862026, y: -22.638737, z: 21.70897}
+    m_Target: {x: -8.5227165, y: -7.9660797, z: 8.258133}
     speed: 2
-    m_Value: {x: 15.862026, y: -22.638737, z: 21.70897}
+    m_Value: {x: -8.5227165, y: -7.9660797, z: 8.258133}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -395,18 +395,18 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: -0.09314274, y: -0.026283413, z: 0.002478708, w: -0.99533486}
+    m_Target: {x: -0.16306295, y: 0.01391048, z: -0.002282888, w: -0.98653185}
     speed: 2
-    m_Value: {x: -0.09314274, y: -0.026283411, z: 0.0024787078, w: -0.9953348}
+    m_Value: {x: -0.16306295, y: 0.01391048, z: -0.0022828877, w: -0.9865318}
   m_Size:
-    m_Target: 123.43367
+    m_Target: 77.819435
     speed: 2
-    m_Value: 123.43367
+    m_Value: 77.819435
   m_Ortho:
     m_Target: 0
     speed: 2
     m_Value: 0
-  m_LastSceneViewRotation: {x: -0.21018569, y: 0.019649893, z: -0.0042117033, w: -0.97745496}
+  m_LastSceneViewRotation: {x: -0.39154398, y: 0.0005549458, z: -0.00022084046, w: -0.9201593}
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 
@@ -490,7 +490,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: a8f3e5ff2af7e5ff7424e6ff2437e6ff8e49e6ff124be6ffba4fe6fffc3de7ffd847e8ffde47e8ffe447e8fff247e8fff447e8ff7604eaff8404eaff4409efff4e1eefff1c20f0ff8688f0ff9873f1fffec6f1ff740ef2ff640cf3ff4055f4ff3e44f5ff80a5f5ff1ab9f5ff8ae5f5ff6cf9f5fff4b2f6ffa2eef6ff1e21f7ff8c83f7ff9a83f7ff9c83f7ff64c1faff66c1faff5417fcffcc5dfcff4046fdff185afeff8a68ffff88e4ffff1afcffff00000000da2f00001c30000026300000603100009c310000d2310000a832000058ae02009aae02009cbf020094c10200e4d7020022dd020008e1020042e10200b8e1020056160600
+    m_ExpandedIDs: 8e53fdff7e62fdffe49dffff98f8ffff1afcffff00000000fc27000042280000362a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -551,19 +551,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Maya Assets/Boss
+    - Assets/_scripts
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Maya Assets/Boss
+  - Assets/_scripts
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Yoshida\Documents\GitHub\rhythm-platformer
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 5ca90200
-    m_LastClickedID: 174428
-    m_ExpandedIDs: 000000001a2600009426000000ca9a3bffffff7f
+    m_SelectedIDs: b2260000
+    m_LastClickedID: 9906
+    m_ExpandedIDs: 000000001a260000bc260000be26000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -591,7 +591,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000001a2600009426000000ca9a3bffffff7f
+    m_ExpandedIDs: 000000001a260000bc260000be26000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -643,7 +643,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 0}
+    m_ScrollPosition: {x: 0, y: 185}
     m_GridSize: 64
   m_DirectoriesAreaWidth: 110
 --- !u!114 &17
