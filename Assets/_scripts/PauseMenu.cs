@@ -8,6 +8,7 @@ public class PauseMenu : MonoBehaviour {
     private AudioSource audioSource;
     public AudioClip clip;
     public GameObject PauseUI;
+    public GameObject OnScreenButtons;
     private bool paused = false;
 
     void Start()
@@ -26,15 +27,19 @@ public class PauseMenu : MonoBehaviour {
         {
             PauseUI.SetActive(true);
             Time.timeScale = 0;
-            audioSource.Pause();
         }
         else if(!paused)
         {
             PauseUI.SetActive(false);
             Time.timeScale = 1;
-            audioSource.UnPause();
         }
 
+    }
+
+    public void Pause()
+    {
+        //OnScreenButtons.SetActive(false);
+        paused = true;
     }
 
     public void Resume()
