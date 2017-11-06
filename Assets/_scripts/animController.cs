@@ -17,5 +17,10 @@ public class animController : MonoBehaviour {
         {
             anim.Play("TofuFling");
         }
+
+        if(Input.GetKeyDown("w"))
+        {
+            anim.Play("Tofu Slam");
+        }
 	}
 }

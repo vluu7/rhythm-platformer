@@ -28,14 +28,14 @@ public class Weapon : MonoBehaviour
         Shoot();
 		if(fireRate == 0)
         {
-            if (Input.GetKeyDown(KeyCode.W))
+            if (Input.GetKeyDown(KeyCode.E))
             {
                 Shoot();
             }
         }
         else
         {
-            if(Input.GetKeyDown(KeyCode.W) && Time.time > timeToFire)
+            if(Input.GetKeyDown(KeyCode.E) && Time.time > timeToFire)
             {
                 timeToFire = Time.time + 1 / fireRate;
                 Shoot();
