@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class PlayerControl : MonoBehaviour {
 	
-	private float checkTouchHold = 0.8f; 
+	private float checkTouchHold = 0.5f; 
 	private float touchHoldTime = 0;
 	private float minSwipeDistance = 50.0f;
 	private float maxSwipeTime = 0.5f;
@@ -43,6 +43,19 @@ public class PlayerControl : MonoBehaviour {
 		if (Input.touchCount > 0) {
 			
 			touchHoldTime += Input.GetTouch(0).deltaTime;
+
+			if (touchHoldTime > checkTouchHold) {
+				//touch and hold gesture
+				transform.position = new Vector3(transform.position.x, -2.42f, -7);
+			}
+
+			if (Input.GetTouch(0).phase == TouchPhase.Ended) { 
+				touchHoldTime = 0;
+			}
+
+			if (Input.touchCount == 2) {
+				//2 finger
+			}
 
 			foreach (Touch touch in Input.touches) {
 
@@ -88,17 +101,9 @@ public class PlayerControl : MonoBehaviour {
 								//move down
 							}
 						}
-
-						if (touchHoldTime > checkTouchHold) {
-							//touch and hold gesture
-							transform.position = new Vector3(transform.position.x, -2.42f, -7);
-						}
-
 					}
-					touchHoldTime = 0;
 					break;
-				} 
-
+				}
 			}
 		}
 	}
