@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1223223985, guid: aa81bbec85a3f423193272a7c6154986, type: 3}
+  m_Name: fox_test_1
+  m_EditorClassIdentifier: 
+  mEventID: fox_test_1
+  mEventList:
+  - mStartSample: 0
+    mEndSample: 705600
+  - mStartSample: 308700
+    mEndSample: 308700
+  - mStartSample: 330750
+    mEndSample: 330750
+  - mStartSample: 352800
+    mEndSample: 352800
+  - mStartSample: 374850
+    mEndSample: 374850
+  - mStartSample: 396900
+    mEndSample: 396900
+  - mStartSample: 418950
+    mEndSample: 418950
+  - mStartSample: 441000
+    mEndSample: 441000
+  - mStartSample: 463050
+    mEndSample: 463050
+  - mStartSample: 485100
+    mEndSample: 485100
+  - mStartSample: 551250
+    mEndSample: 551250
+  - mStartSample: 573300
+    mEndSample: 573300
+  - mStartSample: 595350
+    mEndSample: 595350
+  - mStartSample: 617400
+    mEndSample: 617400
+  - mStartSample: 639450
+    mEndSample: 639450
+  - mStartSample: 661500
+    mEndSample: 661500
+  - mStartSample: 1234800
+    mEndSample: 1234800
+  - mStartSample: 1323000
+    mEndSample: 1323000
+  - mStartSample: 1411200
+    mEndSample: 1411200
+  _SerializedPayloadTypes:
+  - SonicBloom.Koreo.CurvePayload
+  - SonicBloom.Koreo.TextPayload
+  _AssetPayloads: []
+  _AssetPayloadIdxs: 
+  _ColorPayloads: []
+  _ColorPayloadIdxs: 
+  _CurvePayloads:
+  - mCurveData:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  _CurvePayloadIdxs: 00000000
+  _FloatPayloads: []
+  _FloatPayloadIdxs: 
+  _GradientPayloads: []
+  _GradientPayloadIdxs: 
+  _IntPayloads: []
+  _IntPayloadIdxs: 
+  _SpectrumPayloads: []
+  _SpectrumPayloadIdxs: 
+  _TextPayloads:
+  - mTextVal: Jump!
+  - mTextVal: Jump!
+  - mTextVal: Jump!
+  _TextPayloadIdxs: 100000001100000012000000
