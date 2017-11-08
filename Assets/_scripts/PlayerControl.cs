@@ -19,7 +19,7 @@ public class PlayerControl : MonoBehaviour {
         /*if (Input.GetMouseButtonDown (0)) {
             //GetComponent<Rigidbody2D> ().velocity = new Vector2 (GetComponent<Rigidbody2D> ().velocity.x, jump);
             transform.position = new Vector3(0, 4.12f, 0);
-        }*/
+        }
 
         if (Input.GetKeyDown(KeyCode.A))
             transform.position = new Vector3(transform.position.x, 6.42f, -7);
@@ -29,6 +29,6 @@ public class PlayerControl : MonoBehaviour {
 
         if (Input.GetKeyDown(KeyCode.D))
             transform.position = new Vector3(transform.position.x, -2.42f, -7);
-
+        */
     }
 }

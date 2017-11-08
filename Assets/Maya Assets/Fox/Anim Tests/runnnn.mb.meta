@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: 54a34a739c75d584b8d58b7e2df84a5b
-timeCreated: 1510111319
+guid: d695c0d0cf110fd48923e7eb591f9592
+timeCreated: 1510171856
 licenseType: Free
 ModelImporter:
   serializedVersion: 21
@@ -320,7 +320,7 @@ ModelImporter:
     2300000: pPlane1
     3300000: pPlane1
     4300000: pPlane1
-    7400000: FoxSlide
+    7400000: Take 001
     9500000: //RootNode
   materials:
     importMaterials: 1
@@ -347,17 +347,17 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: FoxSlide
+      name: Take 001
       takeName: Take 001
       firstFrame: 1
-      lastFrame: 9
+      lastFrame: 8
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 0
+      loopTime: 1
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
