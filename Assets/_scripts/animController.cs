@@ -23,9 +23,9 @@ public class animController : MonoBehaviour {
             anim.Play("Tofu Slam");
         }
 
-        if(Input.GetKeyDown("z"))
+        if(Input.GetKeyDown("e"))
         {
-            anim.Play("FoxJump");
+            anim.Play("ProjectileAttack2");
         }
 
 	}
