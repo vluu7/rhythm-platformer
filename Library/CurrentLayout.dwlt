@@ -108,10 +108,10 @@ MonoBehaviour:
     y: 30
     width: 1536
     height: 731
-  m_MinSize: {x: 917, y: 342}
+  m_MinSize: {x: 917, y: 442}
   m_MaxSize: {x: 22012, y: 10021}
   vertical: 0
-  controlID: 104
+  controlID: 80
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -132,10 +132,10 @@ MonoBehaviour:
     y: 0
     width: 816
     height: 731
-  m_MinSize: {x: 202, y: 342}
+  m_MinSize: {x: 202, y: 442}
   m_MaxSize: {x: 4002, y: 8042}
   vertical: 1
-  controlID: 34
+  controlID: 11
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -154,14 +154,14 @@ MonoBehaviour:
     y: 0
     width: 816
     height: 369
-  m_MinSize: {x: 102, y: 121}
+  m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 12}
+  m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
   - {fileID: 12}
-  m_Selected: 1
-  m_LastSelected: 0
+  m_Selected: 0
+  m_LastSelected: 1
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -291,10 +291,8 @@ MonoBehaviour:
   m_ViewPositions:
     m_KeySerializationHelper:
     - {fileID: 1107507122425748562, guid: 7d95383182ff0cf47a290ffc1836e1cd, type: 2}
-    - {fileID: 1107744149255667876, guid: e6cfeee5510ccc74b9a6efe968955931, type: 2}
     m_ValueSerializationHelper:
-    - {x: 425.80005, y: 155.6}
-    - {x: 423.80005, y: 159.6}
+    - {x: 440.40002, y: 184.8}
   m_PreviewAnimator: {fileID: 0}
   m_AnimatorController: {fileID: 9100000, guid: 7d95383182ff0cf47a290ffc1836e1cd,
     type: 2}
@@ -447,7 +445,7 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: -0.12135584, y: 0.049704887, z: -0.006087284, w: -0.9913496}
     speed: 2
-    m_Value: {x: -0.1213553, y: 0.049704667, z: -0.006087257, w: -0.9913452}
+    m_Value: {x: -0.12135583, y: 0.049704887, z: -0.0060872836, w: -0.9913496}
   m_Size:
     m_Target: 43.763966
     speed: 2
@@ -490,23 +488,23 @@ MonoBehaviour:
     height: 710
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 
+    m_SelectedIDs: 58260000
     m_LastClickedID: 0
-    m_ExpandedIDs: 1afcffff000000007a280000e0290000142b0000
+    m_ExpandedIDs: 16fcffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: riggedish model
-      m_OriginalName: riggedish model
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 10362
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 0
       m_ClientGUIView: {fileID: 9}
     m_SearchString: 
@@ -553,33 +551,33 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/_scripts
+    - Assets/Maya Assets/Boss
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/_scripts
+  - Assets/Maya Assets/Boss
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Yoshida\Documents\GitHub\rhythm-platformer
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: ca260000
-    m_LastClickedID: 9930
-    m_ExpandedIDs: 00000000202600002a2600004c260000d6260000da26000000ca9a3bffffff7f
+    m_SelectedIDs: 58260000
+    m_LastClickedID: 9816
+    m_ExpandedIDs: 00000000242600003026000058260000162700001a27000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: _scripts
+      m_OriginalName: _scripts
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 9992
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 10}
     m_SearchString: 
@@ -593,7 +591,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000020260000d6260000da260000
+    m_ExpandedIDs: 00000000242600003026000058260000162700001a270000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -621,7 +619,7 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: 3e3300002a2700006e260000
+    m_ExpandedInstanceIDs: 3e3300002a2700006e26000040410000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
