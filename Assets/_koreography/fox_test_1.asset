@@ -14,9 +14,7 @@ MonoBehaviour:
   mEventID: fox_test_1
   mEventList:
   - mStartSample: 0
-    mEndSample: 705600
-  - mStartSample: 308700
-    mEndSample: 308700
+    mEndSample: 110250
   - mStartSample: 330750
     mEndSample: 330750
   - mStartSample: 352800
@@ -52,32 +50,13 @@ MonoBehaviour:
   - mStartSample: 1411200
     mEndSample: 1411200
   _SerializedPayloadTypes:
-  - SonicBloom.Koreo.CurvePayload
   - SonicBloom.Koreo.TextPayload
   _AssetPayloads: []
   _AssetPayloadIdxs: 
   _ColorPayloads: []
   _ColorPayloadIdxs: 
-  _CurvePayloads:
-  - mCurveData:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 2
-        time: 0
-        value: 0
-        inSlope: 1
-        outSlope: 1
-        tangentMode: 0
-      - serializedVersion: 2
-        time: 1
-        value: 1
-        inSlope: 1
-        outSlope: 1
-        tangentMode: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-  _CurvePayloadIdxs: 00000000
+  _CurvePayloads: []
+  _CurvePayloadIdxs: 
   _FloatPayloads: []
   _FloatPayloadIdxs: 
   _GradientPayloads: []
@@ -87,7 +66,8 @@ MonoBehaviour:
   _SpectrumPayloads: []
   _SpectrumPayloadIdxs: 
   _TextPayloads:
+  - mTextVal: I'm an event!
   - mTextVal: Jump!
   - mTextVal: Jump!
   - mTextVal: Jump!
-  _TextPayloadIdxs: 100000001100000012000000
+  _TextPayloadIdxs: 000000000f0000001000000011000000
