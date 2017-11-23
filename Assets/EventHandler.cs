@@ -21,11 +21,10 @@ public class EventHandler : MonoBehaviour {
 		
 	}
 
+    // Print a message to the console once Koreographer Event is fired off
     void FireEventDebugLog(KoreographyEvent koreoEvent) 
     {
         Debug.Log("Koreography Event Fired.");
     }
-
-
 
 }
