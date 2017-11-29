@@ -37689,7 +37689,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1080592334}
   m_LocalRotation: {x: -0.7071068, y: -0.00000014901161, z: -0.00000014901161, w: 0.7071068}
-  m_LocalPosition: {x: 11.9, y: -5.7, z: -12.5}
+  m_LocalPosition: {x: 12.14, y: -5.7, z: -12.5}
   m_LocalScale: {x: 1, y: 1.0000005, z: 1.0000005}
   m_Children: []
   m_Father: {fileID: 546998031}
@@ -37755,8 +37755,8 @@ ParticleSystem:
   m_GameObject: {fileID: 1080592334}
   serializedVersion: 5
   lengthInSec: 1
-  simulationSpeed: 4
-  looping: 0
+  simulationSpeed: 6
+  looping: 1
   prewarm: 0
   playOnAwake: 1
   useUnscaledTime: 0
@@ -37806,7 +37806,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: -833996078
+  randomSeed: -1006640227
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -37854,7 +37854,7 @@ ParticleSystem:
     startSpeed:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 10
+      scalar: 9
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -38366,7 +38366,7 @@ ParticleSystem:
     rateOverTime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 20
+      scalar: 15
       minScalar: 10
       maxCurve:
         serializedVersion: 2
@@ -38709,8 +38709,8 @@ ParticleSystem:
       maxGradient:
         serializedVersion: 2
         key0: {r: 0.03676468, g: 0.004325256, b: 0.004325256, a: 1}
-        key1: {r: 0.7725491, g: 0.8705883, b: 0.95294124, a: 0.6117647}
-        key2: {r: 0.94482756, g: 1, b: 0, a: 0.40392157}
+        key1: {r: 0.7725491, g: 0.8705883, b: 0.95294124, a: 1}
+        key2: {r: 0.44827604, g: 0, b: 1, a: 1}
         key3: {r: 0, g: 1, b: 0.13103437, a: 0}
         key4: {r: 0, g: 0.006896496, b: 1, a: 0}
         key5: {r: 0.86206913, g: 0, b: 1, a: 0}
@@ -38718,7 +38718,7 @@ ParticleSystem:
         key7: {r: 1, g: 1, b: 1, a: 0}
         ctime0: 0
         ctime1: 65535
-        ctime2: 65342
+        ctime2: 65535
         ctime3: 21203
         ctime4: 29105
         ctime5: 37972
