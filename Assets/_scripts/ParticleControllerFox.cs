@@ -4,11 +4,20 @@ using UnityEngine;
 
 public class ParticleControllerFox : MonoBehaviour {
 
+    //Random rnd = new Random;
     public ParticleSystem ps;
+    public ParticleSystem sparkOn;
     public int goodDodge;
 
     void Update()
     {
+        int spark = Random.Range(1, 100);    
+
+        if (7 % spark == 0)
+        {
+            sparkOn.Play();
+        }
+
         if (Input.GetKeyDown("a"))
         {
             if (goodDodge == 1)
