@@ -14,14 +14,14 @@ public class animController : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if(Input.GetKeyDown("q"))
-        {
-            anim.Play("TofuFling");
-        }
-
-        if(Input.GetKeyDown("w"))
+		if(Input.GetKeyDown("w"))
         {
             anim.Play("Tofu Slam");
+        }
+
+        if(Input.GetKeyDown("q"))
+        {
+            anim.Play("TofuFling");
         }
 
         if(Input.GetKeyDown("e"))
@@ -31,7 +31,12 @@ public class animController : MonoBehaviour {
 
         if (Input.GetKeyDown("a"))
         {
-            anim.Play("FoxSlide");
+            anim.Play("ducking");
+        }
+
+        if (Input.GetKeyDown("d"))
+        {
+            anim.Play("horizontalSpin");
         }
 
         if (Input.GetKeyDown("s"))
@@ -39,8 +44,8 @@ public class animController : MonoBehaviour {
             AnimationTracker = 1;
             if (AnimationTracker == 1)
             {
-                GameObject.Find("NewFox").transform.position = new Vector3(GameObject.FindGameObjectWithTag("Fox").transform.position.x, 2.5f, -7);
-                anim.Play("FoxJumpBroken");
+                //GameObject.Find("NewFox").transform.position = new Vector3(GameObject.FindGameObjectWithTag("Fox").transform.position.x, 2.5f, -7);
+                anim.Play("jumping");
                 Debug.Log("Jump");
                 //ExecuteAfterTime(0.8f);
             }
