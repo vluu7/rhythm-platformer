@@ -8,6 +8,7 @@ public class ParticleControllerBoss : MonoBehaviour
     public ParticleSystem jump;
     public ParticleSystem duck;
     public ParticleSystem spin;
+    public ParticleSystem spin2;
 
 
     void Update()

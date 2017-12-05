@@ -31,12 +31,13 @@ public class animController : MonoBehaviour {
 
         if (Input.GetKeyDown("a"))
         {
-            anim.Play("ducking");
+            anim.Play("duck");
         }
 
         if (Input.GetKeyDown("d"))
         {
-            anim.Play("horizontalSpin");
+            GameObject.Find("NewFox").transform.position = new Vector3(GameObject.FindGameObjectWithTag("Fox").transform.position.x, 2.5f, -7);
+            anim.Play("spin");
         }
 
         if (Input.GetKeyDown("s"))
@@ -45,7 +46,7 @@ public class animController : MonoBehaviour {
             if (AnimationTracker == 1)
             {
                 //GameObject.Find("NewFox").transform.position = new Vector3(GameObject.FindGameObjectWithTag("Fox").transform.position.x, 2.5f, -7);
-                anim.Play("jumping");
+                anim.Play("jump");
                 Debug.Log("Jump");
                 //ExecuteAfterTime(0.8f);
             }

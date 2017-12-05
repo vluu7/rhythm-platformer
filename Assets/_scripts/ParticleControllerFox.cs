@@ -13,7 +13,7 @@ public class ParticleControllerFox : MonoBehaviour {
     {
         int spark = Random.Range(1, 100);    
 
-        if (7 % spark == 0)
+        if (33 % spark == 0)
         {
             sparkOn.Play();
         }
