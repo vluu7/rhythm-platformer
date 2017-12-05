@@ -10,6 +10,8 @@ public class ParticleControllerBoss : MonoBehaviour
     public ParticleSystem spin;
     public ParticleSystem spin2;
 
+    public ParticleSystem testSpin;
+
 
     void Update()
     {
@@ -30,6 +32,9 @@ public class ParticleControllerBoss : MonoBehaviour
                 spin.Play();
                 Debug.Log("SpinAttack");
         }
+
+
+
     }
 
 }
