@@ -5,9 +5,21 @@ using UnityEngine;
 public class ParticleControllerFox : MonoBehaviour {
 
     //Random rnd = new Random;
-    public ParticleSystem ps;
+    public ParticleSystem psGoodDodge;
+    public ParticleSystem psJump;
+    public ParticleSystem psDuck;
+    public ParticleSystem psSpin;
     public ParticleSystem sparkOn;
+
+    public ParticleSystem FA1;
+    public ParticleSystem FA2;
+    public ParticleSystem FA3;
+    public ParticleSystem FA4;
+    public ParticleSystem FA5;
+
     public int goodDodge;
+
+    private int finalAttack = 0;
 
     void Update()
     {
@@ -22,7 +34,7 @@ public class ParticleControllerFox : MonoBehaviour {
         {
             if (goodDodge == 1)
             {
-                ps.Play();
+                psJump.Play();
                 Debug.Log("BurstA");
             }
         }
@@ -31,7 +43,7 @@ public class ParticleControllerFox : MonoBehaviour {
         {
             if (goodDodge == 1)
             {
-                ps.Play();
+                psDuck.Play();
                 Debug.Log("BurstS");
             }
         }
@@ -40,10 +52,42 @@ public class ParticleControllerFox : MonoBehaviour {
         {
             if (goodDodge == 1)
             {
-                ps.Play();
+                psSpin.Play();
                 Debug.Log("BurstD");
             }
         }
+
+        if (Input.GetKeyDown("f"))
+        {
+            if (goodDodge == 1)
+            {
+                psGoodDodge.Play();
+                Debug.Log("BurstD");
+            }
+        }
+
+        if (Input.GetKeyDown("x"))
+        {
+            if (finalAttack % 2 == 0)
+            {
+                FA1.Play();
+                FA2.Play();
+                FA3.Play();
+                FA4.Play();
+                FA5.Play();
+                Debug.Log("FABurst");
+            }
+            else
+            {
+                FA1.Stop();
+                FA2.Stop();
+                FA3.Stop();
+                FA4.Stop();
+                FA5.Stop();
+            }
+            finalAttack += 1;
+        }
+
     }
 
 }
