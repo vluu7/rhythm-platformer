@@ -22829,7 +22829,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: 669903117
+  randomSeed: 199691204
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -38768,7 +38768,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: 1709062141
+  randomSeed: -861164014
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -39670,32 +39670,32 @@ ParticleSystem:
       maxColor: {r: 1, g: 1, b: 1, a: 1}
       maxGradient:
         serializedVersion: 2
-        key0: {r: 0.03676468, g: 0.004325256, b: 0.004325256, a: 1}
-        key1: {r: 0.7725491, g: 0.8705883, b: 0.95294124, a: 1}
-        key2: {r: 0.7725491, g: 0.8705883, b: 0.95294124, a: 1}
+        key0: {r: 1, g: 0, b: 0, a: 1}
+        key1: {r: 1, g: 0.476, b: 0, a: 1}
+        key2: {r: 1, g: 1, b: 1, a: 1}
         key3: {r: 0, g: 1, b: 0.13103437, a: 0}
         key4: {r: 0, g: 0.006896496, b: 1, a: 0}
         key5: {r: 0.86206913, g: 0, b: 1, a: 0}
         key6: {r: 1, g: 0.2352941, b: 0.8523324, a: 0}
         key7: {r: 1, g: 1, b: 1, a: 0}
         ctime0: 0
-        ctime1: 65535
-        ctime2: 65535
+        ctime1: 31611
+        ctime2: 65150
         ctime3: 21203
         ctime4: 29105
         ctime5: 37972
         ctime6: 45489
         ctime7: 65535
         atime0: 0
-        atime1: 34310
-        atime2: 65150
+        atime1: 38550
+        atime2: 65535
         atime3: 0
         atime4: 0
         atime5: 0
         atime6: 0
         atime7: 0
         m_Mode: 0
-        m_NumColorKeys: 2
+        m_NumColorKeys: 3
         m_NumAlphaKeys: 3
       minGradient:
         serializedVersion: 2
@@ -46481,7 +46481,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: 41436561
+  randomSeed: -202750730
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -47385,7 +47385,7 @@ ParticleSystem:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 0.19215687}
         key1: {r: 0.3897059, g: 0.3897059, b: 0.3897059, a: 0.8392157}
-        key2: {r: 0.8701825, g: 0.85294116, b: 1, a: 0}
+        key2: {r: 0.8701825, g: 0.85294116, b: 1, a: 1}
         key3: {r: 0.8701825, g: 0.85294116, b: 1, a: 0}
         key4: {r: 0, g: 0.006896496, b: 1, a: 0}
         key5: {r: 0.86206913, g: 0, b: 1, a: 0}
@@ -49975,7 +49975,7 @@ GameObject:
   - component: {fileID: 566801487}
   - component: {fileID: 566801486}
   m_Layer: 0
-  m_Name: Particle System (tester)
+  m_Name: FinalAttack1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -50105,7 +50105,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: -990390362
+  randomSeed: -1996025239
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -54450,7 +54450,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: 421806964
+  randomSeed: -1668808704
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -55352,16 +55352,16 @@ ParticleSystem:
       maxColor: {r: 1, g: 1, b: 1, a: 1}
       maxGradient:
         serializedVersion: 2
-        key0: {r: 0.03676468, g: 0.004325256, b: 0.004325256, a: 1}
-        key1: {r: 0.7725491, g: 0.8705883, b: 0.95294124, a: 1}
-        key2: {r: 0.7725491, g: 0.8705883, b: 0.95294124, a: 1}
+        key0: {r: 0, g: 1, b: 0.5034485, a: 1}
+        key1: {r: 0, g: 0.5448277, b: 1, a: 1}
+        key2: {r: 1, g: 1, b: 1, a: 1}
         key3: {r: 0, g: 1, b: 0.13103437, a: 0}
         key4: {r: 0, g: 0.006896496, b: 1, a: 0}
         key5: {r: 0.86206913, g: 0, b: 1, a: 0}
         key6: {r: 1, g: 0.2352941, b: 0.8523324, a: 0}
         key7: {r: 1, g: 1, b: 1, a: 0}
         ctime0: 0
-        ctime1: 65535
+        ctime1: 31611
         ctime2: 65535
         ctime3: 21203
         ctime4: 29105
@@ -55369,15 +55369,15 @@ ParticleSystem:
         ctime6: 45489
         ctime7: 65535
         atime0: 0
-        atime1: 34310
-        atime2: 65150
+        atime1: 38338
+        atime2: 65535
         atime3: 0
         atime4: 0
         atime5: 0
         atime6: 0
         atime7: 0
         m_Mode: 0
-        m_NumColorKeys: 2
+        m_NumColorKeys: 3
         m_NumAlphaKeys: 3
       minGradient:
         serializedVersion: 2
@@ -67573,8 +67573,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 447412bbb1ae78143bede051cd764f43, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ps: {fileID: 1080592337}
+  psGoodDodge: {fileID: 0}
+  psJump: {fileID: 0}
+  psDuck: {fileID: 0}
+  psSpin: {fileID: 0}
   sparkOn: {fileID: 1115244765}
+  FA1: {fileID: 0}
+  FA2: {fileID: 0}
+  FA3: {fileID: 0}
+  FA4: {fileID: 0}
+  FA5: {fileID: 0}
   goodDodge: 1
 --- !u!1 &907647529
 GameObject:
@@ -76194,7 +76202,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: 1125405378
+  randomSeed: 215941579
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -79689,7 +79697,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: 314671268
+  randomSeed: 650093502
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -88089,7 +88097,7 @@ GameObject:
   - component: {fileID: 1262553557}
   - component: {fileID: 1262553556}
   m_Layer: 0
-  m_Name: Particle System (tester) (4)
+  m_Name: FinalAttack4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -88219,7 +88227,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: -1904327897
+  randomSeed: 763557567
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -109000,8 +109008,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 447412bbb1ae78143bede051cd764f43, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ps: {fileID: 1080592337}
+  psGoodDodge: {fileID: 1080592337}
+  psJump: {fileID: 650635667}
+  psDuck: {fileID: 405493306}
+  psSpin: {fileID: 1932818360}
   sparkOn: {fileID: 1115244765}
+  FA1: {fileID: 566801487}
+  FA2: {fileID: 1897119773}
+  FA3: {fileID: 1845687205}
+  FA4: {fileID: 1262553557}
+  FA5: {fileID: 1992357373}
   goodDodge: 1
 --- !u!114 &1792098691
 MonoBehaviour:
@@ -109950,7 +109966,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: 1761658932
+  randomSeed: -1543873469
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -113164,7 +113180,7 @@ GameObject:
   - component: {fileID: 1845687205}
   - component: {fileID: 1845687204}
   m_Layer: 0
-  m_Name: Particle System (tester) (3)
+  m_Name: FinalAttack3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -113294,7 +113310,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: -1012720774
+  randomSeed: 110231493
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -120309,7 +120325,7 @@ GameObject:
   - component: {fileID: 1897119773}
   - component: {fileID: 1897119772}
   m_Layer: 0
-  m_Name: Particle System (tester) (1)
+  m_Name: FinalAttack2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -120439,7 +120455,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: -1919187814
+  randomSeed: -315381417
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -124026,7 +124042,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: 1898079789
+  randomSeed: -2096579300
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -124928,16 +124944,16 @@ ParticleSystem:
       maxColor: {r: 1, g: 1, b: 1, a: 1}
       maxGradient:
         serializedVersion: 2
-        key0: {r: 0.03676468, g: 0.004325256, b: 0.004325256, a: 1}
-        key1: {r: 0.7725491, g: 0.8705883, b: 0.95294124, a: 1}
-        key2: {r: 0.7725491, g: 0.8705883, b: 0.95294124, a: 1}
+        key0: {r: 0.065111555, g: 0, b: 0.08823532, a: 1}
+        key1: {r: 0.074492864, g: 0, b: 0.09558821, a: 1}
+        key2: {r: 0.8701825, g: 0.85294116, b: 1, a: 1}
         key3: {r: 0, g: 1, b: 0.13103437, a: 0}
         key4: {r: 0, g: 0.006896496, b: 1, a: 0}
         key5: {r: 0.86206913, g: 0, b: 1, a: 0}
         key6: {r: 1, g: 0.2352941, b: 0.8523324, a: 0}
         key7: {r: 1, g: 1, b: 1, a: 0}
         ctime0: 0
-        ctime1: 65535
+        ctime1: 17540
         ctime2: 65535
         ctime3: 21203
         ctime4: 29105
@@ -124945,15 +124961,15 @@ ParticleSystem:
         ctime6: 45489
         ctime7: 65535
         atime0: 0
-        atime1: 34310
-        atime2: 65150
+        atime1: 41441
+        atime2: 65535
         atime3: 0
         atime4: 0
         atime5: 0
         atime6: 0
         atime7: 0
         m_Mode: 0
-        m_NumColorKeys: 2
+        m_NumColorKeys: 3
         m_NumAlphaKeys: 3
       minGradient:
         serializedVersion: 2
@@ -134640,7 +134656,7 @@ GameObject:
   - component: {fileID: 1992357373}
   - component: {fileID: 1992357372}
   m_Layer: 0
-  m_Name: Particle System (player) (2)
+  m_Name: FinalAttack5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -134770,7 +134786,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: -196149335
+  randomSeed: -1724978652
   InitialModule:
     serializedVersion: 3
     enabled: 1
