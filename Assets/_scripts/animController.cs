@@ -34,6 +34,11 @@ public class animController : MonoBehaviour {
             anim.Play("duck");
         }
 
+        if (Input.GetKeyDown("z"))
+        {
+            anim.Play("duckingRW");
+        }
+
         if (Input.GetKeyDown("d"))
         {
             GameObject.Find("NewFox").transform.position = new Vector3(GameObject.FindGameObjectWithTag("Fox").transform.position.x, 2.5f, -7);
