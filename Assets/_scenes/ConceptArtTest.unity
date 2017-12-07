@@ -12014,8 +12014,8 @@ ParticleSystem:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 115510961}
   serializedVersion: 5
-  lengthInSec: 2
-  simulationSpeed: 4
+  lengthInSec: 1.5
+  simulationSpeed: 5
   looping: 0
   prewarm: 0
   playOnAwake: 0
@@ -12066,7 +12066,7 @@ ParticleSystem:
   moveWithTransform: 1
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: 1811620697
+  randomSeed: 767488811
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -36582,6 +36582,17 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 1838099131}
+        m_MethodName: Pause
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1697379418}
         m_MethodName: Pause
         m_Mode: 1
         m_Arguments:
@@ -78910,10 +78921,10 @@ ParticleSystem:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-  moveWithTransform: 0
+  moveWithTransform: 1
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: 1067083652
+  randomSeed: -1182223616
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -119397,7 +119408,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400098, guid: 60a852cbffcc9a044a7078496fdc1e32, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -6.5
+      value: -7.1
       objectReference: {fileID: 0}
     - target: {fileID: 400098, guid: 60a852cbffcc9a044a7078496fdc1e32, type: 3}
       propertyPath: m_LocalRotation.x
@@ -119417,7 +119428,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400098, guid: 60a852cbffcc9a044a7078496fdc1e32, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 400098, guid: 60a852cbffcc9a044a7078496fdc1e32, type: 3}
       propertyPath: m_LocalScale.x
@@ -120062,7 +120073,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1842165998
 Transform:
   m_ObjectHideFlags: 0
@@ -120187,7 +120198,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: 1584060074
+  randomSeed: 1972972238
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -151721,6 +151732,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2007056624}
   - component: {fileID: 2007056623}
+  - component: {fileID: 2007056625}
   m_Layer: 8
   m_Name: Player
   m_TagString: Player
@@ -151759,6 +151771,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2007056625
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2007056622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a9009c2d30a7b74483acba3ebdb1b49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  barDisplay: 0
+  pos: {x: 20, y: 40}
+  size: {x: 60, y: 40}
+  emptyTex: {fileID: 0}
+  fullTex: {fileID: 0}
 --- !u!1 &2008438678
 GameObject:
   m_ObjectHideFlags: 0
@@ -153233,6 +153261,17 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 1838099124}
+        m_MethodName: UnPause
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1697379418}
         m_MethodName: UnPause
         m_Mode: 1
         m_Arguments:
