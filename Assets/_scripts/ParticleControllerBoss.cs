@@ -10,6 +10,8 @@ public class ParticleControllerBoss : MonoBehaviour
     public ParticleSystem spin;
     public ParticleSystem spin2;
 
+    public ParticleSystem smog;
+
     public ParticleSystem testSpin;
 
 
@@ -17,24 +19,29 @@ public class ParticleControllerBoss : MonoBehaviour
     {
         if (Input.GetKeyDown("q"))
         {
-                jump.Play();
-                Debug.Log("JumpAttack");
+            jump.Play();
+            Debug.Log("JumpAttack");
         }
 
         if (Input.GetKeyDown("w"))
         {
-                duck.Play();
-                Debug.Log("DuckAttack");
+            duck.Play();
+            Debug.Log("DuckAttack");
         }
 
         if (Input.GetKeyDown("e"))
         {
-                spin.Play();
-                spin2.Play();
-                Debug.Log("SpinAttack");
+            spin.Play();
+            spin2.Play();
+            //smog.Play();
+            Debug.Log("SpinAttack");
         }
 
-
+        if(Input.GetKeyDown("r"))
+        {
+            smog.Play();
+            Debug.Log("Smog");
+        }
 
     }
 
