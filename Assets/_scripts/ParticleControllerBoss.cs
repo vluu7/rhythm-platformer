@@ -30,6 +30,7 @@ public class ParticleControllerBoss : MonoBehaviour
         if (Input.GetKeyDown("e"))
         {
                 spin.Play();
+                spin2.Play();
                 Debug.Log("SpinAttack");
         }
 
