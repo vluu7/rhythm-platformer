@@ -9,6 +9,8 @@ namespace SonicBloom.Koreo.Demos
 {
     [RequireComponent(typeof(ParticleSystem))]
     [AddComponentMenu("Koreographer/Demos/Boss Attack")]
+    //public ParticleSystem particle;
+
     public class BossAttack : MonoBehaviour
     {
         [EventID]
