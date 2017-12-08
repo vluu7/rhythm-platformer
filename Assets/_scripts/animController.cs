@@ -46,7 +46,7 @@ public class animController : MonoBehaviour {
 
         if (Input.GetKeyDown("d"))
         {
-            GameObject.Find("NewFox").transform.position = new Vector3(GameObject.FindGameObjectWithTag("Fox").transform.position.x, 2.5f, -7);
+            //GameObject.Find("NewFox").transform.position = new Vector3(GameObject.FindGameObjectWithTag("Fox").transform.position.x, 2.5f, -7);
             anim.Play("spin");
         }
 
@@ -56,9 +56,9 @@ public class animController : MonoBehaviour {
             if (AnimationTracker == 1)
             {
                 //GameObject.Find("NewFox").transform.position = new Vector3(GameObject.FindGameObjectWithTag("Fox").transform.position.x, 2.5f, -7);
-                anim.Play("jump");
+                //anim.Play("jump");
                 Debug.Log("Jump");
-                //ExecuteAfterTime(0.8f);
+                StartCoroutine("ExecuteAfterTime");
             }
         }
         else
@@ -69,13 +69,13 @@ public class animController : MonoBehaviour {
 
     }
 
-    /*public IEnumerator ExecuteAfterTime(float time)
+    IEnumerator ExecuteAfterTime()
     {
+        GameObject.Find("NewFox").transform.position = new Vector3(GameObject.FindGameObjectWithTag("NewFox").transform.position.x, 2.5f, -7);
+        anim.Play("jump");
+        yield return new WaitForSeconds(0.5f); // the program waits time seconds before continuing
+        GameObject.Find("NewFox").transform.position = new Vector3(GameObject.FindGameObjectWithTag("NewFox").transform.position.x, -3.01f, -7);
         Debug.Log("Jumped");
-        GameObject.Find("NewFox").transform.position = new Vector3(GameObject.FindGameObjectWithTag("Fox").transform.position.x, 2.5f, -7);
-        anim.Play("FoxJumpBroken");
-        yield return new WaitForSeconds(time); // the program waits time seconds before continuing
-        GameObject.Find("NewFox").transform.position = new Vector3(GameObject.FindGameObjectWithTag("Fox").transform.position.x, -3.01f, -7);
-    }*/
+    }
 
 }
