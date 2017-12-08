@@ -46,7 +46,7 @@ public class Weapon : MonoBehaviour
     void Shoot()
     {
         Debug.Log("TestShoot");
-        Vector3 playerPosition = new Vector3(GameObject.FindGameObjectWithTag("Fox").transform.position.x, GameObject.FindGameObjectWithTag("Fox").transform.position.y, GameObject.FindGameObjectWithTag("Fox").transform.position.z);
+        Vector3 playerPosition = new Vector3(GameObject.FindGameObjectWithTag("NewFox").transform.position.x, GameObject.FindGameObjectWithTag("NewFox").transform.position.y, GameObject.FindGameObjectWithTag("NewFox").transform.position.z);
         Vector3 firePointPosition = new Vector3(firePoint.position.x, firePoint.position.y, firePoint.position.z);
         RaycastHit2D hit = Physics2D.Raycast (firePointPosition, playerPosition - firePointPosition, 100, WhatToHit);
         Debug.DrawLine(firePointPosition, (playerPosition-firePointPosition)*100);

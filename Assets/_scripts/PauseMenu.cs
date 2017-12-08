@@ -9,7 +9,8 @@ public class PauseMenu : MonoBehaviour {
     public AudioClip clip;
     public GameObject PauseUI;
     public GameObject OnScreenButtons;
-    private bool paused = false;
+    private bool paused = true;
+    private bool startGame = true;
 
     void Start()
     {
@@ -21,16 +22,23 @@ public class PauseMenu : MonoBehaviour {
         if(Input.GetButtonDown("Pause"))
         {
             paused = !paused;
+            startGame = !startGame;
         }
 
-        if(paused)
+        if (paused && startGame)
+        {
+            Time.timeScale = 0;
+        }
+        else if (paused && !startGame)
         {
             PauseUI.SetActive(true);
+            OnScreenButtons.SetActive(false);
             Time.timeScale = 0;
         }
         else if(!paused)
         {
             PauseUI.SetActive(false);
+            OnScreenButtons.SetActive(true);
             Time.timeScale = 1;
         }
 
@@ -55,6 +63,12 @@ public class PauseMenu : MonoBehaviour {
     public void MainMenu()
     {
         SceneManager.LoadScene(0);
+    }
+
+    public void EndCountdownPause(bool check)
+    {
+        paused = check;
+        startGame = check;
     }
 
 }

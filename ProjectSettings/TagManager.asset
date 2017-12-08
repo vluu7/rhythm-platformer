@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Fox
   - NewFox
+  - Fire
   layers:
   - Default
   - TransparentFX
