@@ -6,7 +6,6 @@ public class Timer : MonoBehaviour
 {
     public float timeLeft = 3;
     public Text countdownText;
-    private bool paused = true;
     private bool checkPaused;
     private bool startGame;
     public GameObject startBuffer;
@@ -16,6 +15,7 @@ public class Timer : MonoBehaviour
     // Use this for initialization
     void Start()
     {
+        GameObject.Find("Music Player").SendMessage("PauseMusic", true);
         OnScreenButtons.SetActive(false);
         pauseEndTime = Time.realtimeSinceStartup + 3;
         StartCoroutine("LoseTime");
@@ -29,18 +29,8 @@ public class Timer : MonoBehaviour
         if (timeLeft < 0)
         {
             StopCoroutine("LoseTime");
-            paused = false;
         }
 
-        /*if(paused)
-        {
-            Time.timeScale = 0;
-        }
-        else if (!paused)
-        {
-            GameObject.Find("Main Camera").SendMessage("EndCountdownPause", false);
-            Time.timeScale = 1;
-        }*/
     }
 
     IEnumerator LoseTime()
@@ -58,6 +48,7 @@ public class Timer : MonoBehaviour
 
         GameObject.Find("Main Camera").SendMessage("EndCountdownPause", false);
         Time.timeScale = 1;
+        GameObject.Find("Music Player").SendMessage("PauseMusic", false);
         startBuffer.SetActive(false);
         OnScreenButtons.SetActive(true);
 

@@ -114540,6 +114540,7 @@ GameObject:
   - component: {fileID: 1697379419}
   - component: {fileID: 1697379418}
   - component: {fileID: 1697379417}
+  - component: {fileID: 1697379420}
   m_Layer: 0
   m_Name: Music Player
   m_TagString: Untagged
@@ -114667,6 +114668,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   loadedKoreography: []
   eventDelayInSeconds: 0
+--- !u!114 &1697379420
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1697379415}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70f6b60c0384b8940b74092e044c2232, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Audio: {fileID: 1697379418}
 --- !u!1 &1698201733
 GameObject:
   m_ObjectHideFlags: 0
