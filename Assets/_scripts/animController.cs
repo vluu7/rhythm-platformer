@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class animController : MonoBehaviour {
+public class AnimController : MonoBehaviour {
 
     public Animator anim;
     private int AnimationTracker = 0;
@@ -16,17 +16,17 @@ public class animController : MonoBehaviour {
 	void Update () {
 		if(Input.GetKeyDown("w"))
         {
-            anim.Play("Tofu Slam");
+            anim.Play("projectile");
         }
 
         if(Input.GetKeyDown("q"))
         {
-            anim.Play("TofuFling");
+            anim.Play("lunge");
         }
 
         if(Input.GetKeyDown("e"))
         {
-            anim.Play("ProjectileAttack2");
+            anim.Play("smog");
         }
 
         if (Input.GetKeyDown("a"))
