@@ -14,6 +14,10 @@ public class ParticleControllerBoss : MonoBehaviour
 
     public ParticleSystem testSpin;
 
+    private void Start()
+    {
+
+    }
 
     void Update()
     {

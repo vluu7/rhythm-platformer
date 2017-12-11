@@ -14,22 +14,23 @@ public class AnimController : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if(Input.GetKeyDown("w"))
-        {
-            anim.Play("projectile");
-        }
 
         if(Input.GetKeyDown("q"))
         {
-            anim.Play("lunge");
+            StartCoroutine("BossCueJump");
         }
 
-        if(Input.GetKeyDown("e"))
+        if (Input.GetKeyDown("w"))
         {
-            anim.Play("smog");
+            StartCoroutine("BossCueDuck");
         }
 
-        if (Input.GetKeyDown("a"))
+        if (Input.GetKeyDown("e"))
+        {
+            StartCoroutine("BossCueSmog");
+        }
+
+        if (Input.GetKeyDown("s"))
         {
             anim.Play("duck");
         }
@@ -50,14 +51,14 @@ public class AnimController : MonoBehaviour {
             anim.Play("spin");
         }
 
-        if (Input.GetKeyDown("s"))
+        if (Input.GetKeyDown("a"))
         {
             AnimationTracker = 1;
             if (AnimationTracker == 1)
             {
                 //GameObject.Find("NewFox").transform.position = new Vector3(GameObject.FindGameObjectWithTag("Fox").transform.position.x, 2.5f, -7);
                 //anim.Play("jump");
-                Debug.Log("Jump");
+                Debug.Log("jump");
                 StartCoroutine("ExecuteAfterTime");
             }
         }
@@ -76,6 +77,24 @@ public class AnimController : MonoBehaviour {
         yield return new WaitForSeconds(0.5f); // the program waits time seconds before continuing
         GameObject.Find("NewFox").transform.position = new Vector3(GameObject.FindGameObjectWithTag("NewFox").transform.position.x, -3.01f, -7);
         Debug.Log("Jumped");
+    }
+
+    IEnumerator BossCueJump()
+    {
+        yield return new WaitForSecondsRealtime(0.5f);
+        anim.Play("lunge");
+    }
+
+    IEnumerator BossCueDuck()
+    {
+        yield return new WaitForSecondsRealtime(0.5f);
+        anim.Play("projectile");
+    }
+
+    IEnumerator BossCueSmog()
+    {
+        yield return new WaitForSecondsRealtime(0.5f);
+        anim.Play("smog");
     }
 
 }
