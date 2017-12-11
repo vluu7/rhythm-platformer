@@ -7,8 +7,16 @@ public class AnimController : MonoBehaviour {
     public Animator anim;
     private int AnimationTracker = 0;
 
-	// Use this for initialization
-	void Start () {
+    public ParticleSystem jump;
+    public ParticleSystem duck;
+    public ParticleSystem spin;
+    public ParticleSystem spin2;
+    public ParticleSystem smog;
+
+    public ParticleSystem testSpin;
+
+    // Use this for initialization
+    void Start () {
         anim = GetComponent<Animator>();
 	}
 	
