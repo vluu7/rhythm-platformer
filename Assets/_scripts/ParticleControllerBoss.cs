@@ -6,7 +6,7 @@ public class ParticleControllerBoss : MonoBehaviour
 {
     /*
      * 
-     * THIS SCRIPT IS OBSOLETE, PARTICLES ARE NOW CONTROLLED IN ANIMCONTROLLER
+     * THIS SCRIPT IS OBSOLETE, BOSS PARTICLES ARE NOW CONTROLLED IN ANIMCONTROLLER
      * 
      * 
      */

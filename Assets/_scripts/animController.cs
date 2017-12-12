@@ -6,14 +6,28 @@ public class AnimController : MonoBehaviour {
 
     public Animator anim;
     private int AnimationTracker = 0;
+    public float speed;
 
+    //Boss Particle Systems/Game Objects
     public ParticleSystem jumpBoss;
     public ParticleSystem duckBoss;
+    public ParticleSystem duckProjectile;
     public ParticleSystem spinBoss;
     public ParticleSystem spin2Boss;
     public ParticleSystem smogBoss;
 
+    /*public Transform SpawnPoint;
+    public Transform Spike2;
+    public GameObject spike;*/
+
+    //Fox Particle Systems/ GameObjects
     public ParticleSystem testSpin;
+    public ParticleSystem runningSparks;
+    public ParticleSystem FoxFinalAttack;
+    public ParticleSystem FoxFinalAttack1;
+    public ParticleSystem FoxFinalAttackBall;
+    public ParticleSystem FoxFinalAttackBall1;
+    //public Transform FoxPlayer;
 
     // Use this for initialization
     void Start () {
@@ -50,7 +64,7 @@ public class AnimController : MonoBehaviour {
 
         if (Input.GetKeyDown("g"))
         {
-            anim.Play("finalAttack");
+            StartCoroutine("FinalAttack");
         }
 
         if (Input.GetKeyDown("d"))
@@ -64,9 +78,7 @@ public class AnimController : MonoBehaviour {
             AnimationTracker = 1;
             if (AnimationTracker == 1)
             {
-                StartCoroutine("ExecuteAfterTime");
-                //GameObject.Find("NewFox").transform.position = new Vector3(GameObject.FindGameObjectWithTag("Fox").transform.position.x, 2.5f, -7);
-                //anim.Play("jump");
+                StartCoroutine("ExecuteAfterTimeJump");
                 Debug.Log("jump");
             }
         }
@@ -78,12 +90,30 @@ public class AnimController : MonoBehaviour {
 
     }
 
-    IEnumerator ExecuteAfterTime()
+    IEnumerator FinalAttack()
     {
-        GameObject.Find("NewFox").transform.position = new Vector3(GameObject.FindGameObjectWithTag("NewFox").transform.position.x, 2.5f, -7);
+        //runningSparks.Pause();
+        GameObject.Find("NewFox").transform.position = new Vector3(GameObject.FindGameObjectWithTag("NewFox").transform.position.x, 2.8f, -11.33f);
+        anim.Play("finalAttack");
+        yield return new WaitForSeconds(1.2f); // the program waits time seconds before continuing
+        FoxFinalAttack.Play();
+        FoxFinalAttack1.Play();
+        yield return new WaitForSeconds(1);
+        FoxFinalAttackBall.Play();
+        FoxFinalAttackBall1.Play();
+        yield return new WaitForSeconds(2);
+        GameObject.Find("NewFox").transform.position = new Vector3(GameObject.FindGameObjectWithTag("NewFox").transform.position.x, -3.01f, -11.33f);
+        //runningSparks.Play();
+    }
+
+    IEnumerator ExecuteAfterTimeJump()
+    {
+        GameObject.Find("NewFox").transform.position = new Vector3(GameObject.FindGameObjectWithTag("NewFox").transform.position.x, 0.5f, -11.33f);
+        //yield return new WaitForSeconds(0.009f); // the program waits time seconds before continuing
+        GameObject.Find("NewFox").transform.position = new Vector3(GameObject.FindGameObjectWithTag("NewFox").transform.position.x, 1, -11.33f);
         anim.Play("jump");
-        yield return new WaitForSeconds(0.5f); // the program waits time seconds before continuing
-        GameObject.Find("NewFox").transform.position = new Vector3(GameObject.FindGameObjectWithTag("NewFox").transform.position.x, -3.01f, -7);
+        yield return new WaitForSeconds(0.25f); // the program waits time seconds before continuing
+        GameObject.Find("NewFox").transform.position = new Vector3(GameObject.FindGameObjectWithTag("NewFox").transform.position.x, -3.01f, -11.33f);
         Debug.Log("Jumped");
     }
 
@@ -99,6 +129,13 @@ public class AnimController : MonoBehaviour {
         duckBoss.Play();
         yield return new WaitForSecondsRealtime(0.5f);
         anim.Play("projectile");
+        yield return new WaitForSecondsRealtime(0.2f);
+        duckProjectile.Play();
+        /*float step = speed * Time.deltaTime;
+        Instantiate(spike, new Vector3(GameObject.FindGameObjectWithTag("weapon").transform.position.x, -2, -7), Spike2.rotation);
+        spike.transform.position = Vector3.MoveTowards(transform.position, FoxPlayer.position, step);
+        yield return new WaitForSecondsRealtime(0.5f);
+        Destroy(spike);*/
     }
 
     IEnumerator BossCueSmog()
@@ -107,7 +144,7 @@ public class AnimController : MonoBehaviour {
         spin2Boss.Play();
         yield return new WaitForSecondsRealtime(0.5f);
         anim.Play("smog");
-        yield return new WaitForSecondsRealtime(0.2f);
+        yield return new WaitForSecondsRealtime(0.25f);
         smogBoss.Play();
     }
 
