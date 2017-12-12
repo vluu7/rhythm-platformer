@@ -19099,7 +19099,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: 1394196751
+  randomSeed: 349267292
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -71096,11 +71096,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   anim: {fileID: 905927049}
-  jump: {fileID: 0}
-  duck: {fileID: 0}
-  spin: {fileID: 0}
-  spin2: {fileID: 0}
-  smog: {fileID: 0}
+  jumpBoss: {fileID: 0}
+  duckBoss: {fileID: 0}
+  spinBoss: {fileID: 0}
+  spin2Boss: {fileID: 0}
+  smogBoss: {fileID: 0}
   testSpin: {fileID: 0}
 --- !u!114 &905927051
 MonoBehaviour:
@@ -83099,7 +83099,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: 347403083
+  randomSeed: 182822268
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -98106,11 +98106,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   anim: {fileID: 1241866813}
-  jump: {fileID: 158525577}
-  duck: {fileID: 1029342635}
-  spin: {fileID: 70254443}
-  spin2: {fileID: 524870713}
-  smog: {fileID: 115510964}
+  jumpBoss: {fileID: 158525577}
+  duckBoss: {fileID: 1029342635}
+  spinBoss: {fileID: 70254443}
+  spin2Boss: {fileID: 524870713}
+  smogBoss: {fileID: 115510964}
   testSpin: {fileID: 1029342635}
 --- !u!1 &1243608572
 GameObject:
@@ -119379,11 +119379,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   anim: {fileID: 1792098693}
-  jump: {fileID: 0}
-  duck: {fileID: 0}
-  spin: {fileID: 0}
-  spin2: {fileID: 0}
-  smog: {fileID: 0}
+  jumpBoss: {fileID: 0}
+  duckBoss: {fileID: 0}
+  spinBoss: {fileID: 0}
+  spin2Boss: {fileID: 0}
+  smogBoss: {fileID: 0}
   testSpin: {fileID: 0}
 --- !u!95 &1792098693
 Animator:
@@ -119696,11 +119696,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   anim: {fileID: 1812828012}
-  jump: {fileID: 0}
-  duck: {fileID: 0}
-  spin: {fileID: 0}
-  spin2: {fileID: 0}
-  smog: {fileID: 0}
+  jumpBoss: {fileID: 0}
+  duckBoss: {fileID: 0}
+  spinBoss: {fileID: 0}
+  spin2Boss: {fileID: 0}
+  smogBoss: {fileID: 0}
   testSpin: {fileID: 0}
 --- !u!1 &1813289116
 GameObject:

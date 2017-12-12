@@ -7,11 +7,11 @@ public class AnimController : MonoBehaviour {
     public Animator anim;
     private int AnimationTracker = 0;
 
-    public ParticleSystem jump;
-    public ParticleSystem duck;
-    public ParticleSystem spin;
-    public ParticleSystem spin2;
-    public ParticleSystem smog;
+    public ParticleSystem jumpBoss;
+    public ParticleSystem duckBoss;
+    public ParticleSystem spinBoss;
+    public ParticleSystem spin2Boss;
+    public ParticleSystem smogBoss;
 
     public ParticleSystem testSpin;
 
@@ -89,26 +89,26 @@ public class AnimController : MonoBehaviour {
 
     IEnumerator BossCueJump()
     {
-        jump.Play();
+        jumpBoss.Play();
         yield return new WaitForSecondsRealtime(0.5f);
         anim.Play("lunge");
     }
 
     IEnumerator BossCueDuck()
     {
-        duck.Play();
+        duckBoss.Play();
         yield return new WaitForSecondsRealtime(0.5f);
         anim.Play("projectile");
     }
 
     IEnumerator BossCueSmog()
     {
-        spin.Play();
-        spin2.Play();
+        spinBoss.Play();
+        spin2Boss.Play();
         yield return new WaitForSecondsRealtime(0.5f);
         anim.Play("smog");
         yield return new WaitForSecondsRealtime(0.2f);
-        smog.Play();
+        smogBoss.Play();
     }
 
 }
