@@ -33,3 +33,5 @@ sysinfo.txt
 *.apk
 *.unitypackage
 Library/expandedItems
+Library/assetDatabase3
+Library/metadata/00/00000000000000008000000000000000
