@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1223223985, guid: aa81bbec85a3f423193272a7c6154986, type: 3}
+  m_Name: SchubertTrack
+  m_EditorClassIdentifier: 
+  mEventID: Piano
+  mEventList:
+  - mStartSample: 51212
+    mEndSample: 51212
+  - mStartSample: 85354
+    mEndSample: 85354
+  - mStartSample: 102425
+    mEndSample: 102425
+  - mStartSample: 119496
+    mEndSample: 119496
+  - mStartSample: 136567
+    mEndSample: 136567
+  - mStartSample: 153638
+    mEndSample: 153638
+  - mStartSample: 170709
+    mEndSample: 170709
+  - mStartSample: 187780
+    mEndSample: 187780
+  - mStartSample: 204851
+    mEndSample: 204851
+  - mStartSample: 238993
+    mEndSample: 238993
+  - mStartSample: 256064
+    mEndSample: 256064
+  - mStartSample: 273135
+    mEndSample: 273135
+  - mStartSample: 290206
+    mEndSample: 290206
+  - mStartSample: 307277
+    mEndSample: 307277
+  - mStartSample: 324348
+    mEndSample: 324348
+  - mStartSample: 341419
+    mEndSample: 341419
+  - mStartSample: 358490
+    mEndSample: 358490
+  _SerializedPayloadTypes:
+  - SonicBloom.Koreo.TextPayload
+  _AssetPayloads: []
+  _AssetPayloadIdxs: 
+  _ColorPayloads: []
+  _ColorPayloadIdxs: 
+  _CurvePayloads: []
+  _CurvePayloadIdxs: 
+  _FloatPayloads: []
+  _FloatPayloadIdxs: 
+  _GradientPayloads: []
+  _GradientPayloadIdxs: 
+  _IntPayloads: []
+  _IntPayloadIdxs: 
+  _SpectrumPayloads: []
+  _SpectrumPayloadIdxs: 
+  _TextPayloads:
+  - mTextVal: C
+  - mTextVal: 
+  - mTextVal: 
+  - mTextVal: 
+  - mTextVal: 
+  - mTextVal: 
+  - mTextVal: 
+  - mTextVal: 
+  - mTextVal: 
+  - mTextVal: 
+  - mTextVal: 
+  - mTextVal: 
+  - mTextVal: 
+  - mTextVal: 
+  - mTextVal: 
+  - mTextVal: 
+  - mTextVal: 
+  _TextPayloadIdxs: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f00000010000000

@@ -64,17 +64,17 @@ public class AnimController : MonoBehaviour {
             AnimationTracker = 1;
             if (AnimationTracker == 1)
             {
+                StartCoroutine("ExecuteAfterTime");
                 //GameObject.Find("NewFox").transform.position = new Vector3(GameObject.FindGameObjectWithTag("Fox").transform.position.x, 2.5f, -7);
                 //anim.Play("jump");
                 Debug.Log("jump");
-                StartCoroutine("ExecuteAfterTime");
             }
         }
-        else
+        /*else
         {
             GameObject.Find("NewFox").transform.position = new Vector3(GameObject.FindGameObjectWithTag("Fox").transform.position.x, -3.01f, -7);
             AnimationTracker = 0;
-        }
+        }*/
 
     }
 
@@ -89,20 +89,26 @@ public class AnimController : MonoBehaviour {
 
     IEnumerator BossCueJump()
     {
+        jump.Play();
         yield return new WaitForSecondsRealtime(0.5f);
         anim.Play("lunge");
     }
 
     IEnumerator BossCueDuck()
     {
+        duck.Play();
         yield return new WaitForSecondsRealtime(0.5f);
         anim.Play("projectile");
     }
 
     IEnumerator BossCueSmog()
     {
+        spin.Play();
+        spin2.Play();
         yield return new WaitForSecondsRealtime(0.5f);
         anim.Play("smog");
+        yield return new WaitForSecondsRealtime(0.2f);
+        smog.Play();
     }
 
 }
