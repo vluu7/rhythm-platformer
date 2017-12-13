@@ -165,7 +165,7 @@ public class RhythmTest : MonoBehaviour
         yield return new WaitForSeconds(2.4f);
         print(Time.time);
         StartCoroutine("BossCueJump");
-        yield return new WaitForSeconds(0.8f);
+        yield return new WaitForSeconds();
 
         print(Time.time);
     }

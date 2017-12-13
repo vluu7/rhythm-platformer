@@ -41,9 +41,9 @@ public class animController : MonoBehaviour
     {
         //GameOverUI.SetActive(false);
         anim = GetComponent<Animator>();
+<<<<<<< HEAD
         FinalAttackLightHit.intensity = 0;
         FinalAttackLightCharge.intensity = 0;
-        StartCoroutine(RoadMap());
     }
 
     public void FadeIn()
@@ -68,6 +68,9 @@ public class animController : MonoBehaviour
                 
             }
         }
+=======
+        StartCoroutine(RoadMap());
+>>>>>>> 3ae129a099d937f69285b69adf0a891d5f92c637
     }
 
     // Update is called once per frame
@@ -212,14 +215,13 @@ public class animController : MonoBehaviour
         smogBoss.Play();
     }
 
+    // total seconds until the song ends = 100 !!!
     IEnumerator RoadMap()
     {
-        // the song ends at 100 seconds!
         print(Time.time);
         yield return new WaitForSeconds(2.4f);
         print(Time.time);
         StartCoroutine("BossCueJump");
-        yield return new WaitForSeconds(0.8f);
         print(Time.time);
     }
 
