@@ -24,7 +24,7 @@ public class FoxSoundEffects : MonoBehaviour {
 
     IEnumerator FinalAttackCharge()
     {
-        yield return new WaitForSeconds(0.8f);
+        yield return new WaitForSeconds(4.7f);
         audioSources[0].clip = audioClips[0];
         audioSources[0].Play();
         yield return new WaitForSeconds(1.5f);

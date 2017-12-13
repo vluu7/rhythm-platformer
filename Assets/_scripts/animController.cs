@@ -11,6 +11,10 @@ public class animController : MonoBehaviour
     public Light FinalAttackLightHit;
     public Light FinalAttackLightCharge;
     private int AnimationTracker = 0;
+    public AudioSource[] BossAudioSources = new AudioSource[2];
+    public AudioClip[] BossSFX = new AudioClip[2];
+    public AudioSource[] FoxAudioSources = new AudioSource[2];
+    public AudioClip[] FoxSFX = new AudioClip[2];
     //public float speed;
 
     // The song (actually) ends around 100 seconds in
@@ -48,6 +52,7 @@ public class animController : MonoBehaviour
     // Use this for initialization
     void Start()
     {
+        //BossAudioSources[0].Play();
         StartCoroutine(RoadMap());
         anim = GetComponent<Animator>();
         FinalAttackLightHit.intensity = 0;
@@ -119,6 +124,8 @@ public class animController : MonoBehaviour
         if (Input.GetKeyDown("d"))
         {
             //GameObject.Find("NewFox").transform.position = new Vector3(GameObject.FindGameObjectWithTag("Fox").transform.position.x, 2.5f, -7);
+            FoxAudioSources[0].clip = FoxSFX[0];
+            FoxAudioSources[0].Play();
             anim.Play("spin");
         }
 
@@ -164,6 +171,8 @@ public class animController : MonoBehaviour
 
     IEnumerator FoxDuck()
     {
+        FoxAudioSources[0].clip = FoxSFX[0];
+        FoxAudioSources[0].Play();
         GameObject.Find("NewFox").transform.position = new Vector3(GameObject.FindGameObjectWithTag("NewFox").transform.position.x, -4.0f, -11.33f);
         anim.Play("duck");
         yield return new WaitForSeconds(0.2f);
@@ -205,6 +214,8 @@ public class animController : MonoBehaviour
 
     IEnumerator ExecuteAfterTimeJump()
     {
+        FoxAudioSources[0].clip = FoxSFX[0];
+        FoxAudioSources[0].Play();
         GameObject.Find("NewFox").transform.position = new Vector3(GameObject.FindGameObjectWithTag("NewFox").transform.position.x, 0.5f, -11.33f);
         //yield return new WaitForSeconds(0.009f); // the program waits time seconds before continuing
         GameObject.Find("NewFox").transform.position = new Vector3(GameObject.FindGameObjectWithTag("NewFox").transform.position.x, 1, -11.33f);
@@ -219,8 +230,11 @@ public class animController : MonoBehaviour
     {
         jumpBoss.Play();
         yield return new WaitForSeconds(0.5f);
+        BossAudioSources[0].clip = BossSFX[0];
+        BossAudioSources[0].Play();
+        yield return new WaitForSeconds(0.1f);
         anim.Play("lunge");                     // 0.47s
-        yield return new WaitForSeconds(0.15f);
+        yield return new WaitForSeconds(0.05f);
         duckProjectile.Play();
     }
 
@@ -229,8 +243,11 @@ public class animController : MonoBehaviour
     {
         duckBoss.Play();
         yield return new WaitForSeconds(0.5f);
+        BossAudioSources[0].clip = BossSFX[0];
+        BossAudioSources[0].Play();
+        yield return new WaitForSeconds(0.1f);
         anim.Play("projectile");                // ~0.47s
-        yield return new WaitForSeconds(0.2f);
+        yield return new WaitForSeconds(0.1f);
         BossSecondAttackSweep.Play();
         /*float step = speed * Time.deltaTime;
         Instantiate(spike, new Vector3(GameObject.FindGameObjectWithTag("weapon").transform.position.x, -2, -7), Spike2.rotation);
@@ -245,8 +262,11 @@ public class animController : MonoBehaviour
         spinBoss.Play();
         spin2Boss.Play();
         yield return new WaitForSeconds(0.5f);
+        BossAudioSources[0].clip = BossSFX[0];
+        BossAudioSources[0].Play();
+        yield return new WaitForSeconds(0.1f);
         anim.Play("smog");                      // ~0.55s
-        yield return new WaitForSeconds(0.25f);
+        yield return new WaitForSeconds(0.15f);
         smogBoss.Play();
     }
 
