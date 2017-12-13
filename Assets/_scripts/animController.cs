@@ -6,6 +6,7 @@ public class animController : MonoBehaviour
 {
     public Animator anim;
     public GameObject GameOverUI;
+    public GameObject GameOverUILose;
     public CanvasGroup uiElement;
     public Light FinalAttackLightHit;
     public Light FinalAttackLightCharge;
@@ -42,10 +43,11 @@ public class animController : MonoBehaviour
     void Start()
     {
         StartCoroutine(RoadMap());
-        //GameOverUI.SetActive(false);
         anim = GetComponent<Animator>();
         FinalAttackLightHit.intensity = 0;
         FinalAttackLightCharge.intensity = 0;
+        GameOverUI.SetActive(false);
+        GameOverUILose.SetActive(false);
     }
 
     public void FadeIn()
@@ -156,7 +158,7 @@ public class animController : MonoBehaviour
 
     IEnumerator FoxDuck()
     {
-        GameObject.Find("NewFox").transform.position = new Vector3(GameObject.FindGameObjectWithTag("NewFox").transform.position.x, -4.5f, -11.33f);
+        GameObject.Find("NewFox").transform.position = new Vector3(GameObject.FindGameObjectWithTag("NewFox").transform.position.x, -4.0f, -11.33f);
         anim.Play("duck");
         yield return new WaitForSeconds(0.2f);
         GameObject.Find("NewFox").transform.position = new Vector3(GameObject.FindGameObjectWithTag("NewFox").transform.position.x, -3.01f, -11.33f);
@@ -177,7 +179,7 @@ public class animController : MonoBehaviour
         bossDie.Play();
         StartCoroutine(LightFadeIn(FinalAttackLightHit));
         yield return new WaitForSeconds(1.1f);
-        //GameOverUI.SetActive(true);
+        GameOverUI.SetActive(true);
         FadeIn();
         yield return new WaitForSeconds(0.7f);
         GameObject.Find("NewFox").transform.position = new Vector3(GameObject.FindGameObjectWithTag("NewFox").transform.position.x, -3.01f, -11.33f);
