@@ -26,6 +26,12 @@ public class animController : MonoBehaviour
     public ParticleSystem smogBoss;
     public ParticleSystem bossDie;
 
+    public ParticleSystem FinalAttack1;
+    public ParticleSystem FinalAttack2;
+    public ParticleSystem FinalAttack3;
+    public ParticleSystem FinalAttack4;
+    public ParticleSystem FinalAttack5;
+
     /*public Transform SpawnPoint;
     public Transform Spike2;
     public GameObject spike;*/
@@ -166,6 +172,18 @@ public class animController : MonoBehaviour
 
     IEnumerator FinalAttack()
     {
+        FinalAttack1.Play();
+        FinalAttack2.Play();
+        FinalAttack3.Play();
+        FinalAttack4.Play();
+        FinalAttack5.Play();
+        yield return new WaitForSeconds(3);
+        FinalAttack1.Stop();
+        FinalAttack2.Stop();
+        FinalAttack3.Stop();
+        FinalAttack4.Stop();
+        FinalAttack5.Stop();
+        yield return new WaitForSeconds(0.7f);
         GameObject.Find("NewFox").transform.position = new Vector3(GameObject.FindGameObjectWithTag("NewFox").transform.position.x, 2.8f, -11.33f);
         anim.Play("finalAttack");
         yield return new WaitForSeconds(1.2f); // the program waits time seconds before continuing
