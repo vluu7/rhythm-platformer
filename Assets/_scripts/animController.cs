@@ -95,7 +95,7 @@ public class animController : MonoBehaviour
 
         if (Input.GetKeyDown("s"))
         {
-            anim.Play("duck");
+            StartCoroutine("FoxDuck");
         }
 
         if (Input.GetKeyDown("z"))
@@ -152,6 +152,14 @@ public class animController : MonoBehaviour
         }
         
         print("done");
+    }
+
+    IEnumerator FoxDuck()
+    {
+        GameObject.Find("NewFox").transform.position = new Vector3(GameObject.FindGameObjectWithTag("NewFox").transform.position.x, -4.5f, -11.33f);
+        anim.Play("duck");
+        yield return new WaitForSeconds(0.2f);
+        GameObject.Find("NewFox").transform.position = new Vector3(GameObject.FindGameObjectWithTag("NewFox").transform.position.x, -3.01f, -11.33f);
     }
 
     IEnumerator FinalAttack()
