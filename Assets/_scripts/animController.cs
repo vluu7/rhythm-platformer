@@ -123,16 +123,16 @@ public class AnimController : MonoBehaviour {
     IEnumerator BossCueJump()
     {
         jumpBoss.Play();
-        yield return new WaitForSecondsRealtime(0.5f);
+        yield return new WaitForSeconds(0.5f);
         anim.Play("lunge");
     }
 
     IEnumerator BossCueDuck()
     {
         duckBoss.Play();
-        yield return new WaitForSecondsRealtime(0.5f);
+        yield return new WaitForSeconds(0.5f);
         anim.Play("projectile");
-        yield return new WaitForSecondsRealtime(0.2f);
+        yield return new WaitForSeconds(0.2f);
         duckProjectile.Play();
         /*float step = speed * Time.deltaTime;
         Instantiate(spike, new Vector3(GameObject.FindGameObjectWithTag("weapon").transform.position.x, -2, -7), Spike2.rotation);
@@ -145,9 +145,9 @@ public class AnimController : MonoBehaviour {
     {
         spinBoss.Play();
         spin2Boss.Play();
-        yield return new WaitForSecondsRealtime(0.5f);
+        yield return new WaitForSeconds(0.5f);
         anim.Play("smog");
-        yield return new WaitForSecondsRealtime(0.25f);
+        yield return new WaitForSeconds(0.25f);
         smogBoss.Play();
     }
 
