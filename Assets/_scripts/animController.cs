@@ -181,19 +181,23 @@ public class animController : MonoBehaviour
         Debug.Log("Jumped");
     }
 
+    // total time elapsed: ~1.12s
     IEnumerator BossCueJump()
     {
         jumpBoss.Play();
         yield return new WaitForSeconds(0.5f);
+        // ~0.47s
         anim.Play("lunge");
         yield return new WaitForSeconds(0.15f);
         duckProjectile.Play();
     }
 
+    // total time elapsed: ~1.17s
     IEnumerator BossCueDuck()
     {
         duckBoss.Play();
         yield return new WaitForSeconds(0.5f);
+        // ~0.47s
         anim.Play("projectile");
         yield return new WaitForSeconds(0.2f);
         duckProjectile.Play();
@@ -204,11 +208,13 @@ public class animController : MonoBehaviour
         Destroy(spike);*/
     }
 
+    // total time elapsed: ~1.30s
     IEnumerator BossCueSmog()
     {
         spinBoss.Play();
         spin2Boss.Play();
         yield return new WaitForSeconds(0.5f);
+        // ~0.55s
         anim.Play("smog");
         yield return new WaitForSeconds(0.25f);
         smogBoss.Play();
