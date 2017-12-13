@@ -2,8 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class AnimController : MonoBehaviour
+public class animController : MonoBehaviour
 {
+
 
     public Animator anim;
     private int AnimationTracker = 0;
