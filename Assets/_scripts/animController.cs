@@ -297,7 +297,7 @@ public class animController : MonoBehaviour
         yield return new WaitForSeconds(2.56f);
         StartCoroutine("BossCueSmog");
         // 26.34 S
-        yield return new WaitForSeconds(0.63f);
+        yield return new WaitForSeconds(1.63f);
         StartCoroutine("BossCueSmog");
         // 27.88 D
         yield return new WaitForSeconds(0.89f);
@@ -306,7 +306,7 @@ public class animController : MonoBehaviour
         yield return new WaitForSeconds(0.85f);
         StartCoroutine("BossCueJump");
         // 30.21 J
-        yield return new WaitForSeconds(0.08f);
+        yield return new WaitForSeconds(1.08f);
         StartCoroutine("BossCueJump");
         // 31.04 D
         yield return new WaitForSeconds(0.18f);
@@ -324,76 +324,103 @@ public class animController : MonoBehaviour
         yield return new WaitForSeconds(0.81f);
         StartCoroutine("BossCueJump");
         // 37.94 D
-        yield return new WaitForSeconds(0.09f);
+        yield return new WaitForSeconds(0.89f);
         StartCoroutine("BossCueDuck");
         // 38.70 D
-        yield return new WaitForSeconds(0.11f);
+        yield return new WaitForSeconds(1.01f);
         StartCoroutine("BossCueDuck");
         // 39.49 J
-        yield return new WaitForSeconds(0.09f);
+        yield return new WaitForSeconds(0.79f);
         StartCoroutine("BossCueJump");
         // 40.31 D
-        yield return new WaitForSeconds(0.17f);
+        yield return new WaitForSeconds(0.97f);
         StartCoroutine("BossCueDuck");
         // 41.08 J
-        yield return new WaitForSeconds(0.07f);
+        yield return new WaitForSeconds(1.07f);
         StartCoroutine("BossCueJump");
         // 41.85 D
-        yield return new WaitForSeconds(0.12f);
+        yield return new WaitForSeconds(0.72f);
         StartCoroutine("BossCueDuck");
         // 42.61 J
         yield return new WaitForSeconds(0.06f);
         StartCoroutine("BossCueJump");
         // 43.74 S
-        yield return new WaitForSeconds(0.18f);
+        yield return new WaitForSeconds(0.98f);
         StartCoroutine("BossCueSmog");
         // 44.93 S
-        yield return new WaitForSeconds(0.24f);
+        yield return new WaitForSeconds(3.24f);
         StartCoroutine("BossCueSmog");
         // 45.74 J
-        yield return new WaitForSeconds(0.11f);
+        yield return new WaitForSeconds(1.11f);
+        StartCoroutine("BossCueJump");
+        //
+        yield return new WaitForSeconds(1.01f);
+        StartCoroutine("BossCueDuck");
+        // 39.49 J
+        yield return new WaitForSeconds(0.79f);
+        StartCoroutine("BossCueJump");
+        // 40.31 D
+        yield return new WaitForSeconds(0.97f);
+        StartCoroutine("BossCueDuck");
+        // 41.08 J
+        yield return new WaitForSeconds(1.07f);
+        StartCoroutine("BossCueJump");
+        // 41.85 D
+        yield return new WaitForSeconds(0.72f);
+        StartCoroutine("BossCueDuck");
+        // 42.61 J
+        yield return new WaitForSeconds(0.06f);
+        StartCoroutine("BossCueJump");
+        // 43.74 S
+        yield return new WaitForSeconds(0.98f);
+        StartCoroutine("BossCueSmog");
+        // 44.93 S
+        yield return new WaitForSeconds(3.24f);
+        StartCoroutine("BossCueSmog");
+        // 45.74 J
+        yield return new WaitForSeconds(1.11f);
         StartCoroutine("BossCueJump");
         // 46.49 J
-        yield return new WaitForSeconds(0.05f);
+        yield return new WaitForSeconds(1.05f);
         StartCoroutine("BossCueJump");
         // 47.26 D
-        yield return new WaitForSeconds(0.12f);
+        yield return new WaitForSeconds(1.12f);
         StartCoroutine("BossCueDuck");
         // 48.81 J
-        yield return new WaitForSeconds(0.85f);
+        yield return new WaitForSeconds(2.85f);
         StartCoroutine("BossCueJump");
         // 51.08 S
         yield return new WaitForSeconds(1.32f);
         StartCoroutine("BossCueSmog");
         // 52.66 J
-        yield return new WaitForSeconds(0.88f);
+        yield return new WaitForSeconds(1.88f);
         StartCoroutine("BossCueJump");
         // 54.22 D
-        yield return new WaitForSeconds(0.91f);
+        yield return new WaitForSeconds(2.91f);
         StartCoroutine("BossCueDuck");
         // 55.82 S
-        yield return new WaitForSeconds(0.65f);
+        yield return new WaitForSeconds(2.65f);
         StartCoroutine("BossCueSmog");
         // 56.57 D
-        yield return new WaitForSeconds(0.1f);
+        yield return new WaitForSeconds(1.1f);
         StartCoroutine("BossCueDuck");
         // 57.36 D
-        yield return new WaitForSeconds(0.14f);
+        yield return new WaitForSeconds(0.94f);
         StartCoroutine("BossCueDuck");
         // 58.11 J
-        yield return new WaitForSeconds(0.05f);
+        yield return new WaitForSeconds(0.85f);
         StartCoroutine("BossCueJump");
         // 58.86 J
-        yield return new WaitForSeconds(0.05f);
+        yield return new WaitForSeconds(0.95f);
         StartCoroutine("BossCueJump");
         // 60.43 S
         yield return new WaitForSeconds(0.62f);
         StartCoroutine("BossCueSmog");
         // 61.18 j
-        yield return new WaitForSeconds(0.05f);
+        yield return new WaitForSeconds(0.95f);
         StartCoroutine("BossCueJump");
         // 61.99 D
-        yield return new WaitForSeconds(0.16f);
+        yield return new WaitForSeconds(0.56f);
         StartCoroutine("BossCueDuck");
         // 63.52 D
         yield return new WaitForSeconds(0.88f);
@@ -408,34 +435,37 @@ public class animController : MonoBehaviour
         yield return new WaitForSeconds(0.91f);
         StartCoroutine("BossCueJump");
         // 68.95 J
-        yield return new WaitForSeconds(0.09f);
+        yield return new WaitForSeconds(0.99f);
         StartCoroutine("BossCueJump");
         // 69.71 J
-        yield return new WaitForSeconds(0.06f);
+        yield return new WaitForSeconds(0.96f);
         StartCoroutine("BossCueJump");
         // 70.46 D
-        yield return new WaitForSeconds(0.1f);
+        yield return new WaitForSeconds(0.91f);
         StartCoroutine("BossCueDuck");
         // 71.23 D
-        yield return new WaitForSeconds(0.12f);
+        yield return new WaitForSeconds(1.12f);
         StartCoroutine("BossCueDuck");
         // 72.82 S
-        yield return new WaitForSeconds(0.64f);
+        yield return new WaitForSeconds(2.64f);
         StartCoroutine("BossCueSmog");
         // 73.55 D
-        yield return new WaitForSeconds(0.03f);
+        yield return new WaitForSeconds(3.03f);
         StartCoroutine("BossCueDuck");
         // 74.39 S
-        yield return new WaitForSeconds(0.14f);
+        yield return new WaitForSeconds(2.14f);
         StartCoroutine("BossCueJump");
         // 75.14 D
-        yield return new WaitForSeconds(0.05f);
+        yield return new WaitForSeconds(0.95f);
         StartCoroutine("BossCueDuck");
         // 75.92 J
-        yield return new WaitForSeconds(0.05f);
+        yield return new WaitForSeconds(1.35f);
         StartCoroutine("BossCueJump");
         // 77.46 S
-        yield return new WaitForSeconds(0.59f);
+        yield return new WaitForSeconds(2.59f);
+        StartCoroutine("BossCueSmog");
+        // 77.46 S
+        yield return new WaitForSeconds(2.59f);
         StartCoroutine("BossCueSmog");
         // 78.23 J
         yield return new WaitForSeconds(0.07f);
@@ -443,9 +473,6 @@ public class animController : MonoBehaviour
         // 79.00 D
         yield return new WaitForSeconds(0.12f);
         StartCoroutine("BossCueDuck");
-        // 80.60 S
-        yield return new WaitForSeconds(0.65f);
-        StartCoroutine("BossCueSmog");
         // 81.35 D
         yield return new WaitForSeconds(0.10f);
         StartCoroutine("BossCueDuck");
@@ -481,9 +508,6 @@ public class animController : MonoBehaviour
         StartCoroutine("BossCueJump");
         // 91.04 D
         yield return new WaitForSeconds(0.14f);
-        StartCoroutine("BossCueDuck");
-        // 91.79 D
-        yield return new WaitForSeconds(0.1f);
         StartCoroutine("BossCueDuck");
         // 92.92 S
         yield return new WaitForSeconds(0.18f);
