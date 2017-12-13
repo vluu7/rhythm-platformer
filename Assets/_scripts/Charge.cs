@@ -25,8 +25,16 @@ public class Charge : MonoBehaviour {
 		GUI.EndGroup();
 	}
 
-	void Update() {
-		barDisplay = Time.time*0.02f;
-		//        barDisplay = MyControlScript.staticHealth;
+	void FixedUpdate() {
+		if (barDisplay < 1) {
+			barDisplay = barDisplay + 0.00014f;
+			Debug.Log (barDisplay);		
+			if (Input.GetKeyDown (KeyCode.O)) {
+				barDisplay = barDisplay - 200.0f / 1000.0f;
+				if (barDisplay < 0.0) {
+					barDisplay = 0;
+				}
+			}
+		}
 	}
 }
