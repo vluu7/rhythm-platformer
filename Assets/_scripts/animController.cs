@@ -7,6 +7,10 @@ public class animController : MonoBehaviour
 
 
     public Animator anim;
+    public GameObject GameOverUI;
+    public CanvasGroup uiElement;
+    public Light FinalAttackLightHit;
+    public Light FinalAttackLightCharge;
     private int AnimationTracker = 0;
     //public float speed;
 
@@ -35,7 +39,34 @@ public class animController : MonoBehaviour
     // Use this for initialization
     void Start()
     {
+        //GameOverUI.SetActive(false);
         anim = GetComponent<Animator>();
+        FinalAttackLightHit.intensity = 0;
+        FinalAttackLightCharge.intensity = 0;
+    }
+
+    public void FadeIn()
+    {
+        StartCoroutine(FadeCanvasGroup(uiElement, uiElement.alpha, 1));
+    }
+
+    IEnumerator LightFadeIn(Light lightSource)
+    {
+
+        for (int i = 0; i < 16; i++)
+        {
+            lightSource.intensity = i;
+            yield return new WaitForSeconds(0.01f);
+            if(i == 15)
+            {
+                for(int z = i; z >= 0; z--)
+                {
+                    lightSource.intensity = z;
+                    yield return new WaitForSeconds(0.09f);
+                }
+                
+            }
+        }
     }
 
     // Update is called once per frame
@@ -95,12 +126,35 @@ public class animController : MonoBehaviour
 
     }
 
+    public IEnumerator FadeCanvasGroup(CanvasGroup cg, float start, float end, float lerpTime = 0.25f)
+    {
+        float _timeStartedLerping = Time.time;
+        float timeSinceStarted = Time.time - _timeStartedLerping;
+        float percentageComplete = timeSinceStarted / lerpTime;
+
+        while(true)
+        {
+            timeSinceStarted = Time.time - _timeStartedLerping;
+            percentageComplete = timeSinceStarted / lerpTime;
+
+            float currentValue = Mathf.Lerp(start, end, percentageComplete);
+
+            cg.alpha = currentValue;
+
+            if (percentageComplete >= 1) break;
+
+            yield return new WaitForEndOfFrame();
+        }
+        
+        print("done");
+    }
+
     IEnumerator FinalAttack()
     {
-        //runningSparks.Pause();
         GameObject.Find("NewFox").transform.position = new Vector3(GameObject.FindGameObjectWithTag("NewFox").transform.position.x, 2.8f, -11.33f);
         anim.Play("finalAttack");
         yield return new WaitForSeconds(1.2f); // the program waits time seconds before continuing
+        StartCoroutine(LightFadeIn(FinalAttackLightCharge));
         FoxFinalAttack.Play();
         FoxFinalAttack1.Play();
         yield return new WaitForSeconds(0.7f);
@@ -108,9 +162,11 @@ public class animController : MonoBehaviour
         FoxFinalAttackBall1.Play();
         yield return new WaitForSeconds(0.5f);
         bossDie.Play();
-        yield return new WaitForSeconds(1.8f);
+        StartCoroutine(LightFadeIn(FinalAttackLightHit));
+        yield return new WaitForSeconds(1.1f);
+        FadeIn();
+        yield return new WaitForSeconds(0.7f);
         GameObject.Find("NewFox").transform.position = new Vector3(GameObject.FindGameObjectWithTag("NewFox").transform.position.x, -3.01f, -11.33f);
-        //runningSparks.Play();
     }
 
     IEnumerator ExecuteAfterTimeJump()
