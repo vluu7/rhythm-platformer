@@ -1,9 +1,9 @@
 fileFormatVersion: 2
-guid: 89f59809c088d455e905357d6a8afffc
+guid: 93954d43636f3cf46bb4270248fbe0a0
 timeCreated: 1512804211
 licenseType: Free
 ModelImporter:
-  serializedVersion: 22
+  serializedVersion: 21
   fileIDToRecycleName:
     100000: ambientLight1
     100002: imagePlane1
@@ -173,17 +173,10 @@ ModelImporter:
     13700038: pSphere3
     13700040: right_tooth
     13700042: snake_body
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: lambert6
-    second: {fileID: 2100000, guid: 23a02e89805887d4c9b8f1b1e3bb8217, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
     materialSearch: 1
-    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
@@ -196,7 +189,6 @@ ModelImporter:
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
-    importAnimatedCustomProperties: 0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
