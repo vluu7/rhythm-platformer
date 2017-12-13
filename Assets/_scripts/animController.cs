@@ -19,6 +19,7 @@ public class animController : MonoBehaviour
     public ParticleSystem jumpBoss;
     public ParticleSystem duckBoss;
     public ParticleSystem duckProjectile;
+    public ParticleSystem BossSecondAttackSweep;
     public ParticleSystem spinBoss;
     public ParticleSystem spin2Boss;
     public ParticleSystem smogBoss;
@@ -202,7 +203,7 @@ public class animController : MonoBehaviour
         yield return new WaitForSeconds(0.5f);
         anim.Play("projectile");                // ~0.47s
         yield return new WaitForSeconds(0.2f);
-        duckProjectile.Play();
+        BossSecondAttackSweep.Play();
         /*float step = speed * Time.deltaTime;
         Instantiate(spike, new Vector3(GameObject.FindGameObjectWithTag("weapon").transform.position.x, -2, -7), Spike2.rotation);
         spike.transform.position = Vector3.MoveTowards(transform.position, FoxPlayer.position, step);
