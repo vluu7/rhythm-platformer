@@ -28,6 +28,7 @@ public class Charge : MonoBehaviour {
 	void FixedUpdate ()
 	{
 		if (barDisplay < 1) {
+<<<<<<< HEAD
 			barDisplay = barDisplay + 0.000222f;
 			Debug.Log (barDisplay);		
 		}
@@ -35,6 +36,15 @@ public class Charge : MonoBehaviour {
 			barDisplay = barDisplay - 200.0f / 1000.0f;
 			if (barDisplay < 0.0) {
 				barDisplay = 0;
+=======
+			barDisplay = barDisplay + 0.00014f;
+			//Debug.Log (barDisplay);		
+			if (Input.GetKeyDown (KeyCode.O)) {
+				barDisplay = barDisplay - 200.0f / 1000.0f;
+				if (barDisplay < 0.0) {
+					barDisplay = 0;
+				}
+>>>>>>> master
 			}
 		}
 	}
