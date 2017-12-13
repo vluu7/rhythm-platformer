@@ -40,8 +40,8 @@ public class animController : MonoBehaviour
     void Start()
     {
         //GameOverUI.SetActive(false);
+        StartCoroutine(RoadMap());
         anim = GetComponent<Animator>();
-<<<<<<< HEAD
         FinalAttackLightHit.intensity = 0;
         FinalAttackLightCharge.intensity = 0;
     }
@@ -68,9 +68,7 @@ public class animController : MonoBehaviour
                 
             }
         }
-=======
-        StartCoroutine(RoadMap());
->>>>>>> 3ae129a099d937f69285b69adf0a891d5f92c637
+        
     }
 
     // Update is called once per frame

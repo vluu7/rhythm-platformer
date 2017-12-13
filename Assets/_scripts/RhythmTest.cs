@@ -160,8 +160,6 @@ public class RhythmTest : MonoBehaviour
         smogBoss.Play();
     }
 
-<<<<<<< HEAD
-=======
     // total seconds until the song ends = 100 !!!
     IEnumerator RoadMap()
     {
@@ -169,11 +167,10 @@ public class RhythmTest : MonoBehaviour
         yield return new WaitForSeconds(2.4f);
         print(Time.time);
         StartCoroutine("BossCueJump");
-        yield return new WaitForSeconds();
+        yield return new WaitForSeconds(0.8f);
 
         print(Time.time);
     }
 
->>>>>>> parent of e5f62c6... small changes to road map
 }
 
