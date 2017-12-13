@@ -217,11 +217,47 @@ public class animController : MonoBehaviour
     // total seconds until the song ends = 100 !!!
     IEnumerator RoadMap()
     {
-        print(Time.time);
-        yield return new WaitForSeconds(2.4f);
-        print(Time.time);
+        yield return new WaitForSeconds(2.7f);
         StartCoroutine("BossCueJump");
-        print(Time.time);
+        yield return new WaitForSeconds(0.8f);
+        StartCoroutine("BossCueSmog");
+        yield return new WaitForSeconds(0.8f);
+        StartCoroutine("BossCueSmog");
+        yield return new WaitForSeconds(0.8f);
+        StartCoroutine("BossCueSmog");
+        yield return new WaitForSeconds(0.8f);
+        StartCoroutine("BossCueSmog");
+        yield return new WaitForSeconds(0.8f);
+        StartCoroutine("BossCueSmog");
+        yield return new WaitForSeconds(0.8f);
+        StartCoroutine("BossCueSmog");
+        yield return new WaitForSeconds(0.8f);
+        StartCoroutine("BossCueSmog");
+        yield return new WaitForSeconds(0.8f);
+        StartCoroutine("BossCueSmog");
+        yield return new WaitForSeconds(0.8f);
+        StartCoroutine("BossCueSmog");
+        yield return new WaitForSeconds(0.8f);
+        StartCoroutine("BossCueSmog");
+        yield return new WaitForSeconds(0.8f);
+        StartCoroutine("BossCueSmog");
+        yield return new WaitForSeconds(0.8f);
+        StartCoroutine("BossCueSmog");
+        yield return new WaitForSeconds(0.8f);
+        StartCoroutine("BossCueSmog");
+        yield return new WaitForSeconds(0.8f);
+        StartCoroutine("BossCueSmog");
+        yield return new WaitForSeconds(0.8f);
+        StartCoroutine("BossCueSmog");
+        yield return new WaitForSeconds(0.8f);
+        StartCoroutine("BossCueSmog");
+        yield return new WaitForSeconds(0.8f);
+        StartCoroutine("BossCueSmog");
+        yield return new WaitForSeconds(0.8f);
+        StartCoroutine("BossCueSmog");
+        yield return new WaitForSeconds(0.8f);
+        StartCoroutine("BossCueSmog");
+
     }
 
 }

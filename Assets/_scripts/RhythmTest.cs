@@ -30,18 +30,7 @@ public class RhythmTest : MonoBehaviour
     void Start()
     {
         anim = GetComponent<Animator>();
-        StartCoroutine(TimeTest());
-    }
-
-    // total seconds until the song ends = 100 !!!
-    IEnumerator TimeTest() 
-    {
-        spinBoss.Play();
-        print(Time.time);
-        yield return new WaitForSeconds(2.4f);
-        print(Time.time);
-        StartCoroutine("BossCueJump");
-        print(Time.time);
+        StartCoroutine(RoadMap());
     }
 
     // Update is called once per frame
@@ -129,13 +118,16 @@ public class RhythmTest : MonoBehaviour
         Debug.Log("Jumped");
     }
 
+    // fastest animation, takes about ~0.
     IEnumerator BossCueJump()
     {
         jumpBoss.Play();
         yield return new WaitForSeconds(0.5f);
         anim.Play("lunge");
+        yield return null;
     }
 
+    // 2nd longest, give around 0.1s more than the jump
     IEnumerator BossCueDuck()
     {
         duckBoss.Play();
@@ -148,8 +140,10 @@ public class RhythmTest : MonoBehaviour
         spike.transform.position = Vector3.MoveTowards(transform.position, FoxPlayer.position, step);
         yield return new WaitForSecondsRealtime(0.5f);
         Destroy(spike);*/
+        yield return null;
     }
 
+    // takes the longest; need more of a buffer in between, maybe ~0.2s extra
     IEnumerator BossCueSmog()
     {
         spinBoss.Play();
@@ -163,14 +157,13 @@ public class RhythmTest : MonoBehaviour
     // total seconds until the song ends = 100 !!!
     IEnumerator RoadMap()
     {
-        print(Time.time);
-        yield return new WaitForSeconds(2.4f);
-        print(Time.time);
+        yield return new WaitForSeconds(3.1f);
         StartCoroutine("BossCueJump");
         yield return new WaitForSeconds(0.8f);
-
+        StopCoroutine("BossCueJump");
+        Debug.Log("Stopped the Jump Coroutine");
+        StartCoroutine("BossCueSmog");
         print(Time.time);
     }
 
 }
-
