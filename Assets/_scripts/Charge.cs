@@ -36,5 +36,9 @@ public class Charge : MonoBehaviour {
 				}
 			}
 		}
+<<<<<<< HEAD
 }
+=======
+	}
+>>>>>>> master
 }
