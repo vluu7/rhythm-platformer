@@ -1,16 +1,14 @@
-﻿using System.Collections;
+﻿using UnityEngine;
+using System.Collections;
 using System.Collections.Generic;
-using UnityEngine;
 
 public class RhythmTest : MonoBehaviour
 {
-
-
     public Animator anim;
     private int AnimationTracker = 0;
     //public float speed;
 
-    // Boss Particle Systems/Game Objects
+    //Boss Particle Systems/Game Objects
     public ParticleSystem jumpBoss;
     public ParticleSystem duckBoss;
     public ParticleSystem duckProjectile;
@@ -19,11 +17,7 @@ public class RhythmTest : MonoBehaviour
     public ParticleSystem smogBoss;
     public ParticleSystem bossDie;
 
-    /*public Transform SpawnPoint;
-    public Transform Spike2;
-    public GameObject spike;*/
-
-    // Fox Particle Systems/ GameObjects
+    //Fox Particle Systems/ GameObjects
     public ParticleSystem testSpin;
     public ParticleSystem runningSparks;
     public ParticleSystem FoxFinalAttack;
@@ -36,13 +30,23 @@ public class RhythmTest : MonoBehaviour
     void Start()
     {
         anim = GetComponent<Animator>();
-        StartCoroutine(RoadMap());
+        StartCoroutine(TimeTest());
+    }
+
+    // total seconds until the song ends = 100 !!!
+    IEnumerator TimeTest() 
+    {
+        spinBoss.Play();
+        print(Time.time);
+        yield return new WaitForSeconds(2.4f);
+        print(Time.time);
+        StartCoroutine("BossCueJump");
+        print(Time.time);
     }
 
     // Update is called once per frame
     void Update()
     {
-
         if (Input.GetKeyDown("q"))
         {
             StartCoroutine("BossCueJump");
@@ -125,7 +129,6 @@ public class RhythmTest : MonoBehaviour
         Debug.Log("Jumped");
     }
 
-    // time elapsed is ~1s
     IEnumerator BossCueJump()
     {
         jumpBoss.Play();
@@ -133,7 +136,6 @@ public class RhythmTest : MonoBehaviour
         anim.Play("lunge");
     }
 
-    // play time = ~
     IEnumerator BossCueDuck()
     {
         duckBoss.Play();
@@ -158,6 +160,8 @@ public class RhythmTest : MonoBehaviour
         smogBoss.Play();
     }
 
+<<<<<<< HEAD
+=======
     // total seconds until the song ends = 100 !!!
     IEnumerator RoadMap()
     {
@@ -165,9 +169,11 @@ public class RhythmTest : MonoBehaviour
         yield return new WaitForSeconds(2.4f);
         print(Time.time);
         StartCoroutine("BossCueJump");
-        yield return new WaitForSeconds(0.8f);
+        yield return new WaitForSeconds();
 
         print(Time.time);
     }
 
+>>>>>>> parent of e5f62c6... small changes to road map
 }
+
