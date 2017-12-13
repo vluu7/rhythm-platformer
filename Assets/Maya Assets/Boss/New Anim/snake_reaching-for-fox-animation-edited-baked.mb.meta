@@ -1,0 +1,250 @@
+fileFormatVersion: 2
+guid: e0fa5be558539fb409c554c559a7720d
+timeCreated: 1513028879
+licenseType: Free
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: ambientLight1
+    100002: imagePlane1
+    100004: imagePlane2
+    100006: joint1
+    100008: joint10
+    100010: joint11
+    100012: joint12
+    100014: joint13
+    100016: joint14
+    100018: joint15
+    100020: joint2
+    100022: joint3
+    100024: joint4
+    100026: joint5
+    100028: joint6
+    100030: joint7
+    100032: joint8
+    100034: joint9
+    100036: left_tooth
+    100038: pCone1
+    100040: pCone10
+    100042: pCone11
+    100044: pCone12
+    100046: pCone13
+    100048: pCone14
+    100050: pCone15
+    100052: pCone16
+    100054: pCone2
+    100056: pCone3
+    100058: pCone4
+    100060: pCone5
+    100062: pCone6
+    100064: pCone7
+    100066: pCone8
+    100068: pCone9
+    100070: pCube1
+    100072: pCube2
+    100074: pCylinder1
+    100076: pCylinder2
+    100078: pCylinder3
+    100080: pCylinder4
+    100082: pCylinder5
+    100084: pCylinder6
+    100086: pCylinder7
+    100088: pCylinder8
+    100090: pSphere1
+    100092: pSphere2
+    100094: pSphere3
+    100096: right_tooth
+    100098: snake_body
+    100100: //RootNode
+    100102: transform1
+    100104: transform2
+    100106: transform3
+    100108: transform4
+    100110: transform5
+    100112: transform6
+    100114: transform7
+    100116: transform8
+    400000: ambientLight1
+    400002: imagePlane1
+    400004: imagePlane2
+    400006: joint1
+    400008: joint10
+    400010: joint11
+    400012: joint12
+    400014: joint13
+    400016: joint14
+    400018: joint15
+    400020: joint2
+    400022: joint3
+    400024: joint4
+    400026: joint5
+    400028: joint6
+    400030: joint7
+    400032: joint8
+    400034: joint9
+    400036: left_tooth
+    400038: pCone1
+    400040: pCone10
+    400042: pCone11
+    400044: pCone12
+    400046: pCone13
+    400048: pCone14
+    400050: pCone15
+    400052: pCone16
+    400054: pCone2
+    400056: pCone3
+    400058: pCone4
+    400060: pCone5
+    400062: pCone6
+    400064: pCone7
+    400066: pCone8
+    400068: pCone9
+    400070: pCube1
+    400072: pCube2
+    400074: pCylinder1
+    400076: pCylinder2
+    400078: pCylinder3
+    400080: pCylinder4
+    400082: pCylinder5
+    400084: pCylinder6
+    400086: pCylinder7
+    400088: pCylinder8
+    400090: pSphere1
+    400092: pSphere2
+    400094: pSphere3
+    400096: right_tooth
+    400098: snake_body
+    400100: //RootNode
+    400102: transform1
+    400104: transform2
+    400106: transform3
+    400108: transform4
+    400110: transform5
+    400112: transform6
+    400114: transform7
+    400116: transform8
+    2300000: pCube1
+    3300000: pCube1
+    4300000: pCube1
+    4300002: snake_body
+    4300004: pCone1
+    4300006: pCone2
+    4300008: pCone3
+    4300010: pCone4
+    4300012: pCone5
+    4300014: pCone6
+    4300016: pCone7
+    4300018: pCone8
+    4300020: pCone9
+    4300022: pCone10
+    4300024: pCone11
+    4300026: pCone12
+    4300028: pCone13
+    4300030: pCone14
+    4300032: pCone15
+    4300034: pCone16
+    4300036: right_tooth
+    4300038: left_tooth
+    4300040: pSphere2
+    4300042: pSphere3
+    4300044: pCylinder8
+    7400000: Take 001
+    9500000: //RootNode
+    10800000: ambientLight1
+    13700000: left_tooth
+    13700002: pCone1
+    13700004: pCone10
+    13700006: pCone11
+    13700008: pCone12
+    13700010: pCone13
+    13700012: pCone14
+    13700014: pCone15
+    13700016: pCone16
+    13700018: pCone2
+    13700020: pCone3
+    13700022: pCone4
+    13700024: pCone5
+    13700026: pCone6
+    13700028: pCone7
+    13700030: pCone8
+    13700032: pCone9
+    13700034: pCylinder8
+    13700036: pSphere2
+    13700038: pSphere3
+    13700040: right_tooth
+    13700042: snake_body
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

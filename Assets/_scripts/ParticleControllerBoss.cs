@@ -4,6 +4,12 @@ using UnityEngine;
 
 public class ParticleControllerBoss : MonoBehaviour
 {
+    /*
+     * 
+     * THIS SCRIPT IS OBSOLETE, BOSS PARTICLES ARE NOW CONTROLLED IN ANIMCONTROLLER
+     * 
+     * 
+     */
 
     public ParticleSystem jump;
     public ParticleSystem duck;
@@ -14,6 +20,10 @@ public class ParticleControllerBoss : MonoBehaviour
 
     public ParticleSystem testSpin;
 
+    private void Start()
+    {
+
+    }
 
     void Update()
     {

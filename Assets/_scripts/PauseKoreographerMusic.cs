@@ -5,6 +5,7 @@ using UnityEngine;
 public class PauseKoreographerMusic : MonoBehaviour {
 
     public AudioSource Audio;
+    //public AudioSource Audio2;
     private bool musicCue;
     private int pauseCounter = 0;
 
@@ -13,6 +14,7 @@ public class PauseKoreographerMusic : MonoBehaviour {
         if(musicCue)
         {
             Audio.Pause();
+            //Audio2.Pause();
         }
         else if (pauseCounter == 0)
         {

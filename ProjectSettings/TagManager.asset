@@ -7,6 +7,8 @@ TagManager:
   - Fox
   - NewFox
   - Fire
+  - spike
+  - weapon
   layers:
   - Default
   - TransparentFX
