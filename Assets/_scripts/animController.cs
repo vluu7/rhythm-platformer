@@ -38,10 +38,10 @@ public class animController : MonoBehaviour
     void Start()
     {
         StartCoroutine(RoadMap());
-        //GameOverUI.SetActive(false);
         anim = GetComponent<Animator>();
         FinalAttackLightHit.intensity = 0;
         FinalAttackLightCharge.intensity = 0;
+        GameOverUI.SetActive(false);
     }
 
     public void FadeIn()
@@ -164,7 +164,7 @@ public class animController : MonoBehaviour
         bossDie.Play();
         StartCoroutine(LightFadeIn(FinalAttackLightHit));
         yield return new WaitForSeconds(1.1f);
-        //GameOverUI.SetActive(true);
+        GameOverUI.SetActive(true);
         FadeIn();
         yield return new WaitForSeconds(0.7f);
         GameObject.Find("NewFox").transform.position = new Vector3(GameObject.FindGameObjectWithTag("NewFox").transform.position.x, -3.01f, -11.33f);
