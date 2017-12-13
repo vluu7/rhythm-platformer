@@ -6,7 +6,7 @@ public class AnimController : MonoBehaviour {
 
     public Animator anim;
     private int AnimationTracker = 0;
-    public float speed;
+    //public float speed;
 
     //Boss Particle Systems/Game Objects
     public ParticleSystem jumpBoss;
@@ -15,6 +15,7 @@ public class AnimController : MonoBehaviour {
     public ParticleSystem spinBoss;
     public ParticleSystem spin2Boss;
     public ParticleSystem smogBoss;
+    public ParticleSystem bossDie;
 
     /*public Transform SpawnPoint;
     public Transform Spike2;
@@ -98,10 +99,12 @@ public class AnimController : MonoBehaviour {
         yield return new WaitForSeconds(1.2f); // the program waits time seconds before continuing
         FoxFinalAttack.Play();
         FoxFinalAttack1.Play();
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(0.7f);
         FoxFinalAttackBall.Play();
         FoxFinalAttackBall1.Play();
-        yield return new WaitForSeconds(2);
+        yield return new WaitForSeconds(0.5f);
+        bossDie.Play();
+        yield return new WaitForSeconds(1.8f);
         GameObject.Find("NewFox").transform.position = new Vector3(GameObject.FindGameObjectWithTag("NewFox").transform.position.x, -3.01f, -11.33f);
         //runningSparks.Play();
     }

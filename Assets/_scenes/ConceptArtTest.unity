@@ -15474,7 +15474,7 @@ Transform:
   - {fileID: 470285169}
   - {fileID: 1151071920}
   m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &127117101
 MonoBehaviour:
@@ -15523,7 +15523,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1.0000005, z: 1.0000005}
   m_Children: []
   m_Father: {fileID: 546998031}
-  m_RootOrder: 10
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: -90, y: -90, z: 89.99999}
 --- !u!199 &132720996
 ParticleSystemRenderer:
@@ -18990,7 +18990,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 289507053}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: -90, y: -180, z: 89.99999}
 --- !u!199 &158525576
 ParticleSystemRenderer:
@@ -19103,7 +19103,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: -1426769372
+  randomSeed: -1614744655
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -22409,7 +22409,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &178591409
 Transform:
   m_ObjectHideFlags: 0
@@ -22417,11 +22417,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 178591408}
   m_LocalRotation: {x: -0.7071068, y: -0.00000014901161, z: -0.00000014901161, w: 0.7071068}
-  m_LocalPosition: {x: -13.1, y: -2.4, z: -14.69}
-  m_LocalScale: {x: 0.26176438, y: 0.26176465, z: 0.26176465}
+  m_LocalPosition: {x: 13.400001, y: -9.2, z: -21.1}
+  m_LocalScale: {x: 0.26176438, y: 0.26176476, z: 0.26176476}
   m_Children: []
-  m_Father: {fileID: 546998031}
-  m_RootOrder: 9
+  m_Father: {fileID: 289507053}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: -90, y: -90, z: 89.99999}
 --- !u!199 &178591410
 ParticleSystemRenderer:
@@ -22484,7 +22484,7 @@ ParticleSystem:
   serializedVersion: 5
   lengthInSec: 1
   simulationSpeed: 10
-  looping: 1
+  looping: 0
   prewarm: 0
   playOnAwake: 0
   useUnscaledTime: 0
@@ -22534,7 +22534,7 @@ ParticleSystem:
   moveWithTransform: 1
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: 1718131059
+  randomSeed: 772643048
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -22930,7 +22930,7 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     randomizeRotationDirection: 0
-    maxNumParticles: 700
+    maxNumParticles: 200
     size3D: 0
     rotation3D: 0
     gravityModifier:
@@ -23094,7 +23094,7 @@ ParticleSystem:
     rateOverTime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 7
+      scalar: 200
       minScalar: 10
       maxCurve:
         serializedVersion: 2
@@ -23438,7 +23438,7 @@ ParticleSystem:
         serializedVersion: 2
         key0: {r: 0.80170065, g: 0.7386462, b: 1, a: 0.19215687}
         key1: {r: 0, g: 0.001977684, b: 0.022058845, a: 0.8392157}
-        key2: {r: 0.6346528, g: 0.5851535, b: 1, a: 0}
+        key2: {r: 0.14345248, g: 0.13300171, b: 0.2205882, a: 0}
         key3: {r: 0.8701825, g: 0.85294116, b: 1, a: 0}
         key4: {r: 0, g: 0.006896496, b: 1, a: 0}
         key5: {r: 0.86206913, g: 0, b: 1, a: 0}
@@ -36605,7 +36605,7 @@ RectTransform:
   - {fileID: 272005954}
   - {fileID: 391410051}
   m_Father: {fileID: 0}
-  m_RootOrder: 17
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -37005,6 +37005,7 @@ Transform:
   m_LocalPosition: {x: -20.6, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 178591409}
   - {fileID: 1192750029}
   - {fileID: 158525575}
   - {fileID: 1241866812}
@@ -38066,7 +38067,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1792098689}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!108 &367266776
 Light:
@@ -53534,7 +53535,6 @@ Transform:
   - {fileID: 1872934151}
   - {fileID: 234936933}
   - {fileID: 1276375432}
-  - {fileID: 178591409}
   - {fileID: 132720995}
   m_Father: {fileID: 0}
   m_RootOrder: 14
@@ -58720,8 +58720,8 @@ ParticleSystem:
       maxColor: {r: 1, g: 1, b: 1, a: 1}
       maxGradient:
         serializedVersion: 2
-        key0: {r: 0.02712979, g: 0, b: 0.03676468, a: 1}
-        key1: {r: 0.074492864, g: 0, b: 0.09558821, a: 1}
+        key0: {r: 0, g: 0.8758622, b: 1, a: 1}
+        key1: {r: 0, g: 1, b: 0.7103448, a: 1}
         key2: {r: 0.84512657, g: 0.68701345, b: 0.9632353, a: 1}
         key3: {r: 0, g: 1, b: 0.13103437, a: 0}
         key4: {r: 0, g: 0.006896496, b: 1, a: 0}
@@ -74390,16 +74390,16 @@ ParticleSystem:
       maxColor: {r: 1, g: 1, b: 1, a: 1}
       maxGradient:
         serializedVersion: 2
-        key0: {r: 0.02712979, g: 0, b: 0.03676468, a: 1}
-        key1: {r: 0.074492864, g: 0, b: 0.09558821, a: 1}
-        key2: {r: 0.07576061, g: 0, b: 0.13235295, a: 1}
+        key0: {r: 0, g: 0.087677516, b: 0.1397059, a: 1}
+        key1: {r: 0, g: 0.07864518, b: 0.14705884, a: 1}
+        key2: {r: 0.0555255, g: 0.4504488, b: 0.5808823, a: 1}
         key3: {r: 0, g: 1, b: 0.13103437, a: 0}
         key4: {r: 0, g: 0.006896496, b: 1, a: 0}
         key5: {r: 0.86206913, g: 0, b: 1, a: 0}
         key6: {r: 1, g: 0.2352941, b: 0.8523324, a: 0}
         key7: {r: 1, g: 1, b: 1, a: 0}
         ctime0: 0
-        ctime1: 17540
+        ctime1: 31611
         ctime2: 65535
         ctime3: 21203
         ctime4: 29105
@@ -74407,7 +74407,7 @@ ParticleSystem:
         ctime6: 45489
         ctime7: 65535
         atime0: 0
-        atime1: 40670
+        atime1: 38338
         atime2: 65535
         atime3: 65535
         atime4: 0
@@ -77860,13 +77860,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   anim: {fileID: 0}
-  speed: 0
   jumpBoss: {fileID: 0}
   duckBoss: {fileID: 0}
   duckProjectile: {fileID: 0}
   spinBoss: {fileID: 0}
   spin2Boss: {fileID: 0}
   smogBoss: {fileID: 0}
+  bossDie: {fileID: 0}
   testSpin: {fileID: 0}
   runningSparks: {fileID: 1115244765}
   FoxFinalAttack: {fileID: 0}
@@ -79681,16 +79681,16 @@ ParticleSystem:
       maxColor: {r: 1, g: 1, b: 1, a: 1}
       maxGradient:
         serializedVersion: 2
-        key0: {r: 0.02712979, g: 0, b: 0.03676468, a: 1}
-        key1: {r: 0.074492864, g: 0, b: 0.09558821, a: 1}
-        key2: {r: 0.07576061, g: 0, b: 0.13235295, a: 1}
+        key0: {r: 0, g: 0.087677516, b: 0.1397059, a: 1}
+        key1: {r: 0, g: 0.07864518, b: 0.14705884, a: 1}
+        key2: {r: 0.0555255, g: 0.4504488, b: 0.5808823, a: 1}
         key3: {r: 0, g: 1, b: 0.13103437, a: 0}
         key4: {r: 0, g: 0.006896496, b: 1, a: 0}
         key5: {r: 0.86206913, g: 0, b: 1, a: 0}
         key6: {r: 1, g: 0.2352941, b: 0.8523324, a: 0}
         key7: {r: 1, g: 1, b: 1, a: 0}
         ctime0: 0
-        ctime1: 17540
+        ctime1: 31611
         ctime2: 65535
         ctime3: 21203
         ctime4: 29105
@@ -79698,7 +79698,7 @@ ParticleSystem:
         ctime6: 45489
         ctime7: 65535
         atime0: 0
-        atime1: 40670
+        atime1: 38338
         atime2: 65535
         atime3: 65535
         atime4: 0
@@ -97460,8 +97460,8 @@ ParticleSystem:
       maxColor: {r: 1, g: 1, b: 1, a: 1}
       maxGradient:
         serializedVersion: 2
-        key0: {r: 0.02712979, g: 0, b: 0.03676468, a: 1}
-        key1: {r: 0.074492864, g: 0, b: 0.09558821, a: 1}
+        key0: {r: 0, g: 0.8758622, b: 1, a: 1}
+        key1: {r: 0, g: 1, b: 0.7103448, a: 1}
         key2: {r: 0.84512657, g: 0.68701345, b: 0.9632353, a: 1}
         key3: {r: 0, g: 1, b: 0.13103437, a: 0}
         key4: {r: 0, g: 0.006896496, b: 1, a: 0}
@@ -99902,7 +99902,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: -2134385652
+  randomSeed: 347618649
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -110660,7 +110660,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1792098689}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1171721510
 GameObject:
@@ -110974,7 +110974,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 289507053}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: -184.169, y: -90, z: 89.99999}
 --- !u!199 &1192750030
 ParticleSystemRenderer:
@@ -111087,7 +111087,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: -715390669
+  randomSeed: 91501395
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -114914,13 +114914,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   anim: {fileID: 0}
-  speed: 0
   jumpBoss: {fileID: 158525577}
   duckBoss: {fileID: 1029342635}
   duckProjectile: {fileID: 1192750031}
   spinBoss: {fileID: 70254443}
   spin2Boss: {fileID: 524870713}
   smogBoss: {fileID: 115510964}
+  bossDie: {fileID: 0}
   testSpin: {fileID: 0}
   runningSparks: {fileID: 0}
   FoxFinalAttack: {fileID: 0}
@@ -130940,7 +130940,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1792098689}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1620001882
 GameObject:
@@ -131228,7 +131228,7 @@ Transform:
   - {fileID: 1004321520}
   - {fileID: 286496741}
   m_Father: {fileID: 1792098689}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1672910881
 GameObject:
@@ -131537,7 +131537,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1697379415}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.0910735, y: 1.0734215, z: 49.88494}
+  m_LocalPosition: {x: 0.07, y: 0.03, z: 2.84}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1838099130}
@@ -131549,13 +131549,13 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1697379415}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: -1060073270, guid: 7ab44e72661444ea4b3b72f155c6ecea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   autoPlayOnAwake: 1
-  koreography: {fileID: 11400000, guid: a590450edbe76d246a2be8cfb4145a30, type: 2}
+  koreography: {fileID: 11400000, guid: db9076cfbb022bc4d871559763035e68, type: 2}
   targetKoreographer: {fileID: 0}
 --- !u!82 &1697379418
 AudioSource:
@@ -131566,11 +131566,11 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 395cc349e0dbb4743b68588aa02437b9, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
-  Loop: 1
+  Loop: 0
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -136122,7 +136122,6 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1782292508}
-  - component: {fileID: 1782292509}
   m_Layer: 0
   m_Name: FinalAttackIndicator
   m_TagString: Untagged
@@ -136136,29 +136135,18 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1782292507}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 13.1, y: -0.24, z: 15.88}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -76.38191, y: 7.017817, z: -0.25265253}
+  m_LocalScale: {x: 2.807127, y: 2.8071265, z: 2.8071258}
   m_Children:
   - {fileID: 566801485}
   - {fileID: 1897119771}
   - {fileID: 1845687203}
   - {fileID: 1262553555}
   - {fileID: 1992357371}
-  m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_Father: {fileID: 1792098689}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1782292509
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1782292507}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c151c12fc5089484ab5f50a5aacc1a85, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1784802475
 GameObject:
   m_ObjectHideFlags: 0
@@ -136259,6 +136247,7 @@ Transform:
   m_LocalPosition: {x: 13.19, y: -2.74, z: -11.33}
   m_LocalScale: {x: 0.3562363, y: 0.3562362, z: 0.3562362}
   m_Children:
+  - {fileID: 1782292508}
   - {fileID: 367266775}
   - {fileID: 2008438679}
   - {fileID: 1607826378}
@@ -136316,13 +136305,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   anim: {fileID: 0}
-  speed: 0
   jumpBoss: {fileID: 0}
   duckBoss: {fileID: 0}
   duckProjectile: {fileID: 0}
   spinBoss: {fileID: 0}
   spin2Boss: {fileID: 0}
   smogBoss: {fileID: 0}
+  bossDie: {fileID: 178591411}
   testSpin: {fileID: 0}
   runningSparks: {fileID: 1115244765}
   FoxFinalAttack: {fileID: 818357743}
@@ -136564,7 +136553,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400098, guid: 60a852cbffcc9a044a7078496fdc1e32, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 400098, guid: 60a852cbffcc9a044a7078496fdc1e32, type: 3}
       propertyPath: m_LocalScale.x
@@ -136645,13 +136634,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   anim: {fileID: 0}
-  speed: 0
   jumpBoss: {fileID: 0}
   duckBoss: {fileID: 0}
   duckProjectile: {fileID: 0}
   spinBoss: {fileID: 0}
   spin2Boss: {fileID: 0}
   smogBoss: {fileID: 0}
+  bossDie: {fileID: 0}
   testSpin: {fileID: 0}
   runningSparks: {fileID: 0}
   FoxFinalAttack: {fileID: 0}
@@ -136953,9 +136942,9 @@ AudioSource:
   m_Enabled: 0
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 7610e548dec4bce4fb08b67bdc6f3e8b, type: 3}
-  m_PlayOnAwake: 1
-  m_Volume: 0.341
+  m_audioClip: {fileID: 8300000, guid: 395cc349e0dbb4743b68588aa02437b9, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -161696,7 +161685,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1792098689}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!137 &1963607211
 SkinnedMeshRenderer:
@@ -168999,7 +168988,7 @@ Transform:
   - {fileID: 410337020}
   - {fileID: 1556369215}
   m_Father: {fileID: 1792098689}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2011780428
 GameObject:
@@ -169827,7 +169816,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1792098689}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2072144172
 GameObject:
