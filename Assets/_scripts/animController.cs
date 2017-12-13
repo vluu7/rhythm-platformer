@@ -236,125 +236,349 @@ public class animController : MonoBehaviour
     IEnumerator RoadMap()
     {
         /* 'tutorial' */
-        // J Delay: ~0.86s
-        // D Delay: ~0.86s
+        // J Delay: ~0.7s
+        // D Delay: ~0.7s
         // S Delay: ~0.95s
 
         // 6.22 J
-        yield return new WaitForSeconds(0.86f);
+        yield return new WaitForSeconds(5.58f);
+        StartCoroutine("BossCueJump");
         // 10.11 S
-        // 12.41 J
+        yield return new WaitForSeconds(2.94f);
+        StartCoroutine("BossCueSmog");
         // 14.68 S
+        yield return new WaitForSeconds(4.20f);
+        StartCoroutine("BossCueDuck");
         // 18.57 J
+        yield return new WaitForSeconds(0.86f);
+        StartCoroutine("BossCueJump");
         // 21.25 D
+        yield return new WaitForSeconds(0.86f);
+        StartCoroutine("BossCueJump");
         // 24.76 S
+        yield return new WaitForSeconds(0.86f);
+        StartCoroutine("BossCueJump");
         // 26.34 S
+        yield return new WaitForSeconds(0.86f);
+        StartCoroutine("BossCueJump");
         // 27.88 D
+        yield return new WaitForSeconds(0.86f);
+        StartCoroutine("BossCueJump");
         // 29.43 J
+        yield return new WaitForSeconds(0.86f);
+        StartCoroutine("BossCueJump");
         // 30.21 J
+        yield return new WaitForSeconds(0.86f);
+        StartCoroutine("BossCueJump");
         // 31.04 D
+        yield return new WaitForSeconds(0.86f);
+        StartCoroutine("BossCueJump");
         // 32.52 D
+        yield return new WaitForSeconds(0.86f);
+        StartCoroutine("BossCueJump");
         // 34.14 S
+        yield return new WaitForSeconds(0.86f);
+        StartCoroutine("BossCueJump");
         // 35.69 S
+        yield return new WaitForSeconds(0.86f);
+        StartCoroutine("BossCueJump");
         // 36.04 D
+        yield return new WaitForSeconds(0.86f);
+        StartCoroutine("BossCueJump");
         // 37.20 j
+        yield return new WaitForSeconds(0.86f);
+        StartCoroutine("BossCueJump");
         // 37.64 j
+        yield return new WaitForSeconds(0.86f);
+        StartCoroutine("BossCueJump");
         // 37.94 S
+        yield return new WaitForSeconds(0.86f);
+        StartCoroutine("BossCueJump");
         // 38.70 D
+        yield return new WaitForSeconds(0.86f);
+        StartCoroutine("BossCueJump");
         // 39.14 D
+        yield return new WaitForSeconds(0.86f);
+        StartCoroutine("BossCueJump");
         // 39.49 J
+        yield return new WaitForSeconds(0.86f);
+        StartCoroutine("BossCueJump");
         // 40.31 S
+        yield return new WaitForSeconds(0.86f);
+        StartCoroutine("BossCueJump");
         // 40.68 S
+        yield return new WaitForSeconds(0.86f);
+        StartCoroutine("BossCueJump");
         // 41.08 J
+        yield return new WaitForSeconds(0.86f);
+        StartCoroutine("BossCueJump");
         // 41.47 J
+        yield return new WaitForSeconds(0.86f);
+        StartCoroutine("BossCueJump");
         // 41.85 D
+        yield return new WaitForSeconds(0.86f);
+        StartCoroutine("BossCueJump");
         // 42.61 J
+        yield return new WaitForSeconds(0.86f);
+        StartCoroutine("BossCueJump");
         // 43.38 S
+        yield return new WaitForSeconds(0.86f);
+        StartCoroutine("BossCueJump");
         // 43.74 D
+        yield return new WaitForSeconds(0.86f);
+        StartCoroutine("BossCueJump");
         // 44.17 D
+        yield return new WaitForSeconds(0.86f);
+        StartCoroutine("BossCueJump");
         // 44.93 S
+        yield return new WaitForSeconds(0.86f);
+        StartCoroutine("BossCueJump");
         // 45.32 S
+        yield return new WaitForSeconds(0.86f);
+        StartCoroutine("BossCueJump");
         // 45.74 J
+        yield return new WaitForSeconds(0.86f);
+        StartCoroutine("BossCueJump");
         // 46.49 J
+        yield return new WaitForSeconds(0.86f);
+        StartCoroutine("BossCueJump");
         // 46.91 S
+        yield return new WaitForSeconds(0.86f);
+        StartCoroutine("BossCueJump");
         // 47.26 D
+        yield return new WaitForSeconds(0.86f);
+        StartCoroutine("BossCueJump");
         // 48.04 D
+        yield return new WaitForSeconds(0.86f);
+        StartCoroutine("BossCueJump");
         // 48.81 J
+        yield return new WaitForSeconds(0.86f);
+        StartCoroutine("BossCueJump");
         // 49.59 S
+        yield return new WaitForSeconds(0.86f);
+        StartCoroutine("BossCueJump");
         // 51.08 S
+        yield return new WaitForSeconds(0.86f);
+        StartCoroutine("BossCueJump");
         // 52.66 J
+        yield return new WaitForSeconds(0.86f);
+        StartCoroutine("BossCueJump");
         // 54.22 D
+        yield return new WaitForSeconds(0.86f);
+        StartCoroutine("BossCueJump");
         // 55.82 S
+        yield return new WaitForSeconds(0.86f);
+        StartCoroutine("BossCueJump");
         // 56.57 D
+        yield return new WaitForSeconds(0.86f);
+        StartCoroutine("BossCueJump");
         // 57.36 S
+        yield return new WaitForSeconds(0.86f);
+        StartCoroutine("BossCueJump");
         // 58.11 J
+        yield return new WaitForSeconds(0.86f);
+        StartCoroutine("BossCueJump");
         // 58.86 J
+        yield return new WaitForSeconds(0.86f);
+        StartCoroutine("BossCueJump");
         // 59.68 S
-        // 1:00.43 D
-        // 1:01.18 S
-        // 1:01.99 D
-        // 1:03.52 D
-        // 1:05.08 S
-        // 1:06.55 J
-        // 1:08.16 J
-        // 1:08.95 S
-        // 1:09.71 J
-        // 1:10.46 D
-        // 1:11.23 D
-        // 1:12.07 S
-        // 1:12.82 S
-        // 1:13.55 D
-        // 1:14.39 S
-        // 1:15.14 D
-        // 1:15.92 J
-        // 1:16.48 S
-        // 1:17.46 S
-        // 1:18.23 J
-        // 1:19.00 D
-        // 1:19.55 D
-        // 1:20.60 S
-        // 1:21.35 D
-        // 1:22.18 S
-        // 1:22.54 J
-        // 1:22.89 J
-        // 1:23.26 S
-        // 1:23.62 J
-        // 1:24.45 J
-        // 1:25.20 J
-        // 1:25.56 S
-        // 1:25.96 S
-        // 1:26.31 D
-        // 1:26.70 D
-        // 1:27.18 S
-        // 1:27.53 J
-        // 1:27.95 S
-        // 1:28.28 S
-        // 1:28.70 D
-        // 1:29.17 D
-        // 1:29.50 S
-        // 1:29.87 J
-        // 1:30.25 J
-        // 1:30.60 S
-        // 1:31.04 D
-        // 1:31.42 S
-        // 1:31.79 D
-        // 1:32.17 J
-        // 1:32.54 S
-        // 1:32.92 S
-        // 1:33.39 J
-        // 1:33.74 S
-        // 1:34.09 J
-        // 1:34.48 D
-        // 1:34.93 D
-        // 1:35.28 J
-        // 1:35.64 J
-        // 1:36.06 S
-        // 1:36.54 D
-        // 1:36.85 S
-        // 1:37.18 J
-        // 1:37.60 D
-        // 1:38.15 S
-        // 1:38.35 D
+        yield return new WaitForSeconds(0.86f);
+        StartCoroutine("BossCueJump");
+        // 60.43 D
+        yield return new WaitForSeconds(0.86f);
+        StartCoroutine("BossCueJump");
+        // 61.18 S
+        yield return new WaitForSeconds(0.86f);
+        StartCoroutine("BossCueJump");
+        // 61.99 D
+        yield return new WaitForSeconds(0.86f);
+        StartCoroutine("BossCueJump");
+        // 63.52 D
+        yield return new WaitForSeconds(0.86f);
+        StartCoroutine("BossCueJump");
+        // 65.08 S
+        yield return new WaitForSeconds(0.86f);
+        StartCoroutine("BossCueJump");
+        // 66.55 J
+        yield return new WaitForSeconds(0.86f);
+        StartCoroutine("BossCueJump");
+        // 68.16 J
+        yield return new WaitForSeconds(0.86f);
+        StartCoroutine("BossCueJump");
+        // 68.95 S
+        yield return new WaitForSeconds(0.86f);
+        StartCoroutine("BossCueJump");
+        // 69.71 J
+        yield return new WaitForSeconds(0.86f);
+        StartCoroutine("BossCueJump");
+        // 70.46 D
+        yield return new WaitForSeconds(0.86f);
+        StartCoroutine("BossCueJump");
+        // 71.23 D
+        yield return new WaitForSeconds(0.86f);
+        StartCoroutine("BossCueJump");
+        // 72.07 S
+        yield return new WaitForSeconds(0.86f);
+        StartCoroutine("BossCueJump");
+        // 72.82 S
+        yield return new WaitForSeconds(0.86f);
+        StartCoroutine("BossCueJump");
+        // 73.55 D
+        yield return new WaitForSeconds(0.86f);
+        StartCoroutine("BossCueJump");
+        // 74.39 S
+        yield return new WaitForSeconds(0.86f);
+        StartCoroutine("BossCueJump");
+        // 75.14 D
+        yield return new WaitForSeconds(0.86f);
+        StartCoroutine("BossCueJump");
+        // 75.92 J
+        yield return new WaitForSeconds(0.86f);
+        StartCoroutine("BossCueJump");
+        // 76.48 S
+        yield return new WaitForSeconds(0.86f);
+        StartCoroutine("BossCueJump");
+        // 77.46 S
+        yield return new WaitForSeconds(0.86f);
+        StartCoroutine("BossCueJump");
+        // 78.23 J
+        yield return new WaitForSeconds(0.86f);
+        StartCoroutine("BossCueJump");
+        // 79.00 D
+        yield return new WaitForSeconds(0.86f);
+        StartCoroutine("BossCueJump");
+        // 79.55 D
+        yield return new WaitForSeconds(0.86f);
+        StartCoroutine("BossCueJump");
+        // 80.60 S
+        yield return new WaitForSeconds(0.86f);
+        StartCoroutine("BossCueJump");
+        // 81.35 D
+        yield return new WaitForSeconds(0.86f);
+        StartCoroutine("BossCueJump");
+        // 82.18 S
+        yield return new WaitForSeconds(0.86f);
+        StartCoroutine("BossCueJump");
+        // 82.54 J
+        yield return new WaitForSeconds(0.86f);
+        StartCoroutine("BossCueJump");
+        // 82.89 J
+        yield return new WaitForSeconds(0.86f);
+        StartCoroutine("BossCueJump");
+        // 83.26 S
+        yield return new WaitForSeconds(0.86f);
+        StartCoroutine("BossCueJump");
+        // 83.62 J
+        yield return new WaitForSeconds(0.86f);
+        StartCoroutine("BossCueJump");
+        // 84.45 J
+        yield return new WaitForSeconds(0.86f);
+        StartCoroutine("BossCueJump");
+        // 85.20 J
+        yield return new WaitForSeconds(0.86f);
+        StartCoroutine("BossCueJump");
+        // 85.56 S
+        yield return new WaitForSeconds(0.86f);
+        StartCoroutine("BossCueJump");
+        // 85.96 S
+        yield return new WaitForSeconds(0.86f);
+        StartCoroutine("BossCueJump");
+        // 86.31 D
+        yield return new WaitForSeconds(0.86f);
+        StartCoroutine("BossCueJump");
+        // 86.70 D
+        yield return new WaitForSeconds(0.86f);
+        StartCoroutine("BossCueJump");
+        // 87.18 S
+        yield return new WaitForSeconds(0.86f);
+        StartCoroutine("BossCueJump");
+        // 87.53 J
+        yield return new WaitForSeconds(0.86f);
+        StartCoroutine("BossCueJump");
+        // 87.95 S
+        yield return new WaitForSeconds(0.86f);
+        StartCoroutine("BossCueJump");
+        // 88.28 S
+        yield return new WaitForSeconds(0.86f);
+        StartCoroutine("BossCueJump");
+        // 88.70 D
+        yield return new WaitForSeconds(0.86f);
+        StartCoroutine("BossCueJump");
+        // 89.17 D
+        yield return new WaitForSeconds(0.86f);
+        StartCoroutine("BossCueJump");
+        // 89.50 S
+        yield return new WaitForSeconds(0.86f);
+        StartCoroutine("BossCueJump");
+        // 89.87 J
+        yield return new WaitForSeconds(0.86f);
+        StartCoroutine("BossCueJump");
+        // 90.25 J
+        yield return new WaitForSeconds(0.86f);
+        StartCoroutine("BossCueJump");
+        // 90.60 S
+        yield return new WaitForSeconds(0.86f);
+        StartCoroutine("BossCueJump");
+        // 91.04 D
+        yield return new WaitForSeconds(0.86f);
+        StartCoroutine("BossCueJump");
+        // 91.42 S
+        yield return new WaitForSeconds(0.86f);
+        StartCoroutine("BossCueJump");
+        // 91.79 D
+        yield return new WaitForSeconds(0.86f);
+        StartCoroutine("BossCueJump");
+        // 92.17 J
+        yield return new WaitForSeconds(0.86f);
+        StartCoroutine("BossCueJump");
+        // 92.54 S
+        yield return new WaitForSeconds(0.86f);
+        StartCoroutine("BossCueJump");
+        // 92.92 S
+        yield return new WaitForSeconds(0.86f);
+        StartCoroutine("BossCueJump");
+        // 93.39 J
+        yield return new WaitForSeconds(0.86f);
+        StartCoroutine("BossCueJump");
+        // 93.74 S
+        yield return new WaitForSeconds(0.86f);
+        StartCoroutine("BossCueJump");
+        // 94.09 J
+        yield return new WaitForSeconds(0.86f);
+        StartCoroutine("BossCueJump");
+        // 94.48 D
+        yield return new WaitForSeconds(0.86f);
+        StartCoroutine("BossCueJump");
+        // 94.93 D
+        yield return new WaitForSeconds(0.86f);
+        StartCoroutine("BossCueJump");
+        // 95.28 J
+        yield return new WaitForSeconds(0.86f);
+        StartCoroutine("BossCueJump");
+        // 95.64 J
+        yield return new WaitForSeconds(0.86f);
+        StartCoroutine("BossCueJump");
+        // 96.06 S
+        yield return new WaitForSeconds(0.86f);
+        StartCoroutine("BossCueJump");
+        // 96.54 D
+        yield return new WaitForSeconds(0.86f);
+        StartCoroutine("BossCueJump");
+        // 96.85 S
+        yield return new WaitForSeconds(0.86f);
+        StartCoroutine("BossCueJump");
+        // 97.18 J
+        yield return new WaitForSeconds(0.86f);
+        StartCoroutine("BossCueJump");
+        // 97.60 D
+        yield return new WaitForSeconds(0.86f);
+        StartCoroutine("BossCueJump");
+        // 98.15 S
+        yield return new WaitForSeconds(0.86f);
+        StartCoroutine("BossCueJump");
+        // 98.35 D
+        yield return new WaitForSeconds(0.86f);
+        StartCoroutine("BossCueJump");
 
         /*
 
@@ -375,3 +599,4 @@ public class animController : MonoBehaviour
     }
 
 }
+
