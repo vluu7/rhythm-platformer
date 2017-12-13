@@ -186,7 +186,7 @@ public class animController : MonoBehaviour
         Debug.Log("Jumped");
     }
 
-    // total time elapsed: ~1.12s
+    // total time elapsed: ~0.86s
     IEnumerator BossCueJump()
     {
         jumpBoss.Play();
@@ -196,7 +196,7 @@ public class animController : MonoBehaviour
         duckProjectile.Play();
     }
 
-    // total time elapsed: ~1.17s
+    // total time elapsed: ~0.86s
     IEnumerator BossCueDuck()
     {
         duckBoss.Play();
@@ -211,7 +211,7 @@ public class animController : MonoBehaviour
         Destroy(spike);*/
     }
 
-    // total time elapsed: ~1.30s
+    // total time elapsed: ~0.95s
     IEnumerator BossCueSmog()
     {
         spinBoss.Play();
@@ -225,82 +225,13 @@ public class animController : MonoBehaviour
     // total seconds until the song ends = 100 !!!
     IEnumerator RoadMap()
     {
-        // 'tutorial'
-        yield return new WaitForSeconds(5.7f);
-        StartCoroutine("BossCueJump");
-        yield return new WaitForSeconds(8.4f);
-        StartCoroutine("BossCueSmog");
-        yield return new WaitForSeconds(7.8f);
-        StartCoroutine("BossCueDuck");
-        yield return new WaitForSeconds(5.4f);
-        StartCoroutine("BossCueJump");
-        yield return new WaitForSeconds(5.4f);
-        StartCoroutine("BossCueJump");
-        yield return new WaitForSeconds(4.8f);
-        StartCoroutine("BossCueDuck");
-        yield return new WaitForSeconds(4.8f);
-        StartCoroutine("BossCueDuck");
-        yield return new WaitForSeconds(4.8f);
-        StartCoroutine("BossCueSmog");
-        yield return new WaitForSeconds(4.8f);
-        StartCoroutine("BossCueSmog");
-        yield return new WaitForSeconds(4.8f);
-        StartCoroutine("BossCueJump");
-        yield return new WaitForSeconds(4.8f);
-        StartCoroutine("BossCueSmog");
-        yield return new WaitForSeconds(4.8f);
-        StartCoroutine("BossCueDuck");
-        yield return new WaitForSeconds(4.8f);
-        StartCoroutine("BossCueSmog");
-        yield return new WaitForSeconds(4.8f);
-        StartCoroutine("BossCueSmog");
-        yield return new WaitForSeconds(3.5f);
-        StartCoroutine("BossCueDuck");
-        yield return new WaitForSeconds(3.5f);
-        StartCoroutine("BossCueDuck");
-        yield return new WaitForSeconds(3.5f);
-        StartCoroutine("BossCueJump");
-        yield return new WaitForSeconds(3.5f);
-        StartCoroutine("BossCueSmog");
-        yield return new WaitForSeconds(3.5f);
-        StartCoroutine("BossCueSmog");
-        yield return new WaitForSeconds(3.5f);
-        StartCoroutine("BossCueSmog");
-        yield return new WaitForSeconds(3.5f);
-        StartCoroutine("BossCueJump");
-        yield return new WaitForSeconds(3.5f);
-        StartCoroutine("BossCueDuck");
-        yield return new WaitForSeconds(3.5f);
-        StartCoroutine("BossCueSmog");
-        yield return new WaitForSeconds(3.5f);
-        StartCoroutine("BossCueJump");
-        yield return new WaitForSeconds(3.5f);
-        StartCoroutine("BossCueSmog");
-        yield return new WaitForSeconds(3.5f);
-        StartCoroutine("BossCueSmog");
-        yield return new WaitForSeconds(3.5f);
-        StartCoroutine("BossCueSmog");
-        yield return new WaitForSeconds(3.5f);
-        StartCoroutine("BossCueSmog");
-        // Ramping up now!
-        yield return new WaitForSeconds(0.8f);
-        StartCoroutine("BossCueJump");
-        yield return new WaitForSeconds(0.8f);
-        StartCoroutine("BossCueJump");
-        yield return new WaitForSeconds(0.8f);
-        StartCoroutine("BossCueJump");
-        yield return new WaitForSeconds(0.8f);
-        StartCoroutine("BossCueJump");
-        yield return new WaitForSeconds(0.8f);
-        StartCoroutine("BossCueJump");
-        yield return new WaitForSeconds(0.8f);
-        StartCoroutine("BossCueJump");
-        yield return new WaitForSeconds(0.8f);
-        StartCoroutine("BossCueJump");
-        yield return new WaitForSeconds(0.8f);
-        StartCoroutine("BossCueJump");
+        /* 'tutorial' */
+        // J Delay: ~0.86s
+        // D Delay: ~0.86s
+        // S Delay: ~0.95s
 
         // 6.22 J
+        yield return new WaitForSeconds(0.86f);
         // 10.11 S
         // 12.41 J
         // 14.68 S
