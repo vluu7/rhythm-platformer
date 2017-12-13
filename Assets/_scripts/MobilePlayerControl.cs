@@ -5,7 +5,39 @@ using UnityEngine;
 
 public class MobilePlayerControl : MonoBehaviour {
 
-	private float checkTouchHold = 0.5f; 
+	public Animator anim;
+	private int AnimationTracker = 0;
+	//public float speed;
+
+	//Boss Particle Systems/Game Objects
+	public ParticleSystem jumpBoss;
+	public ParticleSystem duckBoss;
+	public ParticleSystem duckProjectile;
+	public ParticleSystem spinBoss;
+	public ParticleSystem spin2Boss;
+	public ParticleSystem smogBoss;
+	public ParticleSystem bossDie;
+
+	/*public Transform SpawnPoint;
+    public Transform Spike2;
+    public GameObject spike;*/
+
+	//Fox Particle Systems/ GameObjects
+	public ParticleSystem testSpin;
+	public ParticleSystem runningSparks;
+	public ParticleSystem FoxFinalAttack;
+	public ParticleSystem FoxFinalAttack1;
+	public ParticleSystem FoxFinalAttackBall;
+	public ParticleSystem FoxFinalAttackBall1;
+	//public Transform FoxPlayer;
+
+	// Use this for initialization
+	void Start()
+	{
+		anim = GetComponent<Animator>();
+	}
+
+	private float checkTouchHold = 0.5f;
 	private float touchHoldTime = 0;
 	private float minSwipeDistance = 50.0f;
 	private float maxSwipeTime = 0.5f;
@@ -19,13 +51,10 @@ public class MobilePlayerControl : MonoBehaviour {
 	// bool ground = false;
 
 	// Use this for initialization
-	void Start () {
-
-	}
 
 	// Update is called once per frame
 	void Update () {
-		/*if (Input.GetMouseButtonDown (0)) {
+		if (Input.GetMouseButtonDown (0)) {
             //GetComponent<Rigidbody2D> ().velocity = new Vector2 (GetComponent<Rigidbody2D> ().velocity.x, jump);
             transform.position = new Vector3(0, 4.12f, 0);
         }
@@ -38,7 +67,7 @@ public class MobilePlayerControl : MonoBehaviour {
 
         if (Input.GetKeyDown(KeyCode.D))
             transform.position = new Vector3(transform.position.x, -2.42f, -7);
-		*/
+
 
 		if (Input.touchCount > 0) {
 
@@ -49,12 +78,12 @@ public class MobilePlayerControl : MonoBehaviour {
 				transform.position = new Vector3(transform.position.x, -2.42f, -7);
 			}
 
-			if (Input.GetTouch(0).phase == TouchPhase.Ended) { 
+			if (Input.GetTouch(0).phase == TouchPhase.Ended) {
 				touchHoldTime = 0;
 			}
 
 			if (Input.touchCount == 2) {
-				//2 finger
+				StartCoroutine("FinalAttack");
 			}
 
 			foreach (Touch touch in Input.touches) {
@@ -86,8 +115,7 @@ public class MobilePlayerControl : MonoBehaviour {
 
 						if (swipeType.x != 0.0f) {
 							if (swipeType.x > 0.0f) {
-								//move right
-								transform.position = new Vector3(transform.position.x, 6.42f, -7);
+								StartCoroutine("FinalAttack");
 							} else {
 								//move left
 							}
@@ -95,10 +123,14 @@ public class MobilePlayerControl : MonoBehaviour {
 
 						if (swipeType.y != 0.0f ) {
 							if (swipeType.y > 0.0f) {
-								//move up
-								transform.position = new Vector3(transform.position.x, 2.00f, -7);
+								AnimationTracker = 1;
+								if (AnimationTracker == 1)
+								{
+									StartCoroutine("ExecuteAfterTimeJump");
+									Debug.Log("jump");
+								}
 							} else {
-								//move down
+								anim.Play("duckingRW");
 							}
 						}
 					}
@@ -108,4 +140,3 @@ public class MobilePlayerControl : MonoBehaviour {
 		}
 	}
 }
-
