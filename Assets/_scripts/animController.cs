@@ -36,6 +36,7 @@ public class animController : MonoBehaviour
     void Start()
     {
         anim = GetComponent<Animator>();
+        StartCoroutine(RoadMap());
     }
 
     // Update is called once per frame
@@ -153,6 +154,16 @@ public class animController : MonoBehaviour
         anim.Play("smog");
         yield return new WaitForSeconds(0.25f);
         smogBoss.Play();
+    }
+
+    // total seconds until the song ends = 100 !!!
+    IEnumerator RoadMap()
+    {
+        print(Time.time);
+        yield return new WaitForSeconds(2.4f);
+        print(Time.time);
+        StartCoroutine("BossCueJump");
+        print(Time.time);
     }
 
 }

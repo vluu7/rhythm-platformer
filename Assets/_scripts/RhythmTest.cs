@@ -33,6 +33,7 @@ public class RhythmTest : MonoBehaviour
         StartCoroutine(TimeTest());
     }
 
+    // total seconds until the song ends = 100 !!!
     IEnumerator TimeTest() 
     {
         spinBoss.Play();
