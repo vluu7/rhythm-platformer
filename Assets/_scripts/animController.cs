@@ -186,8 +186,7 @@ public class animController : MonoBehaviour
     {
         jumpBoss.Play();
         yield return new WaitForSeconds(0.5f);
-        // ~0.47s
-        anim.Play("lunge");
+        anim.Play("lunge");                     // 0.47s
         yield return new WaitForSeconds(0.15f);
         duckProjectile.Play();
     }
@@ -197,8 +196,7 @@ public class animController : MonoBehaviour
     {
         duckBoss.Play();
         yield return new WaitForSeconds(0.5f);
-        // ~0.47s
-        anim.Play("projectile");
+        anim.Play("projectile");                // ~0.47s
         yield return new WaitForSeconds(0.2f);
         duckProjectile.Play();
         /*float step = speed * Time.deltaTime;
@@ -214,8 +212,7 @@ public class animController : MonoBehaviour
         spinBoss.Play();
         spin2Boss.Play();
         yield return new WaitForSeconds(0.5f);
-        // ~0.55s
-        anim.Play("smog");
+        anim.Play("smog");                      // ~0.55s
         yield return new WaitForSeconds(0.25f);
         smogBoss.Play();
     }
@@ -223,12 +220,42 @@ public class animController : MonoBehaviour
     // total seconds until the song ends = 100 !!!
     IEnumerator RoadMap()
     {
+        // 'tutorial'
         yield return new WaitForSeconds(2.7f);
+        StartCoroutine("BossCueJump");
+        yield return new WaitForSeconds(1.4f);
+        StartCoroutine("BossCueSmog");
+        yield return new WaitForSeconds(2.7f);
+        StartCoroutine("BossCueDuck");
+        yield return new WaitForSeconds(0.8f);
+        StartCoroutine("BossCueJump");
+        yield return new WaitForSeconds(0.8f);
+        StartCoroutine("BossCueJump");
+        yield return new WaitForSeconds(0.8f);
+        StartCoroutine("BossCueDuck");
+        yield return new WaitForSeconds(0.8f);
+        StartCoroutine("BossCueDuck");
+        yield return new WaitForSeconds(0.8f);
+        StartCoroutine("BossCueSmog");
+        yield return new WaitForSeconds(0.8f);
+        StartCoroutine("BossCueSmog");
+        yield return new WaitForSeconds(0.8f);
         StartCoroutine("BossCueJump");
         yield return new WaitForSeconds(0.8f);
         StartCoroutine("BossCueSmog");
         yield return new WaitForSeconds(0.8f);
+        StartCoroutine("BossCueDuck");
+        yield return new WaitForSeconds(0.8f);
         StartCoroutine("BossCueSmog");
+        yield return new WaitForSeconds(0.8f);
+        StartCoroutine("BossCueSmog");
+        yield return new WaitForSeconds(0.8f);
+        StartCoroutine("BossCueDuck");
+        yield return new WaitForSeconds(0.8f);
+        StartCoroutine("BossCueDuck");
+        yield return new WaitForSeconds(0.8f);
+        StartCoroutine("BossCueJump");
+        // ramping up now
         yield return new WaitForSeconds(0.8f);
         StartCoroutine("BossCueSmog");
         yield return new WaitForSeconds(0.8f);
@@ -251,6 +278,15 @@ public class animController : MonoBehaviour
         StartCoroutine("BossCueSmog");
         yield return new WaitForSeconds(0.8f);
         StartCoroutine("BossCueSmog");
+        // GIT GUD SONNNNNN
+        yield return new WaitForSeconds(0.8f);
+        StartCoroutine("BossCueSmog");
+        yield return new WaitForSeconds(0.8f);
+        StartCoroutine("BossCueSmog");
+        yield return new WaitForSeconds(0.8f);
+        StartCoroutine("BossCueSmog");
+        yield return new WaitForSeconds(0.8f);
+        StartCoroutine("BossCueSmog"); 
         yield return new WaitForSeconds(0.8f);
         StartCoroutine("BossCueSmog");
         yield return new WaitForSeconds(0.8f);
@@ -259,10 +295,22 @@ public class animController : MonoBehaviour
         StartCoroutine("BossCueSmog");
         yield return new WaitForSeconds(0.8f);
         StartCoroutine("BossCueSmog");
-        yield return new WaitForSeconds(0.8f);
-        StartCoroutine("BossCueSmog");
-        yield return new WaitForSeconds(0.8f);
-        StartCoroutine("BossCueSmog");
+
+        /*
+
+        // if the player has at least 75% charge, then the final attack is done
+        if()
+        {
+            
+        }
+
+        else
+        {
+            
+        }
+
+        */
+
 
     }
 
