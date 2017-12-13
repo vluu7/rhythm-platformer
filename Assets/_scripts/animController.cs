@@ -4,8 +4,6 @@ using UnityEngine;
 
 public class animController : MonoBehaviour
 {
-
-
     public Animator anim;
     public GameObject GameOverUI;
     public CanvasGroup uiElement;
@@ -39,8 +37,8 @@ public class animController : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-        //GameOverUI.SetActive(false);
         StartCoroutine(RoadMap());
+        //GameOverUI.SetActive(false);
         anim = GetComponent<Animator>();
         FinalAttackLightHit.intensity = 0;
         FinalAttackLightCharge.intensity = 0;
@@ -166,6 +164,7 @@ public class animController : MonoBehaviour
         bossDie.Play();
         StartCoroutine(LightFadeIn(FinalAttackLightHit));
         yield return new WaitForSeconds(1.1f);
+        //GameOverUI.SetActive(true);
         FadeIn();
         yield return new WaitForSeconds(0.7f);
         GameObject.Find("NewFox").transform.position = new Vector3(GameObject.FindGameObjectWithTag("NewFox").transform.position.x, -3.01f, -11.33f);
@@ -187,6 +186,8 @@ public class animController : MonoBehaviour
         jumpBoss.Play();
         yield return new WaitForSeconds(0.5f);
         anim.Play("lunge");
+        yield return new WaitForSeconds(0.15f);
+        duckProjectile.Play();
     }
 
     IEnumerator BossCueDuck()

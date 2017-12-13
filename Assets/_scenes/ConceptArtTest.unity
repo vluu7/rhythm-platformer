@@ -12155,7 +12155,7 @@ ParticleSystem:
   moveWithTransform: 1
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: -1345010157
+  randomSeed: -699801133
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -19188,7 +19188,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: -1614744655
+  randomSeed: 1205758292
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -22619,7 +22619,7 @@ ParticleSystem:
   moveWithTransform: 1
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: 772643048
+  randomSeed: 477431955
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -89707,7 +89707,7 @@ ParticleSystem:
   moveWithTransform: 1
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: 804880168
+  randomSeed: 1895613412
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -111547,13 +111547,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1192750028}
-  m_LocalRotation: {x: -0.48148254, y: 0.51785576, z: -0.51785576, w: 0.48148254}
-  m_LocalPosition: {x: 5.7, y: -0.95, z: -20.3}
+  m_LocalRotation: {x: -0.4105048, y: 0.5757481, z: -0.5757481, w: 0.4105048}
+  m_LocalPosition: {x: 10.4, y: 5.5, z: -20.3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 289507053}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: -184.169, y: -90, z: 89.99999}
+  m_LocalEulerAnglesHint: {x: -199.023, y: -90, z: 89.99999}
 --- !u!199 &1192750030
 ParticleSystemRenderer:
   serializedVersion: 4
@@ -111614,7 +111614,7 @@ ParticleSystem:
   m_GameObject: {fileID: 1192750028}
   serializedVersion: 5
   lengthInSec: 1
-  simulationSpeed: 17
+  simulationSpeed: 19
   looping: 0
   prewarm: 0
   playOnAwake: 0
@@ -111665,7 +111665,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: 91501395
+  randomSeed: -404886831
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -124775,7 +124775,7 @@ Light:
   m_Enabled: 1
   serializedVersion: 8
   m_Type: 2
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.5735294, g: 0.8058824, b: 1, a: 1}
   m_Intensity: 15
   m_Range: 20
   m_SpotAngle: 30
@@ -137562,6 +137562,10 @@ Prefab:
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 13700034, guid: 60a852cbffcc9a044a7078496fdc1e32, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 32c595e80bde3a8439ba3a292f403b79, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 60a852cbffcc9a044a7078496fdc1e32, type: 3}
   m_IsPrefabParent: 0
@@ -171184,7 +171188,7 @@ Light:
   m_Enabled: 1
   serializedVersion: 8
   m_Type: 2
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.7058823, g: 0.841785, b: 1, a: 1}
   m_Intensity: 15
   m_Range: 20
   m_SpotAngle: 30
